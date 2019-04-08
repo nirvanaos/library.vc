@@ -1,0 +1,39 @@
+nuget {
+	nuspec {
+		id = Nirvana.Lib;
+		version: 1.0.0.0;
+		title: Nirvana library;
+		authors: Igor Popov;
+		owners: Igor Popov;
+		requireLicenseAcceptance: false;
+		summary: Run-time library;
+		description: Common library for Nirvana.;
+		releaseNotes: "";
+		copyright: Copyright 2019;
+		tags: { Nirvana };
+	};
+	files{
+		#defines{
+			SRC = ..\SRC\;
+			LIBNAME = Library;
+		}
+
+		nestedinclude: {
+			#destination=${d_include}Nirvana;
+			"${SRC}Include\Nirvana\**\*.h"
+		};
+
+		[Win32,debug] {
+			lib: {"..\Win32\Debug\${LIBNAME}.lib"};
+		}
+		[Win32,release] {
+			lib: {"..\Win32\Release\${LIBNAME}.lib"};
+		}
+		[x64,debug] {
+			lib: {"..\x64\Debug\${LIBNAME}.lib"};
+		}
+		[x64,release] {
+			lib: {"..\x64\Release\${LIBNAME}.lib"};
+		}
+	};
+}
