@@ -12,6 +12,13 @@ nuget {
 		copyright: Copyright 2019;
 		tags: { Nirvana };
 	};
+
+	dependencies {
+		packages : {
+			Nirvana.ORB/1.0.0.0
+		};
+	};
+
 	files{
 		#defines{
 			SRC = ..\SRC\;
