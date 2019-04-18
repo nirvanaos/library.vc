@@ -1,7 +1,7 @@
 nuget {
 	nuspec {
 		id = Nirvana.Lib;
-		version: 1.0.0.0;
+		version: 1.0.0;
 		title: Nirvana library;
 		authors: Igor Popov;
 		owners: Igor Popov;
@@ -15,7 +15,7 @@ nuget {
 
 	dependencies {
 		packages : {
-			Nirvana.ORB/1.0.0.0
+			Nirvana.ORB/1.0.0
 		};
 	};
 

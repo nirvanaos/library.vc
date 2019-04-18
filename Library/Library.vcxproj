@@ -19,9 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory_c.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory_s.h" />
@@ -38,6 +35,9 @@
     <ClCompile Include="..\SRC\Source\Memory_c.cpp" />
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
     <ClCompile Include="..\SRC\Source\Runnable_c.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -184,12 +184,12 @@
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\Nirvana.ORB.1.0.0.0\build\native\Nirvana.ORB.targets" Condition="Exists('..\packages\Nirvana.ORB.1.0.0.0\build\native\Nirvana.ORB.targets')" />
+    <Import Project="..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets" Condition="Exists('..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Nirvana.ORB.1.0.0.0\build\native\Nirvana.ORB.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.ORB.1.0.0.0\build\native\Nirvana.ORB.targets'))" />
+    <Error Condition="!Exists('..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets'))" />
   </Target>
 </Project>
