@@ -22,12 +22,17 @@ nuget {
 	files{
 		#defines{
 			SRC = ..\SRC\;
+			ORB = ..\ORB\;
 			LIBNAME = Library;
 		}
 
-		nestedinclude: {
+		nested1include: {
 			#destination=${d_include}Nirvana;
 			"${SRC}Include\Nirvana\**\*.h"
+		};
+		nested2include: {
+			#destination=${d_include}CORBA;
+			"${ORB}Include\CORBA\**\*.h"
 		};
 
 		[Win32,debug] {

@@ -19,6 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\Test\Binder.cpp" />
+    <ClCompile Include="..\ORB\Test\I1.cpp" />
+    <ClCompile Include="..\ORB\Test\I3.cpp" />
+    <ClCompile Include="..\ORB\Test\ObjectCore.cpp" />
+    <ClCompile Include="..\ORB\Test\ObjectFactoryCore.cpp" />
+    <ClCompile Include="..\ORB\Test\ObjectImpl.cpp" />
+    <ClCompile Include="..\ORB\Test\ServantCore.cpp" />
+    <ClCompile Include="..\ORB\Test\Static.cpp" />
+    <ClCompile Include="..\ORB\Test\TestORB.cpp" />
+    <ClCompile Include="..\ORB\Test\Test_I1_c.cpp" />
+    <ClCompile Include="..\ORB\Test\Test_I2_c.cpp" />
+    <ClCompile Include="..\ORB\Test\Test_I3_c.cpp" />
     <ClCompile Include="..\SRC\Test\TestLibrary.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -28,6 +40,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ORB\Test\Binder.h" />
+    <ClInclude Include="..\ORB\Test\I1.h" />
+    <ClInclude Include="..\ORB\Test\I3.h" />
+    <ClInclude Include="..\ORB\Test\LocalObjectCore.h" />
+    <ClInclude Include="..\ORB\Test\LocalObjectStaticCore.h" />
+    <ClInclude Include="..\ORB\Test\ObjectCore.h" />
+    <ClInclude Include="..\ORB\Test\ObjectFactoryCore.h" />
+    <ClInclude Include="..\ORB\Test\ObjectImpl.h" />
+    <ClInclude Include="..\ORB\Test\POACore.h" />
+    <ClInclude Include="..\ORB\Test\ReferenceCounterImpl.h" />
+    <ClInclude Include="..\ORB\Test\ServantCore.h" />
+    <ClInclude Include="..\ORB\Test\Server.h" />
+    <ClInclude Include="..\ORB\Test\TestORB.h" />
+    <ClInclude Include="..\ORB\Test\Test_I1_c.h" />
+    <ClInclude Include="..\ORB\Test\Test_I1_s.h" />
+    <ClInclude Include="..\ORB\Test\Test_I2_c.h" />
+    <ClInclude Include="..\ORB\Test\Test_I2_s.h" />
+    <ClInclude Include="..\ORB\Test\Test_I3_c.h" />
+    <ClInclude Include="..\ORB\Test\Test_I3_s.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -105,7 +138,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
@@ -124,7 +157,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
@@ -145,7 +178,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -165,7 +198,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -178,13 +211,17 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\googletest.1.8.0.0\build\native\googletest.targets" Condition="Exists('..\packages\googletest.1.8.0.0\build\native\googletest.targets')" />
-    <Import Project="..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets" Condition="Exists('..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets')" />
+    <Import Project="..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets" Condition="Exists('..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" />
+    <Import Project="..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets" Condition="Exists('..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" />
+    <Import Project="..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets" Condition="Exists('..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\googletest.1.8.0.0\build\native\googletest.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\googletest.1.8.0.0\build\native\googletest.targets'))" />
-    <Error Condition="!Exists('..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nirvana.ORB.1.0.0\build\native\Nirvana.ORB.targets'))" />
+    <Error Condition="!Exists('..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets'))" />
+    <Error Condition="!Exists('..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets'))" />
+    <Error Condition="!Exists('..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets'))" />
   </Target>
 </Project>
