@@ -15,7 +15,6 @@ nuget {
 
 	dependencies {
 		packages : {
-			Nirvana.ORB/1.0.0
 		};
 	};
 
