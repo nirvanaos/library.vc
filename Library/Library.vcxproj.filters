@@ -157,9 +157,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ProxyFactory_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ProxyManager_c.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_c.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -190,17 +187,14 @@
     <ClInclude Include="..\ORB\Include\CORBA\String.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\StringManager_c.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\StringManager_s.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\T_ptr.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Source\CORBA_EnvironmentServant.h">
       <Filter>ORB\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ProxyHelper_c.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -274,9 +268,6 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\String.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\StringManager_c.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
