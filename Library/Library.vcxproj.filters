@@ -193,7 +193,10 @@
     <ClInclude Include="..\ORB\Source\CORBA_EnvironmentServant.h">
       <Filter>ORB\Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ProxyHelper_c.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal_c.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -42,6 +42,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Interface_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Interface_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\iop.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory_c.h" />
@@ -55,7 +56,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\PortableServer.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ProxyFactory_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ProxyFactory_s.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ProxyHelper_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RepositoryId.h" />
@@ -77,6 +77,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\real_copy.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_c.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain_c.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\AbstractBase_c.cpp" />
