@@ -144,13 +144,24 @@
     <None Include="..\nlibcxx\libcxx\include\vector" />
     <None Include="..\nlibcxx\libcxx\include\version" />
     <None Include="..\nlibcxx\libcxx\include\__bit_reference" />
-    <None Include="..\nlibcxx\libcxx\include\__config" />
-    <None Include="..\nlibcxx\libcxx\include\__config_site.in" />
-    <None Include="..\nlibcxx\libcxx\include\__debug" />
-    <None Include="..\nlibcxx\libcxx\include\__errc" />
-    <None Include="..\nlibcxx\libcxx\include\__functional_03" />
-    <None Include="..\nlibcxx\libcxx\include\__functional_base" />
-    <None Include="..\nlibcxx\libcxx\include\__functional_base_03" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\__config">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="..\nlibcxx\libcxx\include\__debug">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="..\nlibcxx\libcxx\include\__errc">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="..\nlibcxx\libcxx\include\__functional_03">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="..\nlibcxx\libcxx\include\__functional_base">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="..\nlibcxx\libcxx\include\__functional_base_03">
+      <FileType>Document</FileType>
+    </ClInclude>
     <None Include="..\nlibcxx\libcxx\include\__hash_table" />
     <None Include="..\nlibcxx\libcxx\include\__libcpp_version" />
     <None Include="..\nlibcxx\libcxx\include\__locale" />
@@ -167,25 +178,8 @@
     <None Include="..\nlibcxx\libcxx\include\__undef_macros" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\nlibcxx\libcxx\include\complex.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\ctype.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\errno.h" />
     <ClInclude Include="..\nlibcxx\libcxx\include\fenv.h" />
     <ClInclude Include="..\nlibcxx\libcxx\include\float.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\inttypes.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\limits.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\locale.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\math.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\setjmp.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\stdbool.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\stddef.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\stdint.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\stdio.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\stdlib.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\string.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\tgmath.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\wchar.h" />
-    <ClInclude Include="..\nlibcxx\libcxx\include\wctype.h" />
     <ClInclude Include="..\nlibcxx\libcxx\include\__bsd_locale_defaults.h" />
     <ClInclude Include="..\nlibcxx\libcxx\include\__bsd_locale_fallbacks.h" />
   </ItemGroup>
@@ -263,6 +257,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\nlibcxx\libcxx\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -279,6 +274,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\nlibcxx\libcxx\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -297,6 +293,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\nlibcxx\libcxx\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -317,6 +314,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\nlibcxx\libcxx\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

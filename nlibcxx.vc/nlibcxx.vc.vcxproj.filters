@@ -119,25 +119,10 @@
     <None Include="..\nlibcxx\libcxx\include\__bit_reference">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="..\nlibcxx\libcxx\include\__config">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="..\nlibcxx\libcxx\include\__config_site.in">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="..\nlibcxx\libcxx\include\__debug">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="..\nlibcxx\libcxx\include\__errc">
-      <Filter>Header Files</Filter>
-    </None>
     <None Include="..\nlibcxx\libcxx\include\__functional_03">
       <Filter>Header Files</Filter>
     </None>
     <None Include="..\nlibcxx\libcxx\include\__functional_base">
-      <Filter>Header Files</Filter>
-    </None>
-    <None Include="..\nlibcxx\libcxx\include\__functional_base_03">
       <Filter>Header Files</Filter>
     </None>
     <None Include="..\nlibcxx\libcxx\include\__hash_table">
@@ -457,61 +442,18 @@
     <ClInclude Include="..\nlibcxx\libcxx\include\__bsd_locale_fallbacks.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\complex.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\ctype.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\errno.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\nlibcxx\libcxx\include\fenv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\nlibcxx\libcxx\include\float.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\inttypes.h">
+    <ClInclude Include="..\nlibcxx\libcxx\include\__config">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\limits.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\locale.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\math.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\setjmp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\stdbool.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\stddef.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\stdint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\stdio.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\stdlib.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\string.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\tgmath.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\wchar.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\nlibcxx\libcxx\include\wctype.h">
+    <ClInclude Include="..\nlibcxx\libcxx\include\__debug" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\__errc" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\__functional_base_03">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
