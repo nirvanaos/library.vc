@@ -4,3 +4,6 @@
 [submodule "ORB"]
 	path = ORB
 	url = //nas/Home/Git/N/ORB
+[submodule "nlibcxx"]
+	path = nlibcxx
+	url = //NAS/Home/Git/N/nlibcxx
