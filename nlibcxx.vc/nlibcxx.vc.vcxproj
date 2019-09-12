@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\nlibcxx\libcxx\src\algorithm.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\any.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\bind.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\charconv.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\chrono.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\condition_variable.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\condition_variable_destructor.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\debug.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\exception.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\functional.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\future.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\hash.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\ios.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\iostream.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\locale.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\memory.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\mutex.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\mutex_destructor.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\new.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\optional.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\random.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\regex.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\shared_mutex.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\stdexcept.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\string.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\strstream.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\system_error.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\thread.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\typeinfo.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\utility.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\valarray.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\variant.cpp" />
+    <ClCompile Include="..\nlibcxx\libcxx\src\vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\nlibcxx\libcxx\include\algorithm" />
+    <None Include="..\nlibcxx\libcxx\include\any" />
+    <None Include="..\nlibcxx\libcxx\include\array" />
+    <None Include="..\nlibcxx\libcxx\include\atomic" />
+    <None Include="..\nlibcxx\libcxx\include\bit" />
+    <None Include="..\nlibcxx\libcxx\include\bitset" />
+    <None Include="..\nlibcxx\libcxx\include\cassert" />
+    <None Include="..\nlibcxx\libcxx\include\ccomplex" />
+    <None Include="..\nlibcxx\libcxx\include\cctype" />
+    <None Include="..\nlibcxx\libcxx\include\cerrno" />
+    <None Include="..\nlibcxx\libcxx\include\cfenv" />
+    <None Include="..\nlibcxx\libcxx\include\cfloat" />
+    <None Include="..\nlibcxx\libcxx\include\charconv" />
+    <None Include="..\nlibcxx\libcxx\include\chrono" />
+    <None Include="..\nlibcxx\libcxx\include\cinttypes" />
+    <None Include="..\nlibcxx\libcxx\include\ciso646" />
+    <None Include="..\nlibcxx\libcxx\include\climits" />
+    <None Include="..\nlibcxx\libcxx\include\clocale" />
+    <None Include="..\nlibcxx\libcxx\include\cmath" />
+    <None Include="..\nlibcxx\libcxx\include\codecvt" />
+    <None Include="..\nlibcxx\libcxx\include\compare" />
+    <None Include="..\nlibcxx\libcxx\include\complex" />
+    <None Include="..\nlibcxx\libcxx\include\condition_variable" />
+    <None Include="..\nlibcxx\libcxx\include\csetjmp" />
+    <None Include="..\nlibcxx\libcxx\include\csignal" />
+    <None Include="..\nlibcxx\libcxx\include\cstdarg" />
+    <None Include="..\nlibcxx\libcxx\include\cstdbool" />
+    <None Include="..\nlibcxx\libcxx\include\cstddef" />
+    <None Include="..\nlibcxx\libcxx\include\cstdint" />
+    <None Include="..\nlibcxx\libcxx\include\cstdio" />
+    <None Include="..\nlibcxx\libcxx\include\cstdlib" />
+    <None Include="..\nlibcxx\libcxx\include\cstring" />
+    <None Include="..\nlibcxx\libcxx\include\ctgmath" />
+    <None Include="..\nlibcxx\libcxx\include\ctime" />
+    <None Include="..\nlibcxx\libcxx\include\cwchar" />
+    <None Include="..\nlibcxx\libcxx\include\cwctype" />
+    <None Include="..\nlibcxx\libcxx\include\deque" />
+    <None Include="..\nlibcxx\libcxx\include\exception" />
+    <None Include="..\nlibcxx\libcxx\include\execution" />
+    <None Include="..\nlibcxx\libcxx\include\filesystem" />
+    <None Include="..\nlibcxx\libcxx\include\forward_list" />
+    <None Include="..\nlibcxx\libcxx\include\fstream" />
+    <None Include="..\nlibcxx\libcxx\include\functional" />
+    <None Include="..\nlibcxx\libcxx\include\future" />
+    <None Include="..\nlibcxx\libcxx\include\initializer_list" />
+    <None Include="..\nlibcxx\libcxx\include\iomanip" />
+    <None Include="..\nlibcxx\libcxx\include\ios" />
+    <None Include="..\nlibcxx\libcxx\include\iosfwd" />
+    <None Include="..\nlibcxx\libcxx\include\iostream" />
+    <None Include="..\nlibcxx\libcxx\include\istream" />
+    <None Include="..\nlibcxx\libcxx\include\iterator" />
+    <None Include="..\nlibcxx\libcxx\include\limits" />
+    <None Include="..\nlibcxx\libcxx\include\list" />
+    <None Include="..\nlibcxx\libcxx\include\locale" />
+    <None Include="..\nlibcxx\libcxx\include\map" />
+    <None Include="..\nlibcxx\libcxx\include\memory" />
+    <None Include="..\nlibcxx\libcxx\include\mutex" />
+    <None Include="..\nlibcxx\libcxx\include\new" />
+    <None Include="..\nlibcxx\libcxx\include\numeric" />
+    <None Include="..\nlibcxx\libcxx\include\optional" />
+    <None Include="..\nlibcxx\libcxx\include\ostream" />
+    <None Include="..\nlibcxx\libcxx\include\queue" />
+    <None Include="..\nlibcxx\libcxx\include\random" />
+    <None Include="..\nlibcxx\libcxx\include\ratio" />
+    <None Include="..\nlibcxx\libcxx\include\regex" />
+    <None Include="..\nlibcxx\libcxx\include\scoped_allocator" />
+    <None Include="..\nlibcxx\libcxx\include\set" />
+    <None Include="..\nlibcxx\libcxx\include\shared_mutex" />
+    <None Include="..\nlibcxx\libcxx\include\span" />
+    <None Include="..\nlibcxx\libcxx\include\sstream" />
+    <None Include="..\nlibcxx\libcxx\include\stack" />
+    <None Include="..\nlibcxx\libcxx\include\stdexcept" />
+    <None Include="..\nlibcxx\libcxx\include\streambuf" />
+    <None Include="..\nlibcxx\libcxx\include\string" />
+    <None Include="..\nlibcxx\libcxx\include\string_view" />
+    <None Include="..\nlibcxx\libcxx\include\strstream" />
+    <None Include="..\nlibcxx\libcxx\include\system_error" />
+    <None Include="..\nlibcxx\libcxx\include\thread" />
+    <None Include="..\nlibcxx\libcxx\include\tuple" />
+    <None Include="..\nlibcxx\libcxx\include\typeindex" />
+    <None Include="..\nlibcxx\libcxx\include\typeinfo" />
+    <None Include="..\nlibcxx\libcxx\include\type_traits" />
+    <None Include="..\nlibcxx\libcxx\include\unordered_map" />
+    <None Include="..\nlibcxx\libcxx\include\unordered_set" />
+    <None Include="..\nlibcxx\libcxx\include\utility" />
+    <None Include="..\nlibcxx\libcxx\include\valarray" />
+    <None Include="..\nlibcxx\libcxx\include\variant" />
+    <None Include="..\nlibcxx\libcxx\include\vector" />
+    <None Include="..\nlibcxx\libcxx\include\version" />
+    <None Include="..\nlibcxx\libcxx\include\__bit_reference" />
+    <None Include="..\nlibcxx\libcxx\include\__config" />
+    <None Include="..\nlibcxx\libcxx\include\__config_site.in" />
+    <None Include="..\nlibcxx\libcxx\include\__debug" />
+    <None Include="..\nlibcxx\libcxx\include\__errc" />
+    <None Include="..\nlibcxx\libcxx\include\__functional_03" />
+    <None Include="..\nlibcxx\libcxx\include\__functional_base" />
+    <None Include="..\nlibcxx\libcxx\include\__functional_base_03" />
+    <None Include="..\nlibcxx\libcxx\include\__hash_table" />
+    <None Include="..\nlibcxx\libcxx\include\__libcpp_version" />
+    <None Include="..\nlibcxx\libcxx\include\__locale" />
+    <None Include="..\nlibcxx\libcxx\include\__mutex_base" />
+    <None Include="..\nlibcxx\libcxx\include\__node_handle" />
+    <None Include="..\nlibcxx\libcxx\include\__nullptr" />
+    <None Include="..\nlibcxx\libcxx\include\__split_buffer" />
+    <None Include="..\nlibcxx\libcxx\include\__sso_allocator" />
+    <None Include="..\nlibcxx\libcxx\include\__std_stream" />
+    <None Include="..\nlibcxx\libcxx\include\__string" />
+    <None Include="..\nlibcxx\libcxx\include\__threading_support" />
+    <None Include="..\nlibcxx\libcxx\include\__tree" />
+    <None Include="..\nlibcxx\libcxx\include\__tuple" />
+    <None Include="..\nlibcxx\libcxx\include\__undef_macros" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\nlibcxx\libcxx\include\complex.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\ctype.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\errno.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\fenv.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\float.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\inttypes.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\limits.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\locale.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\math.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\setjmp.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\stdbool.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\stddef.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\stdint.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\stdio.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\stdlib.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\string.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\tgmath.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\wchar.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\wctype.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\__bsd_locale_defaults.h" />
+    <ClInclude Include="..\nlibcxx\libcxx\include\__bsd_locale_fallbacks.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{62D6A9D0-F718-491A-891D-2121042FA37A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>nlibcxxvc</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\nlibcxx\libcxx\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\nlibcxx\libcxx\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\nlibcxx\libcxx\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\nlibcxx\libcxx\include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
