@@ -20,6 +20,9 @@
       <UniqueIdentifier>{cde7efa5-cd05-4ec5-91a3-972a36af1c68}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{ae2bc52f-8d1c-4cc8-9f5e-cf05a7e3f666}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
