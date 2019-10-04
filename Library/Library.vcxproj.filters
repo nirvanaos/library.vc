@@ -23,6 +23,12 @@
     <Filter Include="STL">
       <UniqueIdentifier>{ae2bc52f-8d1c-4cc8-9f5e-cf05a7e3f666}</UniqueIdentifier>
     </Filter>
+    <Filter Include="STL\bits">
+      <UniqueIdentifier>{5ade0796-34ae-4f06-b9a7-2e3c0dc6ac54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL\std">
+      <UniqueIdentifier>{e24db2c0-f98e-4b38-9020-5b2d15d5df9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -202,6 +208,321 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal_c.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\c++config.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\algorithmfwd.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\alloc_traits.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\allocated_ptr.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\allocator.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\atomic_base.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\atomic_futex.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\basic_ios.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\basic_string.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\boost_concept_check.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\c++0x_warning.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\char_traits.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\charconv.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\codecvt.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\concept_check.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\cpp_type_traits.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\cpu_defines.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\enable_special_members.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\erase_if.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\exception_defines.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\forward_list.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\fs_dir.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\fs_fwd.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\fs_ops.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\fs_path.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\functexcept.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\functional_hash.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\gslice.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\gslice_array.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\hashtable.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\hashtable_policy.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\indirect_array.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\invoke.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\ios_base.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\locale_classes.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\locale_conv.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\locale_facets.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\locale_facets_nonio.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\localefwd.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\mask_array.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\memoryfwd.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\move.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\node_handle.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\os_defines.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\ostream_insert.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\parse_numbers.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\postypes.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\predefined_ops.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\ptr_traits.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\quoted_string.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\random.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\range_access.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\refwrap.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\regex.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\regex_automaton.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\regex_compiler.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\regex_constants.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\regex_error.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\regex_executor.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\regex_scanner.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\shared_ptr.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\shared_ptr_atomic.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\shared_ptr_base.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\slice_array.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\specfun.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\std_abs.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\std_function.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\std_mutex.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_algo.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_algobase.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_bvector.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_construct.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_deque.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_function.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_heap.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_iterator.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_iterator_base_funcs.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_iterator_base_types.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_list.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_map.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_multimap.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_multiset.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_numeric.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_pair.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_queue.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_raw_storage_iter.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_relops.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_set.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_stack.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_tempbuf.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_tree.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_uninitialized.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stl_vector.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stream_iterator.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\streambuf_iterator.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\stringfwd.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\uniform_int_dist.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\unique_lock.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\unique_ptr.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\unordered_map.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\unordered_set.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\uses_allocator.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\valarray_after.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\valarray_array.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nlibstdc\include\bits\valarray_before.h">
+      <Filter>STL\bits</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -276,5 +597,256 @@
     <ClCompile Include="..\ORB\Source\String.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\nlibstdc\include\std\algorithm">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\any">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\array">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\atomic">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\bit">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\bitset">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\charconv">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\chrono">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\codecvt">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\complex">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\condition_variable">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\deque">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\execution">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\filesystem">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\forward_list">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\fstream">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\functional">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\future">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\iomanip">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\ios">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\iosfwd">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\iostream">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\istream">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\iterator">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\limits">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\list">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\locale">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\map">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\memory">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\memory_resource">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\mutex">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\numbers">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\numeric">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\optional">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\ostream">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\queue">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\random">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\ratio">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\regex">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\scoped_allocator">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\set">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\shared_mutex">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\span">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\sstream">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\stack">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\stdexcept">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\streambuf">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\string">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\string_view">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\system_error">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\thread">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\tuple">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\type_traits">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\typeindex">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\unordered_map">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\unordered_set">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\utility">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\valarray">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\variant">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\vector">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\std\version">
+      <Filter>STL\std</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\basic_ios.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\basic_string.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\deque.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\forward_list.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\fstream.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\istream.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\list.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\locale_classes.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\locale_facets.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\locale_facets_nonio.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\ostream.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\random.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\regex.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\regex_automaton.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\regex_compiler.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\regex_executor.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\regex_scanner.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\sstream.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\streambuf.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\string_view.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\valarray_array.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
+    <None Include="..\nlibstdc\include\bits\vector.tcc">
+      <Filter>STL\bits</Filter>
+    </None>
   </ItemGroup>
 </Project>
