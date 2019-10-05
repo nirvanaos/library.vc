@@ -19,111 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\nlibstdc\include\bits\algorithmfwd.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\allocated_ptr.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\allocator.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\alloc_traits.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\atomic_base.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\atomic_futex.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\basic_ios.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\basic_string.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\boost_concept_check.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\c++0x_warning.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\c++config.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\charconv.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\char_traits.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\codecvt.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\concept_check.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\cpp_type_traits.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\cpu_defines.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\enable_special_members.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\erase_if.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\exception_defines.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\forward_list.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\fs_dir.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\fs_fwd.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\fs_ops.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\fs_path.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\functexcept.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\functional_hash.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\gslice.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\gslice_array.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\hashtable.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\hashtable_policy.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\indirect_array.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\invoke.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\ios_base.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\localefwd.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\locale_classes.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\locale_conv.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\locale_facets.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\locale_facets_nonio.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\mask_array.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\memoryfwd.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\move.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\node_handle.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\ostream_insert.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\os_defines.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\parse_numbers.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\postypes.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\predefined_ops.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\ptr_traits.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\quoted_string.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\random.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\range_access.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\refwrap.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\regex.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\regex_automaton.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\regex_compiler.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\regex_constants.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\regex_error.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\regex_executor.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\regex_scanner.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\shared_ptr.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\shared_ptr_atomic.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\shared_ptr_base.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\slice_array.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\specfun.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\std_abs.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\std_function.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\std_mutex.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_algo.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_algobase.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_bvector.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_construct.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_deque.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_function.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_heap.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_iterator.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_iterator_base_funcs.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_iterator_base_types.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_list.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_map.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_multimap.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_multiset.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_numeric.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_pair.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_queue.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_raw_storage_iter.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_relops.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_set.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_stack.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_tempbuf.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_tree.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_uninitialized.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stl_vector.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\streambuf_iterator.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stream_iterator.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\stringfwd.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\uniform_int_dist.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\unique_lock.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\unique_ptr.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\unordered_map.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\unordered_set.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\uses_allocator.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\valarray_after.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\valarray_array.h" />
-    <ClInclude Include="..\nlibstdc\include\bits\valarray_before.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Any.h" />
@@ -210,91 +105,6 @@
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
     <ClCompile Include="..\SRC\Source\Runnable_c.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\nlibstdc\include\bits\basic_ios.tcc" />
-    <None Include="..\nlibstdc\include\bits\basic_string.tcc" />
-    <None Include="..\nlibstdc\include\bits\deque.tcc" />
-    <None Include="..\nlibstdc\include\bits\forward_list.tcc" />
-    <None Include="..\nlibstdc\include\bits\fstream.tcc" />
-    <None Include="..\nlibstdc\include\bits\istream.tcc" />
-    <None Include="..\nlibstdc\include\bits\list.tcc" />
-    <None Include="..\nlibstdc\include\bits\locale_classes.tcc" />
-    <None Include="..\nlibstdc\include\bits\locale_facets.tcc" />
-    <None Include="..\nlibstdc\include\bits\locale_facets_nonio.tcc" />
-    <None Include="..\nlibstdc\include\bits\ostream.tcc" />
-    <None Include="..\nlibstdc\include\bits\random.tcc" />
-    <None Include="..\nlibstdc\include\bits\regex.tcc" />
-    <None Include="..\nlibstdc\include\bits\regex_automaton.tcc" />
-    <None Include="..\nlibstdc\include\bits\regex_compiler.tcc" />
-    <None Include="..\nlibstdc\include\bits\regex_executor.tcc" />
-    <None Include="..\nlibstdc\include\bits\regex_scanner.tcc" />
-    <None Include="..\nlibstdc\include\bits\sstream.tcc" />
-    <None Include="..\nlibstdc\include\bits\streambuf.tcc" />
-    <None Include="..\nlibstdc\include\bits\string_view.tcc" />
-    <None Include="..\nlibstdc\include\bits\valarray_array.tcc" />
-    <None Include="..\nlibstdc\include\bits\vector.tcc" />
-    <None Include="..\nlibstdc\include\std\algorithm" />
-    <None Include="..\nlibstdc\include\std\any" />
-    <None Include="..\nlibstdc\include\std\array" />
-    <None Include="..\nlibstdc\include\std\atomic" />
-    <None Include="..\nlibstdc\include\std\bit" />
-    <None Include="..\nlibstdc\include\std\bitset" />
-    <None Include="..\nlibstdc\include\std\charconv" />
-    <None Include="..\nlibstdc\include\std\chrono" />
-    <None Include="..\nlibstdc\include\std\codecvt" />
-    <None Include="..\nlibstdc\include\std\complex" />
-    <None Include="..\nlibstdc\include\std\condition_variable" />
-    <None Include="..\nlibstdc\include\std\deque" />
-    <None Include="..\nlibstdc\include\std\execution" />
-    <None Include="..\nlibstdc\include\std\filesystem" />
-    <None Include="..\nlibstdc\include\std\forward_list" />
-    <None Include="..\nlibstdc\include\std\fstream" />
-    <None Include="..\nlibstdc\include\std\functional" />
-    <None Include="..\nlibstdc\include\std\future" />
-    <None Include="..\nlibstdc\include\std\iomanip" />
-    <None Include="..\nlibstdc\include\std\ios" />
-    <None Include="..\nlibstdc\include\std\iosfwd" />
-    <None Include="..\nlibstdc\include\std\iostream" />
-    <None Include="..\nlibstdc\include\std\istream" />
-    <None Include="..\nlibstdc\include\std\iterator" />
-    <None Include="..\nlibstdc\include\std\limits" />
-    <None Include="..\nlibstdc\include\std\list" />
-    <None Include="..\nlibstdc\include\std\locale" />
-    <None Include="..\nlibstdc\include\std\map" />
-    <None Include="..\nlibstdc\include\std\memory" />
-    <None Include="..\nlibstdc\include\std\memory_resource" />
-    <None Include="..\nlibstdc\include\std\mutex" />
-    <None Include="..\nlibstdc\include\std\numbers" />
-    <None Include="..\nlibstdc\include\std\numeric" />
-    <None Include="..\nlibstdc\include\std\optional" />
-    <None Include="..\nlibstdc\include\std\ostream" />
-    <None Include="..\nlibstdc\include\std\queue" />
-    <None Include="..\nlibstdc\include\std\random" />
-    <None Include="..\nlibstdc\include\std\ratio" />
-    <None Include="..\nlibstdc\include\std\regex" />
-    <None Include="..\nlibstdc\include\std\scoped_allocator" />
-    <None Include="..\nlibstdc\include\std\set" />
-    <None Include="..\nlibstdc\include\std\shared_mutex" />
-    <None Include="..\nlibstdc\include\std\span" />
-    <None Include="..\nlibstdc\include\std\sstream" />
-    <None Include="..\nlibstdc\include\std\stack" />
-    <None Include="..\nlibstdc\include\std\stdexcept" />
-    <None Include="..\nlibstdc\include\std\streambuf" />
-    <None Include="..\nlibstdc\include\std\string" />
-    <None Include="..\nlibstdc\include\std\string_view" />
-    <None Include="..\nlibstdc\include\std\system_error" />
-    <None Include="..\nlibstdc\include\std\thread" />
-    <None Include="..\nlibstdc\include\std\tuple" />
-    <None Include="..\nlibstdc\include\std\typeindex" />
-    <None Include="..\nlibstdc\include\std\type_traits" />
-    <None Include="..\nlibstdc\include\std\unordered_map" />
-    <None Include="..\nlibstdc\include\std\unordered_set" />
-    <None Include="..\nlibstdc\include\std\utility" />
-    <None Include="..\nlibstdc\include\std\valarray" />
-    <None Include="..\nlibstdc\include\std\variant" />
-    <None Include="..\nlibstdc\include\std\vector" />
-    <None Include="..\nlibstdc\include\std\version" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{810A987D-BFF4-4112-A59F-B8EAE9FCCD65}</ProjectGuid>
@@ -376,6 +186,7 @@
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\nlibstdc\Include;..\nlibstdc\Include\std</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -394,6 +205,7 @@
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\nlibstdc\Include;..\nlibstdc\Include\std</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -413,6 +225,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\nlibstdc\Include;..\nlibstdc\Include\std</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -434,6 +247,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\nlibstdc\Include;..\nlibstdc\Include\std</AdditionalIncludeDirectories>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

@@ -18,7 +18,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ORB\TestLibCXX\TestLibCXX.cpp">
+    <ClCompile Include="..\ORB\TestSTL\TestSTL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
