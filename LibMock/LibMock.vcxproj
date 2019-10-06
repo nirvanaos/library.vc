@@ -22,7 +22,7 @@
     <ClCompile Include="..\SRC\Mock\MockMemory.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SRC\Mock\MockMemory.h" />
+    <ClInclude Include="..\SRC\Include\Mock\MockMemory.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

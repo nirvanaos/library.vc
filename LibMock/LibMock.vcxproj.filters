@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SRC\Mock\MockMemory.h">
+    <ClInclude Include="..\SRC\Include\Mock\MockMemory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

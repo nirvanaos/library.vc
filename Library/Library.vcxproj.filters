@@ -199,6 +199,15 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal_c.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\StlUtils.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\StringABI.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -270,7 +279,10 @@
     <ClCompile Include="..\ORB\Source\ServantBase_c.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\String.cpp">
+    <ClCompile Include="..\SRC\Source\MemoryHelper.cpp">
+      <Filter>Sorce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\StlUtils.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
