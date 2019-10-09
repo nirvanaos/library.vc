@@ -202,11 +202,14 @@
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\StlUtils.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\StringABI.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -282,8 +285,8 @@
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp">
       <Filter>Sorce Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\StlUtils.cpp">
-      <Filter>ORB\Source Files</Filter>
+    <ClCompile Include="..\SRC\Source\StlUtils.cpp">
+      <Filter>Sorce Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

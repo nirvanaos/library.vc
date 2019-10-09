@@ -65,11 +65,11 @@
     <ClInclude Include="..\ORB\Include\CORBA\ServantBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantStatic.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\StlUtils.h" />
     <ClInclude Include="..\ORB\Include\CORBA\String.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StringABI.h" />
     <ClInclude Include="..\ORB\Include\CORBA\T_ptr.h" />
     <ClInclude Include="..\ORB\Source\CORBA_EnvironmentServant.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory_c.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory_s.h" />
@@ -80,6 +80,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\real_copy.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_c.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain_c.h" />
   </ItemGroup>
   <ItemGroup>
@@ -101,13 +102,13 @@
     <ClCompile Include="..\ORB\Source\ReferenceCounter_c.cpp" />
     <ClCompile Include="..\ORB\Source\RepositoryId.cpp" />
     <ClCompile Include="..\ORB\Source\ServantBase_c.cpp" />
-    <ClCompile Include="..\ORB\Source\StlUtils.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
     <ClCompile Include="..\SRC\Source\HeapFactory_c.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
     <ClCompile Include="..\SRC\Source\Memory_c.cpp" />
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
     <ClCompile Include="..\SRC\Source\Runnable_c.cpp" />
+    <ClCompile Include="..\SRC\Source\StlUtils.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -107,7 +107,7 @@
       <ExceptionHandling>Async</ExceptionHandling>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
-      <ForcedIncludeFiles>CORBA\String.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles>Nirvana\basic_string.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -126,7 +126,7 @@
       <ExceptionHandling>Async</ExceptionHandling>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
-      <ForcedIncludeFiles>CORBA\String.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles>Nirvana\basic_string.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -146,7 +146,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <ExceptionHandling>Async</ExceptionHandling>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest;..\googletest\googletest\include</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>CORBA\String.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles>Nirvana\basic_string.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -168,7 +168,7 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <ExceptionHandling>Async</ExceptionHandling>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest;..\googletest\googletest\include</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>CORBA\String.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles>Nirvana\basic_string.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
