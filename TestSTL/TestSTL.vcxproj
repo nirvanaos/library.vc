@@ -165,9 +165,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\ORB\TestSTL\TestSTL.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\googletest.vc\googletest.vcxproj">
       <Project>{5d537823-c595-4fb0-8056-9e6ce6a58ea7}</Project>
     </ProjectReference>
@@ -177,6 +174,9 @@
     <ProjectReference Include="..\Library\Library.vcxproj">
       <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SRC\Test\TestString.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
