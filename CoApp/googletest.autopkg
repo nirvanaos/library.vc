@@ -1,0 +1,62 @@
+nuget{
+	nuspec {
+		id = googletest.nirvana.vc;
+		version: 1.8.0;
+		title: Google Test;
+		authors: google.com;
+		owners: google.com;
+		//licenseUrl: "";
+		projectUrl: "http://code.google.com/p/googletest/";
+		//iconUrl: "";
+		requireLicenseAcceptance: false;
+		summary: Google C++ Testing Framework.;
+		description: @"Google's framework for writing C++ tests on a variety of platforms (
+		Linux, Mac OS X, Windows, Cygwin, Windows CE, and Symbian). Based on the xUnit architecture. 
+		Supports automatic test discovery, a rich set of assertions, user-defined assertions, death 
+		tests, fatal and non-fatal failures, value- and type-parameterized tests, various options 
+		for running the tests, and XML test report generation.";
+		copyright: google.com;
+		tags: {test, Google, framework, native, CoApp};
+	};
+	
+	files {
+		#defines {
+			GOOGLETEST_ROOT = ..\googletest\;
+		};
+		
+		nestedInclude: {
+			#destination = ${d_include}gtest;
+			"${GOOGLETEST_ROOT}include\gtest\**\*.h*"
+		};
+		
+		nestedDocs: {
+			#destination = ${d_docs}license;
+			"${GOOGLETEST_ROOT}LICENSE"
+		};
+		
+		docs: {
+			"${GOOGLETEST_ROOT}CONTRIBUTORS";
+			"${GOOGLETEST_ROOT}README.md";
+		};
+		
+		[x86,debug] {
+			lib:     {"..\Win32\Debug\googletest.lib"};
+		};
+		
+		[x86,release] {
+			lib:     {"..\Win32\Release\googletest.lib"};
+		};
+		
+		[x64,debug] {
+			lib:     {"..\x64\Debug\googletest.lib"};
+		};
+		
+		[x64,release] {
+			lib:     {"..\x64\Release\googletest.lib"};
+		};
+	};
+		
+	targets {
+		Defines += HAS_GOOGLETEST;
+	};
+}
