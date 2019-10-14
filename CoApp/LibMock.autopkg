@@ -1,0 +1,45 @@
+nuget {
+	nuspec {
+		id = Nirvana.LibMock;
+		version: 1.0.0;
+		title: Nirvana mock library;
+		authors: Igor Popov;
+		owners: Igor Popov;
+		requireLicenseAcceptance: false;
+		summary: Run-time library;
+		description: Mock library for Nirvana tests.;
+		releaseNotes: "";
+		copyright: Copyright 2019;
+		tags: { Nirvana };
+	};
+
+	dependencies {
+		packages : {
+		};
+	};
+
+	files{
+		#defines{
+			SRC = ..\SRC\;
+			LIBNAME = LibMock;
+		}
+
+		nested1include: {
+			#destination=${d_include}Mock;
+			"${SRC}Include\Mock\**\*.h"
+		};
+
+		[Win32,debug] {
+			lib: {"..\Win32\Debug\${LIBNAME}.lib"};
+		}
+		[Win32,release] {
+			lib: {"..\Win32\Release\${LIBNAME}.lib"};
+		}
+		[x64,debug] {
+			lib: {"..\x64\Debug\${LIBNAME}.lib"};
+		}
+		[x64,release] {
+			lib: {"..\x64\Release\${LIBNAME}.lib"};
+		}
+	};
+}

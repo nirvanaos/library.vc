@@ -21,7 +21,7 @@ nuget{
 	
 	files {
 		#defines {
-			GOOGLETEST_ROOT = ..\googletest\;
+			GOOGLETEST_ROOT = ..\googletest\googletest\;
 		};
 		
 		nestedInclude: {
@@ -31,18 +31,17 @@ nuget{
 		
 		nestedDocs: {
 			#destination = ${d_docs}license;
-			"${GOOGLETEST_ROOT}LICENSE"
+			"${GOOGLETEST_ROOT}LICENSE";
 		};
-		
+
 		docs: {
 			"${GOOGLETEST_ROOT}CONTRIBUTORS";
-			"${GOOGLETEST_ROOT}README.md";
 		};
-		
+
 		[x86,debug] {
 			lib:     {"..\Win32\Debug\googletest.lib"};
 		};
-		
+
 		[x86,release] {
 			lib:     {"..\Win32\Release\googletest.lib"};
 		};
