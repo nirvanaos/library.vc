@@ -297,5 +297,8 @@
     <ClCompile Include="..\ORB\Source\String.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\CORBA_EnvironmentServant.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -88,10 +88,21 @@
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\AbstractBase_c.cpp" />
     <ClCompile Include="..\ORB\Source\Binder_c.cpp" />
+    <ClCompile Include="..\ORB\Source\CORBA_EnvironmentServant.cpp" />
     <ClCompile Include="..\ORB\Source\DynamicServant_c.cpp" />
-    <ClCompile Include="..\ORB\Source\Environment.cpp" />
+    <ClCompile Include="..\ORB\Source\Environment.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
-    <ClCompile Include="..\ORB\Source\Implementation.cpp" />
+    <ClCompile Include="..\ORB\Source\Implementation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\ORB\Source\ImplementationPOA.cpp" />
     <ClCompile Include="..\ORB\Source\Interface_c.cpp" />
     <ClCompile Include="..\ORB\Source\Interface_s.cpp" />
