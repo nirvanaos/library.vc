@@ -27,6 +27,7 @@
     <ClCompile Include="..\ORB\Test\ObjectImpl.cpp" />
     <ClCompile Include="..\ORB\Test\ServantCore.cpp" />
     <ClCompile Include="..\ORB\Test\Static.cpp" />
+    <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I1_c.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I2_c.cpp" />
