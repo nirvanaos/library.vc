@@ -124,6 +124,9 @@
     <ClCompile Include="..\SRC\Source\Runnable_c.cpp" />
     <ClCompile Include="..\SRC\Source\StlUtils.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{810A987D-BFF4-4112-A59F-B8EAE9FCCD65}</ProjectGuid>

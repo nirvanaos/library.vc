@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{705AAB65-0713-4EAB-8A38-10B177804E45}"
 	ProjectSection(SolutionItems) = preProject
 		build.ps1 = build.ps1
+		cpp.hint = cpp.hint
 		CoApp\googletest.autopkg = CoApp\googletest.autopkg
 		CoApp\LibMock.autopkg = CoApp\LibMock.autopkg
 		CoApp\Library.autopkg = CoApp\Library.autopkg
