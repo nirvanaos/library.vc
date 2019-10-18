@@ -214,8 +214,14 @@
     <ClInclude Include="..\SRC\Include\Nirvana\NirvanaBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\StringMarshal.h">
+    <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\SequenceABI.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\vector.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
