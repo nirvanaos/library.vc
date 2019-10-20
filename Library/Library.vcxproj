@@ -83,6 +83,8 @@
     <ClInclude Include="..\SRC\Include\Nirvana\real_copy.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_c.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_c.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain_c.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
@@ -119,6 +121,7 @@
     <ClCompile Include="..\ORB\Source\ServantBase_c.cpp" />
     <ClCompile Include="..\ORB\Source\String.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
+    <ClCompile Include="..\SRC\Source\RuntimeSupport_c.cpp" />
     <ClCompile Include="..\SRC\Source\HeapFactory_c.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
     <ClCompile Include="..\SRC\Source\Memory_c.cpp" />

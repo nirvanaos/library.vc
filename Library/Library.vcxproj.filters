@@ -223,6 +223,12 @@
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -305,6 +311,9 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\CORBA_EnvironmentServant.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\RuntimeSupport_c.cpp">
+      <Filter>Sorce Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
