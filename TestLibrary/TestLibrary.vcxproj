@@ -111,7 +111,6 @@
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,7 +130,6 @@
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,7 +150,6 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -173,7 +170,6 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

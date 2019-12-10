@@ -108,7 +108,6 @@
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
-      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -128,7 +127,6 @@
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
-      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -149,7 +147,6 @@
       <ExceptionHandling>Async</ExceptionHandling>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
-      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -172,7 +169,6 @@
       <ExceptionHandling>Async</ExceptionHandling>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
-      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
