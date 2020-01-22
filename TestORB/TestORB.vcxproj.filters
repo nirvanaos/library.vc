@@ -36,9 +36,6 @@
     <ClCompile Include="..\ORB\Test\ServantCore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Static.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Test_I1_c.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
