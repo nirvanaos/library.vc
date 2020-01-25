@@ -49,7 +49,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Object_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Object_s.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\OLF.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ORB.h" />
     <ClInclude Include="..\ORB\Include\CORBA\POA_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\POA_s.h" />
@@ -80,6 +79,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Memory_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Nirvana.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\NirvanaBase.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\OLF.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\real_copy.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_c.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_s.h" />
@@ -111,6 +111,7 @@
     <ClCompile Include="..\ORB\Source\Interface_c.cpp" />
     <ClCompile Include="..\ORB\Source\Interface_s.cpp" />
     <ClCompile Include="..\ORB\Source\LocalObject_c.cpp" />
+    <ClCompile Include="..\ORB\Source\ObjectFactoryImp.cpp" />
     <ClCompile Include="..\ORB\Source\ObjectFactory_c.cpp" />
     <ClCompile Include="..\ORB\Source\Object_c.cpp" />
     <ClCompile Include="..\ORB\Source\ORB.cpp" />

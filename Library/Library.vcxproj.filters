@@ -136,9 +136,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\OLF.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ORB.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -229,6 +226,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\OLF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -314,6 +314,9 @@
     </ClCompile>
     <ClCompile Include="..\SRC\Source\RuntimeSupport_c.cpp">
       <Filter>Sorce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\ObjectFactoryImp.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
