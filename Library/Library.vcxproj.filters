@@ -61,12 +61,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\BasicTypes.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Binder_c.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Binder_s.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Bridge.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -229,6 +223,12 @@
     <ClInclude Include="..\SRC\Include\Nirvana\OLF.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\Binder_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\Binder_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -247,9 +247,6 @@
       <Filter>Sorce Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\AbstractBase_c.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\Binder_c.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\DynamicServant_c.cpp">
@@ -317,6 +314,9 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ObjectFactoryImp.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\Binder_c.cpp">
+      <Filter>Sorce Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

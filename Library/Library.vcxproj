@@ -23,8 +23,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Any.h" />
     <ClInclude Include="..\ORB\Include\CORBA\BasicTypes.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Binder_c.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Binder_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Bridge.h" />
     <ClInclude Include="..\ORB\Include\CORBA\CORBA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\CORBA_Environment.h" />
@@ -71,6 +69,8 @@
     <ClInclude Include="..\ORB\Include\CORBA\T_ptr.h" />
     <ClInclude Include="..\ORB\Source\CORBA_EnvironmentServant.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Binder_c.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Binder_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory_c.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory_s.h" />
@@ -91,7 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\AbstractBase_c.cpp" />
-    <ClCompile Include="..\ORB\Source\Binder_c.cpp" />
     <ClCompile Include="..\ORB\Source\CORBA_EnvironmentServant.cpp" />
     <ClCompile Include="..\ORB\Source\DynamicServant_c.cpp" />
     <ClCompile Include="..\ORB\Source\Environment.cpp">
@@ -121,6 +120,7 @@
     <ClCompile Include="..\ORB\Source\RepositoryId.cpp" />
     <ClCompile Include="..\ORB\Source\ServantBase_c.cpp" />
     <ClCompile Include="..\ORB\Source\String.cpp" />
+    <ClCompile Include="..\SRC\Source\Binder_c.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
     <ClCompile Include="..\SRC\Source\RuntimeSupport_c.cpp" />
     <ClCompile Include="..\SRC\Source\HeapFactory_c.cpp" />
