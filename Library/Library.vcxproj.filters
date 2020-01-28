@@ -5,10 +5,6 @@
       <UniqueIdentifier>{8d17546c-053d-4155-8339-d729273539e9}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Sorce Files">
-      <UniqueIdentifier>{b1f4530c-d57f-46ba-b044-5f17e62b5f45}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="ORB">
       <UniqueIdentifier>{c619a190-734b-4712-9bb3-b2ddf9afd20f}</UniqueIdentifier>
     </Filter>
@@ -18,6 +14,10 @@
     </Filter>
     <Filter Include="ORB\Source Files">
       <UniqueIdentifier>{cde7efa5-cd05-4ec5-91a3-972a36af1c68}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b1f4530c-d57f-46ba-b044-5f17e62b5f45}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
   </ItemGroup>
@@ -232,19 +232,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
-      <Filter>Sorce Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\HeapFactory_c.cpp">
-      <Filter>Sorce Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Memory_c.cpp">
-      <Filter>Sorce Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\real_copy.cpp">
-      <Filter>Sorce Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Runnable_c.cpp">
-      <Filter>Sorce Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\AbstractBase_c.cpp">
       <Filter>ORB\Source Files</Filter>
@@ -298,10 +298,10 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp">
-      <Filter>Sorce Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\StlUtils.cpp">
-      <Filter>Sorce Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\String.cpp">
       <Filter>ORB\Source Files</Filter>
@@ -310,13 +310,10 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\RuntimeSupport_c.cpp">
-      <Filter>Sorce Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\ObjectFactoryImp.cpp">
-      <Filter>ORB\Source Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Binder_c.cpp">
-      <Filter>Sorce Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

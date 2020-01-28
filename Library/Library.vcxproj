@@ -110,7 +110,6 @@
     <ClCompile Include="..\ORB\Source\Interface_c.cpp" />
     <ClCompile Include="..\ORB\Source\Interface_s.cpp" />
     <ClCompile Include="..\ORB\Source\LocalObject_c.cpp" />
-    <ClCompile Include="..\ORB\Source\ObjectFactoryImp.cpp" />
     <ClCompile Include="..\ORB\Source\ObjectFactory_c.cpp" />
     <ClCompile Include="..\ORB\Source\Object_c.cpp" />
     <ClCompile Include="..\ORB\Source\ORB.cpp" />
