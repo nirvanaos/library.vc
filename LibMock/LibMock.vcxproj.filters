@@ -15,16 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\Mock\MockMemory.cpp">
+    <ClCompile Include="..\SRC\Mock\RuntimeSupport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Mock\MockRuntimeSupport.cpp">
+    <ClCompile Include="..\SRC\Mock\TypeCode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\SRC\Include\Mock\MockMemory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="..\SRC\Mock\Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

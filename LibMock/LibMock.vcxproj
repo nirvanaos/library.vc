@@ -19,11 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\Mock\MockMemory.cpp" />
-    <ClCompile Include="..\SRC\Mock\MockRuntimeSupport.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\SRC\Include\Mock\MockMemory.h" />
+    <ClCompile Include="..\SRC\Mock\Memory.cpp" />
+    <ClCompile Include="..\SRC\Mock\RuntimeSupport.cpp" />
+    <ClCompile Include="..\SRC\Mock\TypeCode.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -6,3 +6,9 @@
 #define NIRVANA_NODISCARD
 #define BASE_STRUCT_ENTRY(type, name) Wide < type>::Func name;operator const Wide < type>::Func () const { return name; }
 #define DECLARE_EXCEPTION
+#define DEFINE_EXCEPTION
+#define DECLARE_SYSTEM_EXCEPTION
+#define DEFINE_USER_EXCEPTION
+#define CORBA_REPOSITORY_ID
+#define NIRVANA_REPOSITORY_ID
+#define STATIC_BRIDGE

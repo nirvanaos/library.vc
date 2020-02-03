@@ -67,6 +67,8 @@
     <ClInclude Include="..\ORB\Include\CORBA\StringABI.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeBasic.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode_s.h" />
@@ -123,10 +125,12 @@
     <ClCompile Include="..\ORB\Source\RepositoryId.cpp" />
     <ClCompile Include="..\ORB\Source\ServantBase_c.cpp" />
     <ClCompile Include="..\ORB\Source\String.cpp" />
+    <ClCompile Include="..\ORB\Source\TypeCodeException.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCode_c.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\T_ptr.cpp" />
     <ClCompile Include="..\SRC\Source\Binder_c.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
     <ClCompile Include="..\SRC\Source\RuntimeSupport_c.cpp" />
