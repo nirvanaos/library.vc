@@ -181,9 +181,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\T_ptr.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Source\CORBA_EnvironmentServant.h">
-      <Filter>ORB\Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain_c.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -245,6 +242,9 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeBasic.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Source\CORBA_EnvironmentServant.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
