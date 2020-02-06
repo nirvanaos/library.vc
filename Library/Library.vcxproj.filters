@@ -271,6 +271,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\UserException.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\exceptions.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -367,6 +370,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\SystemException.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\exceptions.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
