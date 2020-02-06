@@ -71,6 +71,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\String.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StringABI.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\system_exceptions.h" />
     <ClInclude Include="..\ORB\Include\CORBA\SystemException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeBasic.h" />
