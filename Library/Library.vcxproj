@@ -28,6 +28,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\CORBA_Environment.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicServant_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicServant_s.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\EnvironmentEx.h" />
     <ClInclude Include="..\ORB\Include\CORBA\EnvironmentImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Environment_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Environment.h" />
@@ -70,16 +71,17 @@
     <ClInclude Include="..\ORB\Include\CORBA\set_exception.h" />
     <ClInclude Include="..\ORB\Include\CORBA\String.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StringABI.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits.h" />
     <ClInclude Include="..\ORB\Include\CORBA\system_exceptions.h" />
     <ClInclude Include="..\ORB\Include\CORBA\SystemException.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\tc_constants.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeBasic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeObject.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeString.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCode_c.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCode_b.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\T_ptr.h" />
     <ClInclude Include="..\ORB\Include\CORBA\UserException.h" />
@@ -108,7 +110,7 @@
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\AbstractBase_c.cpp" />
     <ClCompile Include="..\ORB\Source\DynamicServant_c.cpp" />
-    <ClCompile Include="..\ORB\Source\EnvironmentBase.cpp">
+    <ClCompile Include="..\ORB\Source\EnvironmentImpl.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
@@ -140,7 +142,7 @@
     <ClCompile Include="..\ORB\Source\set_exception.cpp" />
     <ClCompile Include="..\ORB\Source\String.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp" />
-    <ClCompile Include="..\ORB\Source\TypeCode_c.cpp">
+    <ClCompile Include="..\ORB\Source\TypeCode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Binder_c.cpp" />
