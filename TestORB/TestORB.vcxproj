@@ -30,9 +30,9 @@
     <ClCompile Include="..\ORB\Test\ServantCore.cpp" />
     <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I1_c.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I2_c.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I3_c.cpp" />
+    <ClCompile Include="..\ORB\Test\Test_I1.cpp" />
+    <ClCompile Include="..\ORB\Test\Test_I2.cpp" />
+    <ClCompile Include="..\ORB\Test\Test_I3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\googletest.vc\googletest.vcxproj">
@@ -62,11 +62,11 @@
     <ClInclude Include="..\ORB\Test\ServantCore.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
-    <ClInclude Include="..\ORB\Test\Test_I1_c.h" />
+    <ClInclude Include="..\ORB\Test\Test_I1.h" />
     <ClInclude Include="..\ORB\Test\Test_I1_s.h" />
-    <ClInclude Include="..\ORB\Test\Test_I2_c.h" />
+    <ClInclude Include="..\ORB\Test\Test_I2.h" />
     <ClInclude Include="..\ORB\Test\Test_I2_s.h" />
-    <ClInclude Include="..\ORB\Test\Test_I3_c.h" />
+    <ClInclude Include="..\ORB\Test\Test_I3.h" />
     <ClInclude Include="..\ORB\Test\Test_I3_s.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

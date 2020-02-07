@@ -33,15 +33,6 @@
     <ClCompile Include="..\ORB\Test\ServantCore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Test_I1_c.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Test\Test_I2_c.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Test\Test_I3_c.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\TestORB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -49,6 +40,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -89,19 +89,10 @@
     <ClInclude Include="..\ORB\Test\Server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Test\Test_I1_c.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Test_I1_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Test\Test_I2_c.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Test_I2_s.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\Test_I3_c.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Test_I3_s.h">
@@ -111,6 +102,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Test_I1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Test_I2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Test_I3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
