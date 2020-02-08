@@ -4,7 +4,7 @@
 #define NIRVANA_NOEXCEPT
 #define NIRVANA_NORETURN
 #define NIRVANA_NODISCARD
-#define BASE_STRUCT_ENTRY(type, name) Wide < type>::Func name;operator const Wide < type>::Func () const { return name; }
+#define BASE_STRUCT_ENTRY
 #define DECLARE_EXCEPTION
 #define DEFINE_EXCEPTION
 #define DECLARE_SYSTEM_EXCEPTION
