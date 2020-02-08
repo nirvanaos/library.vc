@@ -36,6 +36,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Environment_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Exception.h" />
     <ClInclude Include="..\ORB\Include\CORBA\exceptions.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\FindInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Fixed.h" />
     <ClInclude Include="..\ORB\Include\CORBA\giop.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Implementation.h" />
@@ -123,6 +124,7 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\Environment_c.cpp" />
     <ClCompile Include="..\ORB\Source\exceptions.cpp" />
+    <ClCompile Include="..\ORB\Source\FindInterface.cpp" />
     <ClCompile Include="..\ORB\Source\SystemException.cpp" />
     <ClCompile Include="..\ORB\Source\Implementation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
