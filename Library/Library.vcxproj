@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Include\CORBA\ABI.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ABI_forward.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Any.h" />
