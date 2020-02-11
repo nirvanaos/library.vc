@@ -19,14 +19,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ORB\Include\CORBA\ABI.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ABI_forward.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Type.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeBasic.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeEnum.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeFixLen.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeScalar.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeVarLen.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Type_forward.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Any.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AnyABI.h" />
     <ClInclude Include="..\ORB\Include\CORBA\BasicTypes.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Bridge.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Client.h" />
     <ClInclude Include="..\ORB\Include\CORBA\CORBA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\CORBA_Environment.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicServant.h" />
@@ -46,7 +54,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationTied.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Interface.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Interface_s.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Interface_forward.h" />
     <ClInclude Include="..\ORB\Include\CORBA\iop.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycle.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal.h" />
@@ -112,6 +120,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\Source\Type.cpp" />
     <ClCompile Include="..\ORB\Source\AbstractBase.cpp" />
     <ClCompile Include="..\ORB\Source\Any.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -136,7 +145,7 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ImplementationPOA.cpp" />
     <ClCompile Include="..\ORB\Source\Interface.cpp" />
-    <ClCompile Include="..\ORB\Source\Interface_s.cpp" />
+    <ClCompile Include="..\ORB\Source\ServantImpl.cpp" />
     <ClCompile Include="..\ORB\Source\LocalObject.cpp" />
     <ClCompile Include="..\ORB\Source\ObjectFactory.cpp" />
     <ClCompile Include="..\ORB\Source\Object.cpp" />
