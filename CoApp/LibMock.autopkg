@@ -24,11 +24,6 @@ nuget {
 			LIBNAME = LibMock;
 		}
 
-		nested1include: {
-			#destination=${d_include}Mock;
-			"${SRC}Include\Mock\**\*.h"
-		};
-
 		[Win32,debug] {
 			lib: {"..\Win32\Debug\${LIBNAME}.lib"};
 		}
