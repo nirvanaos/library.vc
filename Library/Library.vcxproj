@@ -120,6 +120,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\Source\Exception.cpp" />
     <ClCompile Include="..\ORB\Source\Type.cpp" />
     <ClCompile Include="..\ORB\Source\AbstractBase.cpp" />
     <ClCompile Include="..\ORB\Source\Any.cpp">

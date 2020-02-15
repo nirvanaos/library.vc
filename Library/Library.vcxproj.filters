@@ -432,5 +432,8 @@
     <ClCompile Include="..\ORB\Source\Type.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\Exception.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
