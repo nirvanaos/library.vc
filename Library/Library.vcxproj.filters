@@ -130,9 +130,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\String.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain_c.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -229,9 +226,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Interface.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -318,6 +312,12 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\I_ptr.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

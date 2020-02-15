@@ -53,7 +53,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationTied.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Interface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Interface_forward.h" />
     <ClInclude Include="..\ORB\Include\CORBA\iop.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycle.h" />
@@ -101,6 +100,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Binder.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Binder_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h" />
@@ -115,7 +115,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain_c.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
   </ItemGroup>
