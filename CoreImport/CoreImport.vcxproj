@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\CoreImport\g_default_heap.cpp" />
+    <ClCompile Include="..\SRC\CoreImport\g_memory.cpp" />
     <ClCompile Include="..\SRC\CoreImport\g_object_factory.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

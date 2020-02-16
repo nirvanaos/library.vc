@@ -23,6 +23,9 @@
     <ClCompile Include="..\SRC\Mock\RuntimeSupport.cpp" />
     <ClCompile Include="..\SRC\Mock\TypeCode.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SRC\Include\Mock\MockMemory.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{AE347E10-438A-4A2B-8D7F-47B40D85BE40}</ProjectGuid>
