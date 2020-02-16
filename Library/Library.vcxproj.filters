@@ -277,9 +277,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\FindInterface.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Interface_forward.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Client.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>

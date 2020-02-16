@@ -54,7 +54,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationTied.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Interface_forward.h" />
     <ClInclude Include="..\ORB\Include\CORBA\iop.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycle.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal.h" />

@@ -12,3 +12,6 @@
 #define CORBA_REPOSITORY_ID
 #define NIRVANA_REPOSITORY_ID
 #define STATIC_BRIDGE
+#define BRIDGE_BEGIN(I) template <> struct Bridge < I>::EPV { Interface::EPV interface; struct {
+#define BRIDGE_EPV
+#define BRIDGE_END() } epv;};
