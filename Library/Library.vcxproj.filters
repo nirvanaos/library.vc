@@ -322,6 +322,18 @@
     <ClInclude Include="..\ORB\Include\CORBA\I_var.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\DynamicImpl.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\LocalImpl.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\DynamicLocal.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
