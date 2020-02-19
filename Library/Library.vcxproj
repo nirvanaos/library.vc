@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Include\CORBA\DynamicLocal.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudo.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Interface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicImpl.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleRefCntLink.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type.h" />
@@ -62,8 +64,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\iop.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycle.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Object.h" />
@@ -126,6 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
+    <ClCompile Include="..\ORB\Source\LifeCycleRefCntLink.cpp" />
     <ClCompile Include="..\ORB\Source\Type.cpp" />
     <ClCompile Include="..\ORB\Source\AbstractBase.cpp" />
     <ClCompile Include="..\ORB\Source\Any.cpp">
@@ -152,7 +153,6 @@
     <ClCompile Include="..\ORB\Source\ImplementationPOA.cpp" />
     <ClCompile Include="..\ORB\Source\Interface.cpp" />
     <ClCompile Include="..\ORB\Source\ServantImpl.cpp" />
-    <ClCompile Include="..\ORB\Source\LocalObject.cpp" />
     <ClCompile Include="..\ORB\Source\ObjectFactory.cpp" />
     <ClCompile Include="..\ORB\Source\Object.cpp" />
     <ClCompile Include="..\ORB\Source\ORB.cpp">

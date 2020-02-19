@@ -85,9 +85,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\iop.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Object_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -235,9 +232,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Object.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -334,6 +328,12 @@
     <ClInclude Include="..\ORB\Include\CORBA\DynamicLocal.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudo.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleRefCntLink.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -396,9 +396,6 @@
     <ClCompile Include="..\ORB\Source\DynamicServant.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\LocalObject.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\Object.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -448,6 +445,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\Exception.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\LifeCycleRefCntLink.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
