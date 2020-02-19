@@ -26,6 +26,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\DynamicImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleRefCntLink.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalImpl.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h" />
