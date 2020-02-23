@@ -27,20 +27,20 @@
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleRefCntLink.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\NamedValue.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeBasic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeEnum.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeFixLen.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeScalar.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\String_compat.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeVarLen.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type_forward.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Any.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\AnyABI.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ABI_Any.h" />
     <ClInclude Include="..\ORB\Include\CORBA\BasicTypes.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Bridge.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Client.h" />
@@ -79,7 +79,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RepositoryId.h" />
     <ClInclude Include="..\ORB\Include\CORBA\sequence.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\SequenceABI.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ABI_Sequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Servant.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantBase_s.h" />
@@ -87,7 +87,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ServantStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\set_exception.h" />
     <ClInclude Include="..\ORB\Include\CORBA\String.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\StringABI.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ABI_String.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits.h" />
     <ClInclude Include="..\ORB\Include\CORBA\system_exceptions.h" />
     <ClInclude Include="..\ORB\Include\CORBA\SystemException.h" />
@@ -165,7 +165,7 @@
     <ClCompile Include="..\ORB\Source\RepositoryId.cpp" />
     <ClCompile Include="..\ORB\Source\ServantBase.cpp" />
     <ClCompile Include="..\ORB\Source\set_exception.cpp" />
-    <ClCompile Include="..\ORB\Source\String.cpp" />
+    <ClCompile Include="..\ORB\Source\String_compat.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>

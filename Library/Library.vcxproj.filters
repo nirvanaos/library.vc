@@ -124,14 +124,8 @@
     <ClInclude Include="..\ORB\Include\CORBA\ServantStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\String.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\StringABI.h">
-      <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h">
       <Filter>Header Files</Filter>
@@ -141,9 +135,6 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\NirvanaBase.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\SequenceABI.h">
-      <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h">
       <Filter>Header Files</Filter>
@@ -250,9 +241,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ServantBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\AnyABI.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\Memory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -283,9 +271,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\TypeInterface.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\TypeFixLen.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -296,9 +281,6 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\TypeEnum.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeBasic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\I_ptr.h">
@@ -337,6 +319,24 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\NamedValue.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\String_compat.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\String.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ABI_Any.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ABI_Sequence.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ABI_String.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -362,9 +362,6 @@
     </ClCompile>
     <ClCompile Include="..\SRC\Source\StlUtils.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\String.cpp">
-      <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp">
       <Filter>ORB\Source Files</Filter>
@@ -451,6 +448,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\LifeCycleRefCntLink.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\String_compat.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
