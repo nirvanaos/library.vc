@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicLocal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudo.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Interface.h" />
