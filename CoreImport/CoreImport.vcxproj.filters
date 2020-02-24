@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\CoreImport\g_object_factory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CoreImport\g_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
