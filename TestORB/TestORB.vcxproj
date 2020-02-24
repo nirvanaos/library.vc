@@ -35,15 +35,12 @@
     <ClCompile Include="..\ORB\Test\ServantCore.cpp" />
     <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I1.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I1_p.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Test_I2.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\googletest.vc\googletest.vcxproj">

@@ -372,9 +372,6 @@
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\Environment_c.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\set_exception.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -396,27 +393,6 @@
     <ClCompile Include="..\ORB\Source\Interface.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\AbstractBase.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\DynamicServant.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\Object.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\ObjectFactory.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\POA.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\ProxyFactory.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\ReferenceCounter.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\ServantBase.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -425,21 +401,6 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\Environment.cpp">
       <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\Memory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\Binder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\HeapFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\Runnable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\RuntimeSupport.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\FindInterface.cpp">
       <Filter>ORB\Source Files</Filter>
@@ -460,9 +421,6 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\g_object_factory.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\StringBase.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>

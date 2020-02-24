@@ -42,15 +42,6 @@
     <ClCompile Include="..\ORB\Test\Loader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Test_I1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Test\Test_I2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Test\Test_I3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Test_I1_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

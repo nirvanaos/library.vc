@@ -131,13 +131,10 @@
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
     <ClCompile Include="..\ORB\Source\g_object_factory.cpp" />
     <ClCompile Include="..\ORB\Source\LifeCycleRefCntLink.cpp" />
-    <ClCompile Include="..\ORB\Source\StringBase.cpp" />
     <ClCompile Include="..\ORB\Source\Type.cpp" />
-    <ClCompile Include="..\ORB\Source\AbstractBase.cpp" />
     <ClCompile Include="..\ORB\Source\Any.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\DynamicServant.cpp" />
     <ClCompile Include="..\ORB\Source\Environment.cpp" />
     <ClCompile Include="..\ORB\Source\EnvironmentImpl.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -145,7 +142,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\Environment_c.cpp" />
     <ClCompile Include="..\ORB\Source\exceptions.cpp" />
     <ClCompile Include="..\ORB\Source\FindInterface.cpp" />
     <ClCompile Include="..\ORB\Source\SystemException.cpp" />
@@ -158,14 +154,9 @@
     <ClCompile Include="..\ORB\Source\ImplementationPOA.cpp" />
     <ClCompile Include="..\ORB\Source\Interface.cpp" />
     <ClCompile Include="..\ORB\Source\ServantImpl.cpp" />
-    <ClCompile Include="..\ORB\Source\ObjectFactory.cpp" />
-    <ClCompile Include="..\ORB\Source\Object.cpp" />
     <ClCompile Include="..\ORB\Source\ORB.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\POA.cpp" />
-    <ClCompile Include="..\ORB\Source\ProxyFactory.cpp" />
-    <ClCompile Include="..\ORB\Source\ReferenceCounter.cpp" />
     <ClCompile Include="..\ORB\Source\RepositoryId.cpp" />
     <ClCompile Include="..\ORB\Source\ServantBase.cpp" />
     <ClCompile Include="..\ORB\Source\set_exception.cpp" />
@@ -174,14 +165,9 @@
     <ClCompile Include="..\ORB\Source\TypeCode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\Binder.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
-    <ClCompile Include="..\SRC\Source\RuntimeSupport.cpp" />
-    <ClCompile Include="..\SRC\Source\HeapFactory.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
-    <ClCompile Include="..\SRC\Source\Memory.cpp" />
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
-    <ClCompile Include="..\SRC\Source\Runnable.cpp" />
     <ClCompile Include="..\SRC\Source\StlUtils.cpp" />
     <ClCompile Include="..\SRC\Source\throw_exception.cpp" />
   </ItemGroup>
