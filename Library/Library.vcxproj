@@ -29,6 +29,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h" />
     <ClInclude Include="..\ORB\Include\CORBA\NamedValue.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\NamedValue_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StringBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type.h" />
