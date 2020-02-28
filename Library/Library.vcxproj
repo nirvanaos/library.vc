@@ -20,16 +20,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\DynamicLocal.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoPOA.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoStatic.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCyclePOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudo.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Interface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_var.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\DynamicImpl.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleRefCntLink.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleServant.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\NamedValue.h" />
     <ClInclude Include="..\ORB\Include\CORBA\NamedValue_s.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterLink.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ServantPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StringBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type.h" />
@@ -83,7 +87,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\RepositoryId.h" />
     <ClInclude Include="..\ORB\Include\CORBA\sequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ABI_Sequence.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Servant.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Server.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantImpl.h" />
@@ -132,7 +136,8 @@
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
     <ClCompile Include="..\ORB\Source\g_object_factory.cpp" />
-    <ClCompile Include="..\ORB\Source\LifeCycleRefCntLink.cpp" />
+    <ClCompile Include="..\ORB\Source\LocalObject.cpp" />
+    <ClCompile Include="..\ORB\Source\ReferenceCounterLink.cpp" />
     <ClCompile Include="..\ORB\Source\Type.cpp" />
     <ClCompile Include="..\ORB\Source\Any.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -152,6 +157,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ImplementationPOA.cpp" />
     <ClCompile Include="..\ORB\Source\Interface.cpp" />
