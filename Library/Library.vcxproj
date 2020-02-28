@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCyclePOA.h" />
