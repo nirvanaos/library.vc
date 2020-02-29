@@ -412,6 +412,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\POA_c.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\create_stateless.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -495,5 +498,10 @@
     <ClCompile Include="..\ORB\Source\LocalObjectPOA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ORB\readme.md">
+      <Filter>ORB</Filter>
+    </None>
   </ItemGroup>
 </Project>

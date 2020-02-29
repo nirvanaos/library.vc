@@ -23,6 +23,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\create_stateless.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectStatic.h" />
@@ -195,6 +196,9 @@
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
     <ClCompile Include="..\SRC\Source\StlUtils.cpp" />
     <ClCompile Include="..\SRC\Source\throw_exception.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ORB\readme.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
