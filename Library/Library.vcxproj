@@ -19,21 +19,37 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseImpl.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LocalObjectImpl.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LocalObjectPOA.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ObjectStatic.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\POA_c.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalPOA.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoStatic.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\LifeCyclePOA.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\DynamicServantPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudo.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Interface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_var.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleServant.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\DynamicServantImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\NamedValue.h" />
     <ClInclude Include="..\ORB\Include\CORBA\NamedValue_s.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ObjectLink.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterLink.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterStatic.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ServantBaseImpl.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ServantBaseLink.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ServantBasePOA.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ServantBaseStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StringBase.h" />
@@ -137,7 +153,8 @@
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
     <ClCompile Include="..\ORB\Source\g_object_factory.cpp" />
-    <ClCompile Include="..\ORB\Source\LocalObject.cpp" />
+    <ClCompile Include="..\ORB\Source\LocalObjectPOA.cpp" />
+    <ClCompile Include="..\ORB\Source\ObjectLink.cpp" />
     <ClCompile Include="..\ORB\Source\ReferenceCounterLink.cpp" />
     <ClCompile Include="..\ORB\Source\Type.cpp" />
     <ClCompile Include="..\ORB\Source\Any.cpp">
@@ -153,21 +170,20 @@
     <ClCompile Include="..\ORB\Source\exceptions.cpp" />
     <ClCompile Include="..\ORB\Source\FindInterface.cpp" />
     <ClCompile Include="..\ORB\Source\SystemException.cpp" />
-    <ClCompile Include="..\ORB\Source\Implementation.cpp">
+    <ClCompile Include="..\ORB\Source\ServantBaseLink.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\ImplementationPOA.cpp" />
+    <ClCompile Include="..\ORB\Source\ServantBasePOA.cpp" />
     <ClCompile Include="..\ORB\Source\Interface.cpp" />
     <ClCompile Include="..\ORB\Source\ServantImpl.cpp" />
     <ClCompile Include="..\ORB\Source\ORB.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\RepositoryId.cpp" />
-    <ClCompile Include="..\ORB\Source\ServantBase.cpp" />
     <ClCompile Include="..\ORB\Source\set_exception.cpp" />
     <ClCompile Include="..\ORB\Source\String_compat.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp" />
