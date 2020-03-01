@@ -23,7 +23,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\create_stateless.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\stateless.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectStatic.h" />

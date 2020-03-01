@@ -21,9 +21,6 @@
     <ClCompile Include="..\ORB\Test\I3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\ObjectCore.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\ObjectFactoryCore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

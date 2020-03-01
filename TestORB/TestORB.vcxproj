@@ -24,7 +24,6 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Test\I1.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
-    <ClCompile Include="..\ORB\Test\ObjectCore.cpp" />
     <ClCompile Include="..\ORB\Test\ObjectFactoryCore.cpp">
       <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</PreprocessToFile>
       <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</PreprocessToFile>

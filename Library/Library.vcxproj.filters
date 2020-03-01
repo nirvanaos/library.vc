@@ -412,7 +412,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\POA_c.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\create_stateless.h">
+    <ClInclude Include="..\ORB\Include\CORBA\stateless.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
