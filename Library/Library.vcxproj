@@ -23,7 +23,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\stateless.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectStatic.h" />
@@ -132,6 +132,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Binder_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Current.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\ImportInterface.h" />
@@ -146,8 +147,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\stateless.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\SyncDomainTraits.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
   </ItemGroup>
@@ -199,6 +201,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md" />
+    <None Include="..\SRC\readme.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

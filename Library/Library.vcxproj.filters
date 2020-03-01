@@ -283,9 +283,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationDomain.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Interface.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -412,8 +409,17 @@
     <ClInclude Include="..\ORB\Include\CORBA\POA_c.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\stateless.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\SyncDomainTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\stateless.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\core_objects.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\Current.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -503,5 +509,6 @@
     <None Include="..\ORB\readme.md">
       <Filter>ORB</Filter>
     </None>
+    <None Include="..\SRC\readme.md" />
   </ItemGroup>
 </Project>
