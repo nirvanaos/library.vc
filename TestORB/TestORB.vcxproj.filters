@@ -57,6 +57,9 @@
     <ClCompile Include="..\ORB\Test\Core\Current.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Test\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
