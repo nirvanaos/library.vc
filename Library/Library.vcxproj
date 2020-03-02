@@ -45,7 +45,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\NamedValue.h" />
     <ClInclude Include="..\ORB\Include\CORBA\NamedValue_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectLink.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterLink.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleServant.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantBaseImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantBaseLink.h" />
@@ -158,7 +158,7 @@
     <ClCompile Include="..\ORB\Source\g_object_factory.cpp" />
     <ClCompile Include="..\ORB\Source\LocalObjectPOA.cpp" />
     <ClCompile Include="..\ORB\Source\ObjectLink.cpp" />
-    <ClCompile Include="..\ORB\Source\ReferenceCounterLink.cpp" />
+    <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp" />
     <ClCompile Include="..\ORB\Source\Type.cpp" />
     <ClCompile Include="..\ORB\Source\Any.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>

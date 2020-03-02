@@ -331,9 +331,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterLink.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Server.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -421,6 +418,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Current.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleServant.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -489,9 +489,6 @@
     <ClCompile Include="..\ORB\Source\g_object_factory.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\ReferenceCounterLink.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\ObjectLink.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -502,6 +499,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\LocalObjectPOA.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>

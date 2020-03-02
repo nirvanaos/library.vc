@@ -19,19 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ORB\Test\Loader.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Core\Loader.cpp" />
+    <ClCompile Include="..\ORB\Test\Core\ORB\ObjectFactory.cpp" />
+    <ClCompile Include="..\ORB\Test\Core\ORB\ProxyManager.cpp" />
+    <ClCompile Include="..\ORB\Test\Core\ORB\ServantBase.cpp" />
     <ClCompile Include="..\ORB\Test\I1.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
-    <ClCompile Include="..\ORB\Test\ObjectFactoryCore.cpp">
-      <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</PreprocessToFile>
-      <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</PreprocessToFile>
-      <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</PreprocessToFile>
-      <PreprocessToFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</PreprocessToFile>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Test\ObjectImpl.cpp" />
-    <ClCompile Include="..\ORB\Test\ServantCore.cpp" />
     <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I1_p.cpp">
@@ -56,17 +49,25 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ORB\Test\Loader.h" />
+    <ClInclude Include="..\ORB\Test\Core\AtomicCounter.h" />
+    <ClInclude Include="..\ORB\Test\Core\LifeCycle.h" />
+    <ClInclude Include="..\ORB\Test\Core\Loader.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\GarbageCollector.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\LocalObject.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\ObjectFactory.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\ObjectImpl.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyBase.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyLocal.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyManager.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyObject.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\ReferenceCounter.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\RootPOA.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\ServantBase.h" />
+    <ClInclude Include="..\ORB\Test\Core\Runnable.h" />
+    <ClInclude Include="..\ORB\Test\Core\StaticObject.h" />
+    <ClInclude Include="..\ORB\Test\Core\SyncDomainTraits.h" />
     <ClInclude Include="..\ORB\Test\I1.h" />
     <ClInclude Include="..\ORB\Test\I3.h" />
-    <ClInclude Include="..\ORB\Test\LocalObjectCore.h" />
-    <ClInclude Include="..\ORB\Test\LocalObjectStaticCore.h" />
-    <ClInclude Include="..\ORB\Test\ObjectCore.h" />
-    <ClInclude Include="..\ORB\Test\ObjectFactoryCore.h" />
-    <ClInclude Include="..\ORB\Test\ObjectImpl.h" />
-    <ClInclude Include="..\ORB\Test\POACore.h" />
-    <ClInclude Include="..\ORB\Test\ReferenceCounterImpl.h" />
-    <ClInclude Include="..\ORB\Test\ServantCore.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
     <ClInclude Include="..\ORB\Test\Test_I1.h" />

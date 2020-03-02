@@ -13,6 +13,12 @@
       <UniqueIdentifier>{15813285-BD0C-46DB-BB75-3C13444ADF4C}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3026dde9-bde5-4323-807b-07b6e2948b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ORB">
+      <UniqueIdentifier>{81f68af8-50e4-421f-a9c2-9fa7e1fbf044}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Test\I1.cpp">
@@ -21,26 +27,26 @@
     <ClCompile Include="..\ORB\Test\I3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\ObjectFactoryCore.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Test\ObjectImpl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Test\ServantCore.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\TestORB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Loader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Test_I1_p.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Core\Loader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Core\ORB\ObjectFactory.cpp">
+      <Filter>Core\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Core\ORB\ProxyManager.cpp">
+      <Filter>Core\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Core\ORB\ServantBase.cpp">
+      <Filter>Core\ORB</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -51,30 +57,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\I3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\LocalObjectCore.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\LocalObjectStaticCore.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\ObjectCore.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\ObjectFactoryCore.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\ObjectImpl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\POACore.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\ReferenceCounterImpl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\ServantCore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Server.h">
@@ -92,9 +74,6 @@
     <ClInclude Include="..\ORB\Test\TestORB.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Test\Loader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Test_I1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -103,6 +82,57 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Test_I3.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\AtomicCounter.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\LifeCycle.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\Loader.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\Runnable.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\StaticObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\SyncDomainTraits.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\GarbageCollector.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\LocalObject.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\ObjectFactory.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\ObjectImpl.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyBase.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyLocal.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyManager.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyObject.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\ReferenceCounter.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\RootPOA.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\ServantBase.h">
+      <Filter>Core\ORB</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
