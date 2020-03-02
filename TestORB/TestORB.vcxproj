@@ -19,9 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\Test\Core\Current.cpp" />
+    <ClCompile Include="..\ORB\Test\Core\FreeSyncDomain.cpp" />
     <ClCompile Include="..\ORB\Test\Core\Loader.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ProxyManager.cpp" />
+    <ClCompile Include="..\ORB\Test\Core\ORB\RootPOA.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ServantBase.cpp" />
     <ClCompile Include="..\ORB\Test\I1.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
@@ -64,8 +67,6 @@
     <ClInclude Include="..\ORB\Test\Core\ORB\RootPOA.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\ServantBase.h" />
     <ClInclude Include="..\ORB\Test\Core\Runnable.h" />
-    <ClInclude Include="..\ORB\Test\Core\StaticObject.h" />
-    <ClInclude Include="..\ORB\Test\Core\SyncDomainTraits.h" />
     <ClInclude Include="..\ORB\Test\I1.h" />
     <ClInclude Include="..\ORB\Test\I3.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />
