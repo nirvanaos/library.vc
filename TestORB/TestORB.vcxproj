@@ -24,11 +24,13 @@
     <ClCompile Include="..\ORB\Test\Core\Loader.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ProxyManager.cpp" />
-    <ClCompile Include="..\ORB\Test\Core\ORB\RootPOA.cpp" />
+    <ClCompile Include="..\ORB\Test\Core\ORB\ProxyObject.cpp" />
+    <ClCompile Include="..\ORB\Test\Core\ORB\POA.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ServantBase.cpp" />
     <ClCompile Include="..\ORB\Test\I1.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
     <ClCompile Include="..\ORB\Test\main.cpp" />
+    <ClCompile Include="..\ORB\Test\RootPOA.cpp" />
     <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I1_p.cpp">
@@ -65,11 +67,12 @@
     <ClInclude Include="..\ORB\Test\Core\ORB\ProxyManager.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\ProxyObject.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\ReferenceCounter.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\RootPOA.h" />
+    <ClInclude Include="..\ORB\Test\Core\ORB\POA.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\ServantBase.h" />
     <ClInclude Include="..\ORB\Test\Core\Runnable.h" />
     <ClInclude Include="..\ORB\Test\I1.h" />
     <ClInclude Include="..\ORB\Test\I3.h" />
+    <ClInclude Include="..\ORB\Test\RootPOA.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
     <ClInclude Include="..\ORB\Test\Test_I1.h" />
@@ -153,7 +156,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>TEST_LOCAL_OBJECT;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>

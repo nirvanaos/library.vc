@@ -152,6 +152,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\SyncDomainTraits.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\SyncDomainTraits_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Syncronized.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
   </ItemGroup>
@@ -161,6 +162,7 @@
     <ClCompile Include="..\ORB\Source\LocalObjectPOA.cpp" />
     <ClCompile Include="..\ORB\Source\ObjectLink.cpp" />
     <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp" />
+    <ClCompile Include="..\ORB\Source\POA.cpp" />
     <ClCompile Include="..\ORB\Source\Type.cpp" />
     <ClCompile Include="..\ORB\Source\Any.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>

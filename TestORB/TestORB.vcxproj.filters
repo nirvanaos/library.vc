@@ -48,9 +48,6 @@
     <ClCompile Include="..\ORB\Test\Core\ORB\ServantBase.cpp">
       <Filter>Core\ORB</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Core\ORB\RootPOA.cpp">
-      <Filter>Core\ORB</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Core\FreeSyncDomain.cpp">
       <Filter>Core</Filter>
     </ClCompile>
@@ -58,6 +55,15 @@
       <Filter>Core</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Test\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Core\ORB\ProxyObject.cpp">
+      <Filter>Core\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Core\ORB\POA.cpp">
+      <Filter>Core\ORB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\RootPOA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -134,11 +140,14 @@
     <ClInclude Include="..\ORB\Test\Core\ORB\ReferenceCounter.h">
       <Filter>Core\ORB</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Test\Core\ORB\RootPOA.h">
-      <Filter>Core\ORB</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Core\ORB\ServantBase.h">
       <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\ORB\POA.h">
+      <Filter>Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\RootPOA.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

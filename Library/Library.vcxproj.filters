@@ -427,6 +427,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Current_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\Syncronized.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -508,6 +511,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\POA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
