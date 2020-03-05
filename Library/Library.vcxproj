@@ -158,7 +158,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
-    <ClCompile Include="..\ORB\Source\g_object_factory.cpp" />
     <ClCompile Include="..\ORB\Source\LocalObjectPOA.cpp" />
     <ClCompile Include="..\ORB\Source\ObjectLink.cpp" />
     <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp" />

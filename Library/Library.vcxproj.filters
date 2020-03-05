@@ -495,9 +495,6 @@
     <ClCompile Include="..\ORB\Source\String_compat.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\g_object_factory.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\ObjectLink.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>

@@ -55,7 +55,6 @@
   <ItemGroup>
     <ClInclude Include="..\ORB\Test\Core\AtomicCounter.h" />
     <ClInclude Include="..\ORB\Test\Core\LifeCycle.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\GarbageCollector.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\LocalObject.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\ObjectFactory.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\ObjectImpl.h" />

@@ -104,9 +104,6 @@
     <ClInclude Include="..\ORB\Test\Core\Runnable.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Test\Core\ORB\GarbageCollector.h">
-      <Filter>Core\ORB</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Core\ORB\LocalObject.h">
       <Filter>Core\ORB</Filter>
     </ClInclude>
