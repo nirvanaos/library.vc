@@ -427,7 +427,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Current_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Syncronized.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\Synchronized.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

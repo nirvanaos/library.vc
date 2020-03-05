@@ -152,7 +152,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\SyncDomainTraits.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\SyncDomainTraits_s.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\Syncronized.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Synchronized.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
   </ItemGroup>
