@@ -36,9 +36,6 @@
     <ClCompile Include="..\ORB\Test\Test_I1_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Core\Loader.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Core\ORB\ObjectFactory.cpp">
       <Filter>Core\ORB</Filter>
     </ClCompile>
@@ -54,16 +51,13 @@
     <ClCompile Include="..\ORB\Test\Core\Current.cpp">
       <Filter>Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Core\ORB\ProxyObject.cpp">
       <Filter>Core\ORB</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Core\ORB\POA.cpp">
       <Filter>Core\ORB</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\RootPOA.cpp">
+    <ClCompile Include="..\ORB\Test\MockBinder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -107,9 +101,6 @@
     <ClInclude Include="..\ORB\Test\Core\LifeCycle.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Test\Core\Loader.h">
-      <Filter>Core</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Core\Runnable.h">
       <Filter>Core</Filter>
     </ClInclude>
@@ -146,7 +137,10 @@
     <ClInclude Include="..\ORB\Test\Core\ORB\POA.h">
       <Filter>Core\ORB</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Test\RootPOA.h">
+    <ClInclude Include="..\ORB\Test\MockPOA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\MockBinder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

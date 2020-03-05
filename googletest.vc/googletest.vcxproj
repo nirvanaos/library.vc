@@ -20,11 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\googletest\googletest\src\gtest-all.cc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Library\Library.vcxproj">
-      <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
-    </ProjectReference>
+    <ClCompile Include="..\googletest\googletest\src\gtest_main.cc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

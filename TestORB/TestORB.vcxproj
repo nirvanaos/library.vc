@@ -21,7 +21,6 @@
   <ItemGroup>
     <ClCompile Include="..\ORB\Test\Core\Current.cpp" />
     <ClCompile Include="..\ORB\Test\Core\FreeSyncDomain.cpp" />
-    <ClCompile Include="..\ORB\Test\Core\Loader.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ProxyManager.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ProxyObject.cpp" />
@@ -29,8 +28,7 @@
     <ClCompile Include="..\ORB\Test\Core\ORB\ServantBase.cpp" />
     <ClCompile Include="..\ORB\Test\I1.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
-    <ClCompile Include="..\ORB\Test\main.cpp" />
-    <ClCompile Include="..\ORB\Test\RootPOA.cpp" />
+    <ClCompile Include="..\ORB\Test\MockBinder.cpp" />
     <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I1_p.cpp">
@@ -57,7 +55,6 @@
   <ItemGroup>
     <ClInclude Include="..\ORB\Test\Core\AtomicCounter.h" />
     <ClInclude Include="..\ORB\Test\Core\LifeCycle.h" />
-    <ClInclude Include="..\ORB\Test\Core\Loader.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\GarbageCollector.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\LocalObject.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\ObjectFactory.h" />
@@ -72,7 +69,8 @@
     <ClInclude Include="..\ORB\Test\Core\Runnable.h" />
     <ClInclude Include="..\ORB\Test\I1.h" />
     <ClInclude Include="..\ORB\Test\I3.h" />
-    <ClInclude Include="..\ORB\Test\RootPOA.h" />
+    <ClInclude Include="..\ORB\Test\MockBinder.h" />
+    <ClInclude Include="..\ORB\Test\MockPOA.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
     <ClInclude Include="..\ORB\Test\Test_I1.h" />
