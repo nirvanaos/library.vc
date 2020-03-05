@@ -45,9 +45,6 @@
     <ClCompile Include="..\ORB\Test\Core\ORB\ServantBase.cpp">
       <Filter>Core\ORB</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Core\FreeSyncDomain.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Core\Current.cpp">
       <Filter>Core</Filter>
     </ClCompile>
@@ -59,6 +56,9 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Test\MockBinder.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Core\FreeSyncContext.cpp">
+      <Filter>Core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

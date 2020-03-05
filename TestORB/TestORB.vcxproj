@@ -20,7 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Test\Core\Current.cpp" />
-    <ClCompile Include="..\ORB\Test\Core\FreeSyncDomain.cpp" />
+    <ClCompile Include="..\ORB\Test\Core\FreeSyncContext.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ProxyManager.cpp" />
     <ClCompile Include="..\ORB\Test\Core\ORB\ProxyObject.cpp" />

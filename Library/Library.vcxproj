@@ -26,6 +26,8 @@
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectPOA.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_forward.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_string.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\POA_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h" />
@@ -61,7 +63,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\String_compat.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeVarLen.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type_forward.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeInterface.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Type_interface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Any.h" />
@@ -150,8 +152,8 @@
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\stateless.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\SyncDomainTraits.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\SyncDomainTraits_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationContext.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationContext_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Synchronized.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
