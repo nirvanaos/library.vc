@@ -27,6 +27,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_forward.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_sequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_string.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\POA_c.h" />
