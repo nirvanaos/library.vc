@@ -30,6 +30,10 @@
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_sequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_string.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectStatic.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformCall.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformMarshalContext.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformObjRef.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformUnmarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\POA_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h" />
@@ -92,7 +96,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationTied.h" />
     <ClInclude Include="..\ORB\Include\CORBA\iop.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycle.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformMarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Object.h" />
@@ -153,9 +157,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\stateless.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationContext.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationContext_s.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\Synchronized.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
   </ItemGroup>

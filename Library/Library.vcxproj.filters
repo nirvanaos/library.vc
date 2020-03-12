@@ -214,9 +214,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\DynamicServant.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\LocalMarshal.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Object.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -418,15 +415,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Current_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Synchronized.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationContext.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\SynchronizationContext_s.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_string.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -437,6 +425,21 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_sequence.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformMarshal.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformMarshalContext.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformObjRef.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformUnmarshal.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformCall.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

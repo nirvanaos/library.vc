@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Test\Core\AtomicCounter.h" />
+    <ClInclude Include="..\ORB\Test\Core\CoreInterface.h" />
     <ClInclude Include="..\ORB\Test\Core\LifeCycle.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\LocalObject.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\ObjectFactory.h" />
@@ -66,6 +67,8 @@
     <ClInclude Include="..\ORB\Test\Core\ORB\POA.h" />
     <ClInclude Include="..\ORB\Test\Core\ORB\ServantBase.h" />
     <ClInclude Include="..\ORB\Test\Core\Runnable.h" />
+    <ClInclude Include="..\ORB\Test\Core\SynchronizationContext.h" />
+    <ClInclude Include="..\ORB\Test\Core\Synchronized.h" />
     <ClInclude Include="..\ORB\Test\I1.h" />
     <ClInclude Include="..\ORB\Test\I3.h" />
     <ClInclude Include="..\ORB\Test\MockBinder.h" />

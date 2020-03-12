@@ -140,5 +140,14 @@
     <ClInclude Include="..\ORB\Test\MockBinder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\SynchronizationContext.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\CoreInterface.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Core\Synchronized.h">
+      <Filter>Core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
