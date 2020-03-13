@@ -30,7 +30,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_sequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_string.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectStatic.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformCall.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\PlatformRequest.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PlatformMarshalContext.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PlatformObjRef.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PlatformUnmarshal.h" />
