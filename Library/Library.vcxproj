@@ -131,7 +131,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\SystemException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\tc_constants.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCode_b.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_ptr.h" />
     <ClInclude Include="..\ORB\Include\CORBA\UserException.h" />

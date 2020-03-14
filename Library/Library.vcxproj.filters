@@ -184,9 +184,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCode_b.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\EnvironmentEx.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
