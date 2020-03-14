@@ -26,15 +26,24 @@
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectPOA.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_forward.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_sequence.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_string.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectStatic.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformRequest.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformMarshalContext.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformObjRef.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformUnmarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\POA_c.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_forward.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_sequence.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_string.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformMarshal.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformMarshalContext.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformObjRef.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformRequest.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformUnmarshal.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory_s.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeBasic.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeException.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeImpl.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeObject.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalPOA.h" />
@@ -96,7 +105,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationTied.h" />
     <ClInclude Include="..\ORB\Include\CORBA\iop.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycle.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformMarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Object.h" />
@@ -105,8 +113,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\POA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\POA_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PortableServer.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ProxyFactory.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ProxyFactory_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RepositoryId.h" />
@@ -120,16 +126,10 @@
     <ClInclude Include="..\ORB\Include\CORBA\set_exception.h" />
     <ClInclude Include="..\ORB\Include\CORBA\String.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ABI_String.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits.h" />
     <ClInclude Include="..\ORB\Include\CORBA\system_exceptions.h" />
     <ClInclude Include="..\ORB\Include\CORBA\SystemException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\tc_constants.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeBasic.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeException.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeImpl.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeObject.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeString.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode_b.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_ptr.h" />
@@ -170,14 +170,12 @@
     <ClCompile Include="..\ORB\Source\Any.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\Environment.cpp" />
     <ClCompile Include="..\ORB\Source\EnvironmentImpl.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\exceptions.cpp" />
     <ClCompile Include="..\ORB\Source\FindInterface.cpp" />
     <ClCompile Include="..\ORB\Source\SystemException.cpp" />
     <ClCompile Include="..\ORB\Source\ServantBaseLink.cpp">

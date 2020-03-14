@@ -20,6 +20,9 @@
       <UniqueIdentifier>{b1f4530c-d57f-46ba-b044-5f17e62b5f45}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="ORB\Proxy">
+      <UniqueIdentifier>{356c0ac8-7527-421e-afb5-5c22c2daae47}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -97,9 +100,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\PortableServer.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ProxyFactory_s.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -143,21 +143,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode_s.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeImpl.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeException.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeBasic.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeString.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeObject.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Environment_c.h">
@@ -205,9 +190,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\EnvironmentEx.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -221,9 +203,6 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\POA.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ProxyFactory.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter.h">
@@ -415,32 +394,56 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Current_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_string.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_forward.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Type_interface.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_sequence.h">
-      <Filter>ORB\Header Files</Filter>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits.h">
+      <Filter>ORB\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformMarshal.h">
-      <Filter>ORB\Header Files</Filter>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_forward.h">
+      <Filter>ORB\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformMarshalContext.h">
-      <Filter>ORB\Header Files</Filter>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_sequence.h">
+      <Filter>ORB\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformObjRef.h">
-      <Filter>ORB\Header Files</Filter>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_string.h">
+      <Filter>ORB\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformUnmarshal.h">
-      <Filter>ORB\Header Files</Filter>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformMarshal.h">
+      <Filter>ORB\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\PlatformRequest.h">
-      <Filter>ORB\Header Files</Filter>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformMarshalContext.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformObjRef.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformRequest.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformUnmarshal.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory_s.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeBasic.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeException.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeImpl.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeObject.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h">
+      <Filter>ORB\Proxy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -474,9 +477,6 @@
     <ClCompile Include="..\ORB\Source\SystemException.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\exceptions.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\EnvironmentImpl.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -487,9 +487,6 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\Any.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\Environment.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\FindInterface.cpp">
