@@ -71,9 +71,10 @@
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StringBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeByRef.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeEnum.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeFixLen.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeScalar.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeByValue.h" />
     <ClInclude Include="..\ORB\Include\CORBA\String_compat.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeVarLen.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type_forward.h" />
