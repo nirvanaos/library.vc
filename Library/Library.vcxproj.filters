@@ -433,16 +433,22 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeImpl.h">
       <Filter>ORB\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeObject.h">
-      <Filter>ORB\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h">
       <Filter>ORB\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeByValue.h">
+    <ClInclude Include="..\ORB\Include\CORBA\TypeByRef.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeByRef.h">
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_Object.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_TypeCode.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TypeByVal.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCode_forward.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

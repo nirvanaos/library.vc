@@ -39,10 +39,11 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformUnmarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory_s.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_TypeCode.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeBasic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeImpl.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeObject.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_Object.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h" />
@@ -72,9 +73,10 @@
     <ClInclude Include="..\ORB\Include\CORBA\StringBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeByRef.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCode_forward.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeEnum.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeFixLen.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeByValue.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeByVal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\String_compat.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeVarLen.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type_forward.h" />
@@ -197,6 +199,7 @@
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
