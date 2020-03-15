@@ -35,8 +35,10 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformMarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformMarshalContext.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformObjRef.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformProxyBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformRequest.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\PlatformUnmarshal.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Proxy.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_TypeCode.h" />
@@ -135,6 +137,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_ptr.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\UnknownUserException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\UserException.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Binder.h" />
@@ -201,6 +204,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\UnknownUserException.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
