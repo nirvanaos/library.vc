@@ -460,6 +460,15 @@
     <ClInclude Include="..\ORB\Include\CORBA\UnknownUserException.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeSequence.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeInterface.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\InterfaceMetadata.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
