@@ -30,6 +30,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\POA_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\InterfaceMetadata.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_any.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_forward.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_sequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_string.h" />
@@ -44,10 +45,10 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_TypeCode.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeBasic.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_Object.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeMembers.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeSequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h" />
@@ -171,6 +172,7 @@
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
     <ClCompile Include="..\ORB\Source\LocalObjectPOA.cpp" />
+    <ClCompile Include="..\ORB\Source\MarshalTraits_any.cpp" />
     <ClCompile Include="..\ORB\Source\ObjectLink.cpp" />
     <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp" />
     <ClCompile Include="..\ORB\Source\POA.cpp" />

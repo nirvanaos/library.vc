@@ -463,10 +463,13 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeSequence.h">
       <Filter>ORB\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeInterface.h">
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\InterfaceMetadata.h">
       <Filter>ORB\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\InterfaceMetadata.h">
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeMembers.h">
+      <Filter>ORB\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_any.h">
       <Filter>ORB\Proxy</Filter>
     </ClInclude>
   </ItemGroup>
@@ -547,6 +550,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\UnknownUserException.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\MarshalTraits_any.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>

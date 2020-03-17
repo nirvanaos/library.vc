@@ -60,6 +60,9 @@
     <ClCompile Include="..\ORB\Test\Core\FreeSyncContext.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

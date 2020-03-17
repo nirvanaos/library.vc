@@ -31,6 +31,7 @@
     <ClCompile Include="..\ORB\Test\MockBinder.cpp" />
     <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
+    <ClCompile Include="..\ORB\Test\Test_I1.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I1_p.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
