@@ -15,3 +15,4 @@
 #define BRIDGE_BEGIN(I) template <> struct Bridge < I>::EPV { Interface::EPV header; struct {
 #define BRIDGE_EPV
 #define BRIDGE_END() } epv;};
+#define IMPLEMENT_PROXY_FACTORY
