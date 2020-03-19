@@ -9,20 +9,24 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="ORB">
+      <UniqueIdentifier>{bf7f757c-f258-452d-9491-54bcf5ec262d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ORB\Header Files">
+      <UniqueIdentifier>{34fe4bd4-8ee0-4c98-91ea-d0f1c4790f03}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="ORB\Source Files">
+      <UniqueIdentifier>{e9811b90-4cb4-4759-a18b-78de410b7cc0}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\CoreImport\g_memory.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\ORB\Core\system_exceptions.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\g_object_factory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\tc_constants.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\ORB\Core\tc_constants.cpp">
+      <Filter>ORB</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

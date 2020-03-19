@@ -22,6 +22,7 @@
     </Filter>
     <Filter Include="ORB\Header Files\Proxy">
       <UniqueIdentifier>{c9f45f44-bf81-4f0c-a367-87088d51a6e6}</UniqueIdentifier>
+      <Extensions>h</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -448,15 +449,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory_s.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_Object.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_TypeCode.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeBasic.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeException.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
@@ -470,6 +462,9 @@
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h">
+      <Filter>ORB\Header Files\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeEnum.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
   </ItemGroup>

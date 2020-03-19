@@ -43,11 +43,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Proxy.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory_s.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_TypeCode.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeBasic.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeEnum.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeImpl.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TC_Object.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeMembers.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeSequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h" />

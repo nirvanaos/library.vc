@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\Mock\TypeCode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Mock\MockRuntimeSupport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

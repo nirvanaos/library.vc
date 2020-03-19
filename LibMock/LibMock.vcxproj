@@ -21,7 +21,6 @@
   <ItemGroup>
     <ClCompile Include="..\SRC\Mock\MockMemory.cpp" />
     <ClCompile Include="..\SRC\Mock\MockRuntimeSupport.cpp" />
-    <ClCompile Include="..\SRC\Mock\TypeCode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Mock\MockMemory.h" />
