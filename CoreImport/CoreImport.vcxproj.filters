@@ -9,9 +9,16 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="ORB">
+      <UniqueIdentifier>{52ffac38-7c61-4ab8-a938-f7e32a6e6f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ORB\Header Files">
+      <UniqueIdentifier>{ef98eb34-73b7-41fa-85c1-3d82c4a47d19}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="ORB\Source Files">
+      <UniqueIdentifier>{9eef87f0-b2d1-466a-87f9-2c675a2036bf}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -21,8 +28,11 @@
     <ClCompile Include="..\SRC\CoreImport\g_object_factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\tc_constants.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\ORB\CoreImport\tc_constants.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\CoreImport\tc_exceptions.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

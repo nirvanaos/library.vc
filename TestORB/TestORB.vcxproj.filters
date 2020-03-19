@@ -9,10 +9,6 @@
       <UniqueIdentifier>{4AF1D5D3-71CD-4AD7-814A-133EE36DC9B5}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{15813285-BD0C-46DB-BB75-3C13444ADF4C}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="Core">
       <UniqueIdentifier>{3026dde9-bde5-4323-807b-07b6e2948b20}</UniqueIdentifier>
     </Filter>

@@ -19,8 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ORB\Core\system_exceptions.cpp" />
+    <ClCompile Include="..\ORB\Core\tc_exceptions.cpp" />
     <ClCompile Include="..\ORB\Core\tc_constants.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ORB\Core\tc_impex.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

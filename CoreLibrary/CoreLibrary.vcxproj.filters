@@ -22,11 +22,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ORB\Core\system_exceptions.cpp">
+    <ClCompile Include="..\ORB\Core\tc_constants.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Core\tc_constants.cpp">
-      <Filter>ORB</Filter>
+    <ClCompile Include="..\ORB\Core\tc_exceptions.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ORB\Core\tc_impex.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

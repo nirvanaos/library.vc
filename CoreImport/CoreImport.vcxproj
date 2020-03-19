@@ -19,9 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\CoreImport\tc_constants.cpp" />
+    <ClCompile Include="..\ORB\CoreImport\tc_exceptions.cpp" />
     <ClCompile Include="..\SRC\CoreImport\g_memory.cpp" />
     <ClCompile Include="..\SRC\CoreImport\g_object_factory.cpp" />
-    <ClCompile Include="..\SRC\CoreImport\tc_constants.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
