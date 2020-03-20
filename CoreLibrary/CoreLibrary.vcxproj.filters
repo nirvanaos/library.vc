@@ -28,6 +28,9 @@
     <ClCompile Include="..\ORB\Core\tc_exceptions.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Core\TypeCode.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Core\tc_impex.h">

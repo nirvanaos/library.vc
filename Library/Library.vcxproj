@@ -89,7 +89,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Any.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ABI_Any.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\BasicTypes.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Bridge.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Client.h" />
     <ClInclude Include="..\ORB\Include\CORBA\CORBA.h" />

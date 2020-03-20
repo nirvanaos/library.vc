@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="..\ORB\Core\tc_exceptions.cpp" />
     <ClCompile Include="..\ORB\Core\tc_constants.cpp" />
+    <ClCompile Include="..\ORB\Core\TypeCode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Core\tc_impex.h" />

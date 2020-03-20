@@ -50,9 +50,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Any.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\BasicTypes.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Bridge.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -466,6 +463,9 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeEnum.h">
       <Filter>ORB\Header Files\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\basic_types.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
