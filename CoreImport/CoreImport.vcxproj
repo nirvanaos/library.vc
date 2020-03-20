@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\CoreImport\POA.cpp" />
     <ClCompile Include="..\ORB\CoreImport\tc_constants.cpp" />
     <ClCompile Include="..\ORB\CoreImport\tc_exceptions.cpp" />
     <ClCompile Include="..\ORB\CoreImport\TypeCode.cpp" />

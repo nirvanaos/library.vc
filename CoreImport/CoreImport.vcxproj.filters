@@ -37,5 +37,8 @@
     <ClCompile Include="..\ORB\CoreImport\TypeCode.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\CoreImport\POA.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
