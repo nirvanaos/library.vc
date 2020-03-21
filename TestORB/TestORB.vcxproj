@@ -19,16 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ORB\Test\Core\Current.cpp" />
-    <ClCompile Include="..\ORB\Test\Core\FreeSyncContext.cpp" />
-    <ClCompile Include="..\ORB\Test\Core\ORB\ObjectFactory.cpp" />
-    <ClCompile Include="..\ORB\Test\Core\ORB\ProxyManager.cpp" />
-    <ClCompile Include="..\ORB\Test\Core\ORB\ProxyObject.cpp" />
-    <ClCompile Include="..\ORB\Test\Core\ORB\POA.cpp" />
-    <ClCompile Include="..\ORB\Test\Core\ORB\ServantBase.cpp" />
     <ClCompile Include="..\ORB\Test\I1.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
     <ClCompile Include="..\ORB\Test\MockBinder.cpp" />
+    <ClCompile Include="..\ORB\Test\Mock\Core\Current.cpp" />
+    <ClCompile Include="..\ORB\Test\Mock\Core\FreeSyncContext.cpp" />
+    <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.cpp" />
+    <ClCompile Include="..\ORB\Test\Mock\Core\ORB\POA.cpp" />
+    <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ProxyObject.cpp" />
+    <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ServantBase.cpp" />
     <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I1.cpp" />
@@ -54,26 +53,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ORB\Test\Core\AtomicCounter.h" />
-    <ClInclude Include="..\ORB\Test\Core\CoreInterface.h" />
-    <ClInclude Include="..\ORB\Test\Core\LifeCycle.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\LocalObject.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\ObjectFactory.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\ObjectImpl.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyBase.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyLocal.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyManager.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\ProxyObject.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\ReferenceCounter.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\POA.h" />
-    <ClInclude Include="..\ORB\Test\Core\ORB\ServantBase.h" />
-    <ClInclude Include="..\ORB\Test\Core\Runnable.h" />
-    <ClInclude Include="..\ORB\Test\Core\SynchronizationContext.h" />
-    <ClInclude Include="..\ORB\Test\Core\Synchronized.h" />
     <ClInclude Include="..\ORB\Test\I1.h" />
     <ClInclude Include="..\ORB\Test\I3.h" />
-    <ClInclude Include="..\ORB\Test\MockBinder.h" />
-    <ClInclude Include="..\ORB\Test\MockPOA.h" />
+    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\LocalObject.h" />
+    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.h" />
+    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\POA.h" />
+    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyBase.h" />
+    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyLocal.h" />
+    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyObject.h" />
+    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ReferenceCounter.h" />
+    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ServantBase.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
     <ClInclude Include="..\ORB\Test\Test_I1.h" />

@@ -34,10 +34,43 @@
     <ClCompile Include="..\ORB\Core\POA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Core\ProxyManager.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Core\ServantProxyManager.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Core\tc_impex.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Core\CoreInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Core\Runnable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Core\SynchronizationContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Core\Synchronized.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\Core\ORB\ObjectImpl.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\Core\ORB\ProxyManager.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\Core\ORB\ServantProxyManager.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Core\AtomicCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Core\LifeCycle.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

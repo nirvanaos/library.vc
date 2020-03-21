@@ -19,13 +19,24 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\Core\ProxyManager.cpp" />
     <ClCompile Include="..\ORB\Core\POA.cpp" />
+    <ClCompile Include="..\ORB\Core\ServantProxyManager.cpp" />
     <ClCompile Include="..\ORB\Core\tc_exceptions.cpp" />
     <ClCompile Include="..\ORB\Core\tc_constants.cpp" />
     <ClCompile Include="..\ORB\Core\TypeCode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Core\tc_impex.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ObjectImpl.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ProxyManager.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ServantProxyManager.h" />
+    <ClInclude Include="..\SRC\Include\Core\AtomicCounter.h" />
+    <ClInclude Include="..\SRC\Include\Core\CoreInterface.h" />
+    <ClInclude Include="..\SRC\Include\Core\LifeCycle.h" />
+    <ClInclude Include="..\SRC\Include\Core\Runnable.h" />
+    <ClInclude Include="..\SRC\Include\Core\SynchronizationContext.h" />
+    <ClInclude Include="..\SRC\Include\Core\Synchronized.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -103,7 +114,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\ORB\Test\Mock</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
     </ClCompile>
     <Link>
@@ -119,7 +130,7 @@
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\ORB\Test\Mock</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
     </ClCompile>
     <Link>
@@ -137,7 +148,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\ORB\Test\Mock</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -156,7 +167,7 @@
       <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\ORB\Test\Mock</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
