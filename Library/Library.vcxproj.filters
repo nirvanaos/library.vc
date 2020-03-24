@@ -362,9 +362,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ObjectStatic.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -465,6 +462,9 @@
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\LocalObjectStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
