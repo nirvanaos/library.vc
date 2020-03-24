@@ -21,13 +21,13 @@
   <ItemGroup>
     <ClCompile Include="..\ORB\Test\I1.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
-    <ClCompile Include="..\ORB\Test\MockBinder.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Core\Current.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Core\FreeSyncContext.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\POA.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ProxyObject.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ServantBase.cpp" />
+    <ClCompile Include="..\ORB\Test\Mock\MockBinder.cpp" />
     <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I1.cpp" />
@@ -63,6 +63,8 @@
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyObject.h" />
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ReferenceCounter.h" />
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ServantBase.h" />
+    <ClInclude Include="..\ORB\Test\Mock\MockBinder.h" />
+    <ClInclude Include="..\ORB\Test\Mock\MockPOA.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
     <ClInclude Include="..\ORB\Test\Test_I1.h" />

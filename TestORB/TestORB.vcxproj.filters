@@ -9,10 +9,13 @@
       <UniqueIdentifier>{4AF1D5D3-71CD-4AD7-814A-133EE36DC9B5}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Core">
+    <Filter Include="Mock">
+      <UniqueIdentifier>{7f1e5c72-a3a4-44d0-9588-a260aaed85bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mock\Core">
       <UniqueIdentifier>{3026dde9-bde5-4323-807b-07b6e2948b20}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Core\ORB">
+    <Filter Include="Mock\Core\ORB">
       <UniqueIdentifier>{81f68af8-50e4-421f-a9c2-9fa7e1fbf044}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -32,29 +35,29 @@
     <ClCompile Include="..\ORB\Test\Test_I1_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\MockBinder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Test_I1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.cpp">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\POA.cpp">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ProxyObject.cpp">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ServantBase.cpp">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Mock\Core\Current.cpp">
-      <Filter>Core</Filter>
+      <Filter>Mock\Core</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Mock\Core\FreeSyncContext.cpp">
-      <Filter>Core</Filter>
+      <Filter>Mock\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Mock\MockBinder.cpp">
+      <Filter>Mock</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -92,28 +95,34 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\LocalObject.h">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.h">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\POA.h">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyBase.h">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyLocal.h">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyObject.h">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ReferenceCounter.h">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ServantBase.h">
-      <Filter>Core\ORB</Filter>
+      <Filter>Mock\Core\ORB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Mock\MockBinder.h">
+      <Filter>Mock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Mock\MockPOA.h">
+      <Filter>Mock</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
