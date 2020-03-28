@@ -31,6 +31,7 @@
     <ClInclude Include="..\ORB\Include\Core\ORB\ObjectImpl.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\ProxyManager.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\ServantProxyManager.h" />
+    <ClInclude Include="..\SRC\Include\Core\Array.h" />
     <ClInclude Include="..\SRC\Include\Core\AtomicCounter.h" />
     <ClInclude Include="..\SRC\Include\Core\CoreInterface.h" />
     <ClInclude Include="..\SRC\Include\Core\LifeCycle.h" />

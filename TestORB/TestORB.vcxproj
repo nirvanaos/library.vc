@@ -68,6 +68,7 @@
     <ClInclude Include="..\ORB\Test\Server.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
     <ClInclude Include="..\ORB\Test\Test_I1.h" />
+    <ClInclude Include="..\ORB\Test\Test_I1_p.h" />
     <ClInclude Include="..\ORB\Test\Test_I1_s.h" />
     <ClInclude Include="..\ORB\Test\Test_I2.h" />
     <ClInclude Include="..\ORB\Test\Test_I2_s.h" />

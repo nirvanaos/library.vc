@@ -72,5 +72,8 @@
     <ClInclude Include="..\SRC\Include\Core\LifeCycle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Core\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
