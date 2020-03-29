@@ -44,9 +44,6 @@
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\POA.cpp">
       <Filter>Mock\Core\ORB</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ProxyObject.cpp">
-      <Filter>Mock\Core\ORB</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ServantBase.cpp">
       <Filter>Mock\Core\ORB</Filter>
     </ClCompile>
@@ -107,9 +104,6 @@
       <Filter>Mock\Core\ORB</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyLocal.h">
-      <Filter>Mock\Core\ORB</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyObject.h">
       <Filter>Mock\Core\ORB</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ReferenceCounter.h">

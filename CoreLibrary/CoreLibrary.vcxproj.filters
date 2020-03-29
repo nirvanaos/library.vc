@@ -37,7 +37,10 @@
     <ClCompile Include="..\ORB\Core\ProxyManager.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Core\ServantProxyManager.cpp">
+    <ClCompile Include="..\ORB\Core\ServantProxyBase.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Core\ProxyObject.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -57,13 +60,7 @@
     <ClInclude Include="..\SRC\Include\Core\Synchronized.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\Core\ORB\ObjectImpl.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\Core\ORB\ProxyManager.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\Core\ORB\ServantProxyManager.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Core\AtomicCounter.h">
@@ -74,6 +71,12 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Core\Array.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\Core\ORB\ServantProxyBase.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\Core\ORB\ProxyObject.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
