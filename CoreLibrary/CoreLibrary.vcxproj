@@ -22,6 +22,7 @@
     <ClCompile Include="..\ORB\Core\ProxyManager.cpp" />
     <ClCompile Include="..\ORB\Core\POA.cpp" />
     <ClCompile Include="..\ORB\Core\ProxyObject.cpp" />
+    <ClCompile Include="..\ORB\Core\ServantBase.cpp" />
     <ClCompile Include="..\ORB\Core\ServantProxyBase.cpp" />
     <ClCompile Include="..\ORB\Core\tc_exceptions.cpp" />
     <ClCompile Include="..\ORB\Core\tc_constants.cpp" />
@@ -29,8 +30,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Core\tc_impex.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\CoreImpl.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\ProxyManager.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\ProxyObject.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ServantBase.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\ServantProxyBase.h" />
     <ClInclude Include="..\SRC\Include\Core\Array.h" />
     <ClInclude Include="..\SRC\Include\Core\AtomicCounter.h" />
