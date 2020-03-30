@@ -87,5 +87,8 @@
     <ClInclude Include="..\ORB\Include\Core\ORB\CoreImpl.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\Core\ORB\ServantMarshaler.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

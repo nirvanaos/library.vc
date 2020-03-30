@@ -39,6 +39,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Marshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalContext.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Marshal_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IORequest.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Unmarshal.h" />
@@ -51,6 +52,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeMembers.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeSequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Unmarshal_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalPOA.h" />
