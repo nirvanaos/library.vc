@@ -31,6 +31,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\POA_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\InterfaceMetadata.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference_s.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\IORequest_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_any.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_forward.h" />
