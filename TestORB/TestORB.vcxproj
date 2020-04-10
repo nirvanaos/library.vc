@@ -24,7 +24,6 @@
     <ClCompile Include="..\ORB\Test\Mock\Core\Current.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Core\FreeSyncContext.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.cpp" />
-    <ClCompile Include="..\ORB\Test\Mock\Core\ORB\POA.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\MockBinder.cpp" />
     <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
@@ -55,10 +54,8 @@
     <ClInclude Include="..\ORB\Test\I3.h" />
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\LocalObject.h" />
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.h" />
-    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\POA.h" />
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyBase.h" />
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyLocal.h" />
-    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ReferenceCounter.h" />
     <ClInclude Include="..\ORB\Test\Mock\MockBinder.h" />
     <ClInclude Include="..\ORB\Test\Mock\MockPOA.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />
