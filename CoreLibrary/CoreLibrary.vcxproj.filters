@@ -105,5 +105,8 @@
     <ClInclude Include="..\ORB\Include\Core\ORB\ReferenceCounter.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\Core\ORB\LocalObject.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

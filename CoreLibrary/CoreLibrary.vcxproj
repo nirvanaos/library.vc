@@ -33,6 +33,7 @@
   <ItemGroup>
     <ClInclude Include="..\ORB\Core\tc_impex.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\CoreImpl.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\LocalObject.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\POA.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\ProxyLocal.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\ProxyManager.h" />

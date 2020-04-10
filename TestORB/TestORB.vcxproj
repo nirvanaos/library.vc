@@ -21,7 +21,6 @@
   <ItemGroup>
     <ClCompile Include="..\ORB\Test\I1.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
-    <ClCompile Include="..\ORB\Test\Mock\Core\Current.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Core\FreeSyncContext.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\MockBinder.cpp" />
@@ -52,10 +51,7 @@
   <ItemGroup>
     <ClInclude Include="..\ORB\Test\I1.h" />
     <ClInclude Include="..\ORB\Test\I3.h" />
-    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\LocalObject.h" />
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.h" />
-    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyBase.h" />
-    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyLocal.h" />
     <ClInclude Include="..\ORB\Test\Mock\MockBinder.h" />
     <ClInclude Include="..\ORB\Test\Mock\MockPOA.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />

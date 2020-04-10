@@ -41,9 +41,6 @@
     <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.cpp">
       <Filter>Mock\Core\ORB</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Mock\Core\Current.cpp">
-      <Filter>Mock\Core</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Mock\Core\FreeSyncContext.cpp">
       <Filter>Mock\Core</Filter>
     </ClCompile>
@@ -85,16 +82,7 @@
     <ClInclude Include="..\ORB\Test\Test_I3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\LocalObject.h">
-      <Filter>Mock\Core\ORB</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.h">
-      <Filter>Mock\Core\ORB</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyBase.h">
-      <Filter>Mock\Core\ORB</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ProxyLocal.h">
       <Filter>Mock\Core\ORB</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\MockBinder.h">
