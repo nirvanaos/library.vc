@@ -12,12 +12,6 @@
     <Filter Include="Mock">
       <UniqueIdentifier>{7f1e5c72-a3a4-44d0-9588-a260aaed85bf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Mock\Core">
-      <UniqueIdentifier>{3026dde9-bde5-4323-807b-07b6e2948b20}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Mock\Core\ORB">
-      <UniqueIdentifier>{81f68af8-50e4-421f-a9c2-9fa7e1fbf044}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Test\I1.cpp">
@@ -38,13 +32,16 @@
     <ClCompile Include="..\ORB\Test\Test_I1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.cpp">
-      <Filter>Mock\Core\ORB</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Test\Mock\Core\FreeSyncContext.cpp">
-      <Filter>Mock\Core</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\Mock\MockBinder.cpp">
+      <Filter>Mock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Mock\Current.cpp">
+      <Filter>Mock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Mock\ObjectFactory.cpp">
+      <Filter>Mock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Mock\SynchronizationContext.cpp">
       <Filter>Mock</Filter>
     </ClCompile>
   </ItemGroup>
@@ -82,9 +79,6 @@
     <ClInclude Include="..\ORB\Test\Test_I3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Test\Mock\Core\ORB\ObjectFactory.h">
-      <Filter>Mock\Core\ORB</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\MockBinder.h">
       <Filter>Mock</Filter>
     </ClInclude>
@@ -93,6 +87,9 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Test_I1_p.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Mock\ObjectFactory.h">
+      <Filter>Mock</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
