@@ -52,6 +52,9 @@
     <ClCompile Include="..\ORB\Core\ServantMarshaler.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\Core\ModuleInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Core\tc_impex.h">
@@ -108,5 +111,11 @@
     <ClInclude Include="..\ORB\Include\Core\ORB\LocalObject.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Core\ModuleInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

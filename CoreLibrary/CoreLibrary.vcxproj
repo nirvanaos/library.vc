@@ -29,6 +29,7 @@
     <ClCompile Include="..\ORB\Core\tc_exceptions.cpp" />
     <ClCompile Include="..\ORB\Core\tc_constants.cpp" />
     <ClCompile Include="..\ORB\Core\TypeCode.cpp" />
+    <ClCompile Include="..\SRC\Core\ModuleInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Core\tc_impex.h" />
@@ -46,9 +47,13 @@
     <ClInclude Include="..\SRC\Include\Core\AtomicCounter.h" />
     <ClInclude Include="..\SRC\Include\Core\CoreInterface.h" />
     <ClInclude Include="..\SRC\Include\Core\LifeCycle.h" />
+    <ClInclude Include="..\SRC\Include\Core\ModuleInfo.h" />
     <ClInclude Include="..\SRC\Include\Core\Runnable.h" />
     <ClInclude Include="..\SRC\Include\Core\SynchronizationContext.h" />
     <ClInclude Include="..\SRC\Include\Core\Synchronized.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -190,5 +195,16 @@
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets" Condition="Exists('..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" />
+    <Import Project="..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets" Condition="Exists('..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" />
+    <Import Project="..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets" Condition="Exists('..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets'))" />
+    <Error Condition="!Exists('..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets'))" />
+    <Error Condition="!Exists('..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets'))" />
+  </Target>
 </Project>
