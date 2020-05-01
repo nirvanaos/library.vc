@@ -44,6 +44,12 @@
     <ClCompile Include="..\ORB\Test\Mock\SynchronizationContext.cpp">
       <Filter>Mock</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I2_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I3_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Test\I1.h">
@@ -81,9 +87,6 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\MockPOA.h">
       <Filter>Mock</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Test\Test_I1_p.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\ObjectFactory.h">
       <Filter>Mock</Filter>

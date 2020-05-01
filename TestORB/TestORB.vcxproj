@@ -34,6 +34,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I2_p.cpp" />
+    <ClCompile Include="..\ORB\Test\Test_I3_p.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CoreLibrary\CoreLibrary.vcxproj">
@@ -58,7 +60,6 @@
     <ClInclude Include="..\ORB\Test\Server.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
     <ClInclude Include="..\ORB\Test\Test_I1.h" />
-    <ClInclude Include="..\ORB\Test\Test_I1_p.h" />
     <ClInclude Include="..\ORB\Test\Test_I1_s.h" />
     <ClInclude Include="..\ORB\Test\Test_I2.h" />
     <ClInclude Include="..\ORB\Test\Test_I2_s.h" />
