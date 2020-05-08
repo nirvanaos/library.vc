@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\Core\POA_p.cpp" />
     <ClCompile Include="..\ORB\Core\ProxyLocal.cpp" />
     <ClCompile Include="..\ORB\Core\ProxyManager.cpp" />
     <ClCompile Include="..\ORB\Core\POA.cpp" />
