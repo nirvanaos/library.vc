@@ -55,7 +55,6 @@
     <ClInclude Include="..\ORB\Test\I1.h" />
     <ClInclude Include="..\ORB\Test\I3.h" />
     <ClInclude Include="..\ORB\Test\Mock\MockBinder.h" />
-    <ClInclude Include="..\ORB\Test\Mock\MockPOA.h" />
     <ClInclude Include="..\ORB\Test\Mock\ObjectFactory.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
@@ -151,6 +150,8 @@
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <OptimizeReferences>
       </OptimizeReferences>
+      <ForceSymbolReferences>
+      </ForceSymbolReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -159,7 +160,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>TEST_NO_STATIC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -170,6 +171,8 @@
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <OptimizeReferences>
       </OptimizeReferences>
+      <ForceSymbolReferences>
+      </ForceSymbolReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

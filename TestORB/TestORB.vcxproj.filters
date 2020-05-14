@@ -85,9 +85,6 @@
     <ClInclude Include="..\ORB\Test\Mock\MockBinder.h">
       <Filter>Mock</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Test\Mock\MockPOA.h">
-      <Filter>Mock</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Mock\ObjectFactory.h">
       <Filter>Mock</Filter>
     </ClInclude>
