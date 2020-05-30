@@ -19,6 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\Core\POA.cpp" />
+    <ClCompile Include="..\ORB\Core\POA_p.cpp" />
+    <ClCompile Include="..\ORB\Core\ProxyLocal.cpp" />
+    <ClCompile Include="..\ORB\Core\ProxyManager.cpp" />
+    <ClCompile Include="..\ORB\Core\ProxyObject.cpp" />
+    <ClCompile Include="..\ORB\Core\ServantBase.cpp" />
+    <ClCompile Include="..\ORB\Core\ServantMarshaler.cpp" />
+    <ClCompile Include="..\ORB\Core\ServantProxyBase.cpp" />
+    <ClCompile Include="..\ORB\Core\tc_constants.cpp" />
+    <ClCompile Include="..\ORB\Core\tc_exceptions.cpp" />
+    <ClCompile Include="..\ORB\Core\TypeCode.cpp" />
     <ClCompile Include="..\ORB\Test\I1.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Current.cpp" />
@@ -36,11 +47,9 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Test_I2_p.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I3_p.cpp" />
+    <ClCompile Include="..\SRC\Core\ModuleInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CoreLibrary\CoreLibrary.vcxproj">
-      <Project>{53f9a96b-6f77-4756-8fa4-63f4e94920c0}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\googletest.vc\googletest.vcxproj">
       <Project>{5d537823-c595-4fb0-8056-9e6ce6a58ea7}</Project>
     </ProjectReference>
@@ -52,6 +61,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\ORB\Core\tc_impex.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\CoreImpl.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\LocalObject.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\POA.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ProxyLocal.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ProxyManager.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ProxyObject.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ReferenceCounter.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ServantBase.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ServantMarshaler.h" />
+    <ClInclude Include="..\ORB\Include\Core\ORB\ServantProxyBase.h" />
     <ClInclude Include="..\ORB\Test\I1.h" />
     <ClInclude Include="..\ORB\Test\I3.h" />
     <ClInclude Include="..\ORB\Test\Mock\MockBinder.h" />
@@ -64,6 +84,17 @@
     <ClInclude Include="..\ORB\Test\Test_I2_s.h" />
     <ClInclude Include="..\ORB\Test\Test_I3.h" />
     <ClInclude Include="..\ORB\Test\Test_I3_s.h" />
+    <ClInclude Include="..\SRC\Include\Core\Array.h" />
+    <ClInclude Include="..\SRC\Include\Core\AtomicCounter.h" />
+    <ClInclude Include="..\SRC\Include\Core\CoreInterface.h" />
+    <ClInclude Include="..\SRC\Include\Core\LifeCycle.h" />
+    <ClInclude Include="..\SRC\Include\Core\ModuleInfo.h" />
+    <ClInclude Include="..\SRC\Include\Core\Runnable.h" />
+    <ClInclude Include="..\SRC\Include\Core\SynchronizationContext.h" />
+    <ClInclude Include="..\SRC\Include\Core\Synchronized.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -216,5 +247,17 @@
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets" Condition="Exists('..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" />
+    <Import Project="..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets" Condition="Exists('..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" />
+    <Import Project="..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets" Condition="Exists('..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets'))" />
+    <Error Condition="!Exists('..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets'))" />
+    <Error Condition="!Exists('..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets'))" />
+  </Target>
 </Project>
