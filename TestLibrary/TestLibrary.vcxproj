@@ -22,9 +22,6 @@
     <ClCompile Include="..\SRC\Test\TestLibrary.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CoreImport\CoreImport.vcxproj">
-      <Project>{0d8b0020-62e3-472f-be10-5400bc8183ca}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\googletest.vc\googletest.vcxproj">
       <Project>{5d537823-c595-4fb0-8056-9e6ce6a58ea7}</Project>
     </ProjectReference>
