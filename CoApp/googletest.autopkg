@@ -1,7 +1,7 @@
 nuget{
 	nuspec {
 		id = googletest.nirvana.vc;
-		version: 1.8.0;
+		version: 1.10.0;
 		title: Google Test;
 		authors: google.com;
 		owners: google.com;
