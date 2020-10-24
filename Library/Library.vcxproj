@@ -112,12 +112,10 @@
     <ClInclude Include="..\ORB\Include\CORBA\exceptions.h" />
     <ClInclude Include="..\ORB\Include\CORBA\FindInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Fixed.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\giop.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Implementation.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationTied.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\iop.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycle.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory_s.h" />
