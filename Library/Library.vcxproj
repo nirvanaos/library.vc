@@ -159,9 +159,15 @@
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Memory.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Memory_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Module.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\ModuleInit.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\ModuleInit_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Module_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Nirvana.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\NirvanaBase.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\OLF.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Process.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Process_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\real_copy.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_s.h" />
