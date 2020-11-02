@@ -24,6 +24,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleNoCopy.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleRefCnt.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectStatic.h" />
@@ -116,7 +119,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationTied.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\LifeCycle.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleDynamic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Object.h" />
@@ -222,6 +225,7 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\UnknownUserException.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
+    <ClCompile Include="..\SRC\Source\g_module.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
     <ClCompile Include="..\SRC\Source\StlUtils.cpp" />
