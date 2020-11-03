@@ -89,6 +89,9 @@
     <ClCompile Include="..\SRC\Core\ModuleInfo.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CoreImport\g_module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Test\I1.h">

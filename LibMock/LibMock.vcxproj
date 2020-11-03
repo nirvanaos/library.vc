@@ -19,8 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\Mock\MockMemory.cpp" />
-    <ClCompile Include="..\SRC\Mock\MockRuntimeSupport.cpp" />
+    <ClCompile Include="..\SRC\Mock\g_memory.cpp" />
+    <ClCompile Include="..\SRC\Mock\g_module.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Mock\g_runtime_support.cpp" />
     <ClCompile Include="..\SRC\Mock\tc_constants.cpp" />
     <ClCompile Include="..\SRC\Mock\tc_exceptions.cpp" />
   </ItemGroup>

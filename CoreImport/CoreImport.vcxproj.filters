@@ -25,9 +25,6 @@
     <ClCompile Include="..\SRC\CoreImport\g_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\g_object_factory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\CoreImport\tc_constants.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -39,6 +36,15 @@
     </ClCompile>
     <ClCompile Include="..\ORB\CoreImport\POA.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CoreImport\g_module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\CoreImport\g_object_factory.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CoreImport\g_runtime_support.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

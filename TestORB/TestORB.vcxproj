@@ -47,6 +47,7 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Test\Test_I2_p.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I3_p.cpp" />
+    <ClCompile Include="..\SRC\CoreImport\g_module.cpp" />
     <ClCompile Include="..\SRC\Core\ModuleInfo.cpp" />
   </ItemGroup>
   <ItemGroup>

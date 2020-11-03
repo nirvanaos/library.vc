@@ -225,7 +225,6 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\UnknownUserException.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
-    <ClCompile Include="..\SRC\Source\g_module.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
     <ClCompile Include="..\SRC\Source\StlUtils.cpp" />
