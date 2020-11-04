@@ -156,6 +156,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Current.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Current_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Hash.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\ImportInterface.h" />
