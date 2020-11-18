@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Mock\g_module.cpp" />
+    <ClCompile Include="..\SRC\Test\main.cpp" />
     <ClCompile Include="..\SRC\Test\TestLibrary.cpp" />
   </ItemGroup>
   <ItemGroup>

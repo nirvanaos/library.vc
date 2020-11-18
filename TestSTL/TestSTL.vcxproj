@@ -177,6 +177,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Mock\g_module.cpp" />
+    <ClCompile Include="..\SRC\Test\main.cpp" />
     <ClCompile Include="..\SRC\Test\TestString.cpp" />
     <ClCompile Include="..\SRC\Test\TestVector.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
