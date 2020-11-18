@@ -1,6 +1,6 @@
 nuget{
 	nuspec {
-		id = googletest.nirvana.vc;
+		id = Nirvana.googletest.vc;
 		version: 1.10.0;
 		title: Google Test;
 		authors: google.com;
@@ -9,7 +9,7 @@ nuget{
 		projectUrl: "http://code.google.com/p/googletest/";
 		//iconUrl: "";
 		requireLicenseAcceptance: false;
-		summary: Google C++ Testing Framework.;
+		summary: Google C++ Testing Framework for linking with the Nirvana library. Built with MS Visual C++.;
 		description: @"Google's framework for writing C++ tests on a variety of platforms (
 		Linux, Mac OS X, Windows, Cygwin, Windows CE, and Symbian). Based on the xUnit architecture. 
 		Supports automatic test discovery, a rich set of assertions, user-defined assertions, death 
@@ -21,7 +21,7 @@ nuget{
 	
 	files {
 		#defines {
-			GOOGLETEST_ROOT = ..\googletest\googletest\;
+			GOOGLETEST_ROOT = ..\googletest\googletest\googletest\;
 		};
 		
 		nestedInclude: {

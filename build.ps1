@@ -7,4 +7,5 @@ nuget restore "$solution" -Source "\\NAS\Home\NuGet"
 Write-NuGetPackage .\CoApp\Library.autopkg
 Write-NuGetPackage .\CoApp\googletest.autopkg
 Write-NuGetPackage .\CoApp\LibMock.autopkg
+Write-NuGetPackage .\CoApp\CoreImport.autopkg
 Move-Item -Path *.nupkg -Destination \\NAS\Home\NuGet -Force

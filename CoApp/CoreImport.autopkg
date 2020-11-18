@@ -1,13 +1,13 @@
 nuget {
 	nuspec {
-		id = Nirvana.Library.vc;
+		id = Nirvana.CoreImport.vc;
 		version: 1.0.0;
-		title: Nirvana library;
+		title: Nirvana core import library;
 		authors: Igor Popov;
 		owners: Igor Popov;
 		requireLicenseAcceptance: false;
-		summary: Nirvana run-time library;
-		description: Common library for Nirvana. Built with MS Visual C++.;
+		summary: Run-time library;
+		description: Nirvana core import library. Built with MS Visual C++.;
 		releaseNotes: "";
 		copyright: Copyright 2019;
 		tags: { Nirvana };
@@ -20,19 +20,10 @@ nuget {
 
 	files{
 		#defines{
-			SRC = ..\Nirvana\SRC\;
-			ORB = ..\Nirvana\ORB\;
-			LIBNAME = Library;
+			SRC = ..\SRC\;
+			ORB = ..\ORB\;
+			LIBNAME = CoreImport;
 		}
-
-		nested1include: {
-			#destination=${d_include}Nirvana;
-			"${SRC}Include\Nirvana\**\*.h"
-		};
-		nested2include: {
-			#destination=${d_include}CORBA;
-			"${ORB}Include\CORBA\**\*.h"
-		};
 
 		[Win32,debug] {
 			lib: {"..\Win32\Debug\${LIBNAME}.lib"};

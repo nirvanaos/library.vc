@@ -1,13 +1,13 @@
 nuget {
 	nuspec {
-		id = Nirvana.LibMock;
+		id = Nirvana.LibMock.vc;
 		version: 1.0.0;
 		title: Nirvana mock library;
 		authors: Igor Popov;
 		owners: Igor Popov;
 		requireLicenseAcceptance: false;
-		summary: Run-time library;
-		description: Mock library for Nirvana tests.;
+		summary: Mock library for Nirvana tests.;
+		description: Mock library for Nirvana tests. Built with MS Visual C++.;
 		releaseNotes: "";
 		copyright: Copyright 2019;
 		tags: { Nirvana };
@@ -20,9 +20,14 @@ nuget {
 
 	files{
 		#defines{
-			SRC = ..\SRC\;
+			SRC = ..\Nirvana\SRC\;
 			LIBNAME = LibMock;
 		}
+
+		nestedinclude: {
+			#destination=${d_include}Mock;
+			"${SRC}Include\Mock\**\*.h"
+		};
 
 		[Win32,debug] {
 			lib: {"..\Win32\Debug\${LIBNAME}.lib"};

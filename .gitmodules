@@ -1,9 +1,9 @@
-[submodule "SRC"]
-	path = SRC
-	url = //NAS/Home/Git/N/Library
-[submodule "ORB"]
-	path = ORB
-	url = //nas/Home/Git/N/ORB
-[submodule "googletest"]
-	path = googletest
+[submodule "googletest/googletest"]
+	path = googletest/googletest
 	url = https://github.com/google/googletest.git
+[submodule "Nirvana/SRC"]
+	path = Nirvana/SRC
+	url = //NAS/Home/Git/N/Library
+[submodule "Nirvana/ORB"]
+	path = Nirvana/ORB
+	url = //nas/Home/Git/N/ORB

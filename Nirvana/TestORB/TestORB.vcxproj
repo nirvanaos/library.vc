@@ -52,17 +52,6 @@
     <ClCompile Include="..\SRC\Core\ModuleInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\googletest.vc\googletest.vcxproj">
-      <Project>{5d537823-c595-4fb0-8056-9e6ce6a58ea7}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\LibMock\LibMock.vcxproj">
-      <Project>{ae347e10-438a-4a2b-8d7f-47b40d85be40}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Library\Library.vcxproj">
-      <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\ORB\Core\tc_impex.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\CoreImpl.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\LocalObject.h" />
@@ -97,6 +86,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\googletest\googletest.vcxproj">
+      <Project>{5d537823-c595-4fb0-8056-9e6ce6a58ea7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\LibMock\LibMock.vcxproj">
+      <Project>{ae347e10-438a-4a2b-8d7f-47b40d85be40}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\Library.vcxproj">
+      <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -174,7 +174,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
@@ -195,7 +195,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
@@ -218,7 +218,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -238,7 +238,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -250,16 +250,16 @@
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets" Condition="Exists('..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" />
-    <Import Project="..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets" Condition="Exists('..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" />
-    <Import Project="..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets" Condition="Exists('..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" />
+    <Import Project="..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets" Condition="Exists('..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" />
+    <Import Project="..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets" Condition="Exists('..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" />
+    <Import Project="..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets" Condition="Exists('..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets'))" />
-    <Error Condition="!Exists('..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets'))" />
-    <Error Condition="!Exists('..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets'))" />
+    <Error Condition="!Exists('..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets'))" />
+    <Error Condition="!Exists('..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets'))" />
+    <Error Condition="!Exists('..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets'))" />
   </Target>
 </Project>
