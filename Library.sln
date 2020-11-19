@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		CoApp\googletest.autopkg = CoApp\googletest.autopkg
 		CoApp\LibMock.autopkg = CoApp\LibMock.autopkg
 		CoApp\Library.autopkg = CoApp\Library.autopkg
+		NuGet.Config = NuGet.Config
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "googletest", "googletest\googletest.vcxproj", "{5D537823-C595-4FB0-8056-9E6CE6A58EA7}"
