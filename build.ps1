@@ -4,8 +4,8 @@ nuget restore "$solution" -Source "\\NAS\Home\NuGet"
 &"$Env:VS2019INSTALLDIR\Common7\IDE\devenv.com" "$solution" /build "Release|x86"
 &"$Env:VS2019INSTALLDIR\Common7\IDE\devenv.com" "$solution" /build "Debug|x64"
 &"$Env:VS2019INSTALLDIR\Common7\IDE\devenv.com" "$solution" /build "Release|x64"
-Write-NuGetPackage .\CoApp\Library.autopkg
-Write-NuGetPackage .\CoApp\googletest.autopkg
-Write-NuGetPackage .\CoApp\LibMock.autopkg
-Write-NuGetPackage .\CoApp\CoreImport.autopkg
+Write-NuGetPackage .\CoApp\Library.vc.autopkg
+Write-NuGetPackage .\CoApp\googletest.vc.autopkg
+Write-NuGetPackage .\CoApp\LibMock.vc.autopkg
+Write-NuGetPackage .\CoApp\CoreImport.vc.autopkg
 Move-Item -Path *.nupkg -Destination \\NAS\Home\NuGet -Force

@@ -6,11 +6,11 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{705AAB65-0713-4EAB-8A38-10B177804E45}"
 	ProjectSection(SolutionItems) = preProject
 		build.ps1 = build.ps1
-		CoApp\CoreImport.autopkg = CoApp\CoreImport.autopkg
+		CoApp\CoreImport.vc.autopkg = CoApp\CoreImport.vc.autopkg
 		cpp.hint = cpp.hint
-		CoApp\googletest.autopkg = CoApp\googletest.autopkg
-		CoApp\LibMock.autopkg = CoApp\LibMock.autopkg
-		CoApp\Library.autopkg = CoApp\Library.autopkg
+		CoApp\googletest.vc.autopkg = CoApp\googletest.vc.autopkg
+		CoApp\LibMock.vc.autopkg = CoApp\LibMock.vc.autopkg
+		CoApp\Library.vc.autopkg = CoApp\Library.vc.autopkg
 		NuGet.Config = NuGet.Config
 	EndProjectSection
 EndProject
