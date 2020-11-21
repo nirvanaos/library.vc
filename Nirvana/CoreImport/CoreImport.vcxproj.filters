@@ -46,5 +46,8 @@
     <ClCompile Include="..\SRC\CoreImport\g_runtime_support.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CoreImport\g_binder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

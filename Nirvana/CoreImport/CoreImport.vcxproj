@@ -24,6 +24,7 @@
     <ClCompile Include="..\ORB\CoreImport\tc_constants.cpp" />
     <ClCompile Include="..\ORB\CoreImport\tc_exceptions.cpp" />
     <ClCompile Include="..\ORB\CoreImport\TypeCode.cpp" />
+    <ClCompile Include="..\SRC\CoreImport\g_binder.cpp" />
     <ClCompile Include="..\SRC\CoreImport\g_memory.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ShowIncludes>

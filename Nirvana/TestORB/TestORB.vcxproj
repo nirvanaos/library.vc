@@ -32,7 +32,6 @@
     <ClCompile Include="..\ORB\Core\TypeCode.cpp" />
     <ClCompile Include="..\ORB\Test\I1.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
-    <ClCompile Include="..\ORB\Test\main.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Current.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\SynchronizationContext.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\MockBinder.cpp" />
