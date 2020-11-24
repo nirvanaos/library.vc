@@ -25,6 +25,10 @@ nuget {
 			LIBNAME = Library;
 		}
 
+		nested0include: {
+			#destination=${d_include};
+			"${SRC}Include\*.h"
+		};
 		nested1include: {
 			#destination=${d_include}Nirvana;
 			"${SRC}Include\Nirvana\**\*.h"
