@@ -92,6 +92,24 @@
     <ClCompile Include="..\SRC\CoreImport\g_module.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I1_factory_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I1_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I3_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I3_factory_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Test\Test_I3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ORB\Test\I1.h">
@@ -186,6 +204,18 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Core\Synchronized.h">
       <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Test_I1_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Test_I1_factory_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Test_I3_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Test\Test_I3_factory_s.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
