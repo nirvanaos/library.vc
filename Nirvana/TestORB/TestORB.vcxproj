@@ -50,7 +50,6 @@
     <ClCompile Include="..\ORB\Test\I1_dynamic.cpp" />
     <ClCompile Include="..\ORB\Test\I1_portable.cpp" />
     <ClCompile Include="..\ORB\Test\I1_tied.cpp" />
-    <ClCompile Include="..\ORB\Test\I3.cpp" />
     <ClCompile Include="..\ORB\Test\I3_dynamic.cpp" />
     <ClCompile Include="..\ORB\Test\I3_portable.cpp" />
     <ClCompile Include="..\ORB\Test\I3_tied.cpp" />
@@ -101,7 +100,6 @@
     <ClInclude Include="..\ORB\Test\ImplI1.h" />
     <ClInclude Include="..\ORB\Test\I1_portable.h" />
     <ClInclude Include="..\ORB\Test\I1_tied.h" />
-    <ClInclude Include="..\ORB\Test\I3.h" />
     <ClInclude Include="..\ORB\Test\I3_dynamic.h" />
     <ClInclude Include="..\ORB\Test\I3_portable.h" />
     <ClInclude Include="..\ORB\Test\I3_tied.h" />

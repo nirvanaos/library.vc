@@ -17,9 +17,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ORB\Test\I3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Test\TestORB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -136,9 +133,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ORB\Test\I3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
