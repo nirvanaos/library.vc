@@ -195,6 +195,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\stateless.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\static.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
@@ -398,9 +399,10 @@
       <PreprocessorDefinitions>LEGACY_STRING_MAPPING_SUPPORT;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <LanguageStandard>Default</LanguageStandard>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -416,9 +418,10 @@
       <PreprocessorDefinitions>LEGACY_STRING_MAPPING_SUPPORT;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <LanguageStandard>Default</LanguageStandard>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -437,8 +440,9 @@
       <PreprocessorDefinitions>LEGACY_STRING_MAPPING_SUPPORT;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -454,8 +458,9 @@
       <PreprocessorDefinitions>LEGACY_STRING_MAPPING_SUPPORT;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -476,7 +481,8 @@
       <PreprocessorDefinitions>LEGACY_STRING_MAPPING_SUPPORT;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -499,7 +505,8 @@
       <PreprocessorDefinitions>LEGACY_STRING_MAPPING_SUPPORT;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -523,7 +530,8 @@
       <PreprocessorDefinitions>LEGACY_STRING_MAPPING_SUPPORT;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -546,7 +554,8 @@
       <PreprocessorDefinitions>LEGACY_STRING_MAPPING_SUPPORT;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

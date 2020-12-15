@@ -7,3 +7,6 @@
 [submodule "Nirvana/ORB"]
 	path = Nirvana/ORB
 	url = //nas/Home/Git/N/ORB
+[submodule "Nirvana/preprocessor"]
+	path = Nirvana/preprocessor
+	url = https://github.com/boostorg/preprocessor.git

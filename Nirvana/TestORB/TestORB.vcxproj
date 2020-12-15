@@ -46,12 +46,20 @@
     <ClCompile Include="..\ORB\Core\tc_constants.cpp" />
     <ClCompile Include="..\ORB\Core\tc_exceptions.cpp" />
     <ClCompile Include="..\ORB\Core\TypeCode.cpp" />
-    <ClCompile Include="..\ORB\Test\I1.cpp" />
+    <ClCompile Include="..\ORB\Test\ImplI1.cpp" />
+    <ClCompile Include="..\ORB\Test\I1_dynamic.cpp" />
+    <ClCompile Include="..\ORB\Test\I1_portable.cpp" />
+    <ClCompile Include="..\ORB\Test\I1_tied.cpp" />
     <ClCompile Include="..\ORB\Test\I3.cpp" />
+    <ClCompile Include="..\ORB\Test\I3_dynamic.cpp" />
+    <ClCompile Include="..\ORB\Test\I3_portable.cpp" />
+    <ClCompile Include="..\ORB\Test\I3_tied.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\Current.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\SynchronizationContext.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\MockBinder.cpp" />
     <ClCompile Include="..\ORB\Test\Mock\ObjectFactory.cpp" />
+    <ClCompile Include="..\ORB\Test\I1_static.cpp" />
+    <ClCompile Include="..\ORB\Test\I3_static.cpp" />
     <ClCompile Include="..\ORB\Test\Test.cpp" />
     <ClCompile Include="..\ORB\Test\TestORB.cpp" />
     <ClCompile Include="..\ORB\Test\Test_I1.cpp" />
@@ -88,13 +96,25 @@
     <ClInclude Include="..\ORB\Include\Core\ORB\ServantBase.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\ServantMarshaler.h" />
     <ClInclude Include="..\ORB\Include\Core\ORB\ServantProxyBase.h" />
-    <ClInclude Include="..\ORB\Test\I1.h" />
+    <ClInclude Include="..\ORB\Test\DynamicI1.h" />
+    <ClInclude Include="..\ORB\Test\DynamicI3.h" />
+    <ClInclude Include="..\ORB\Test\ImplI1.h" />
+    <ClInclude Include="..\ORB\Test\I1_portable.h" />
+    <ClInclude Include="..\ORB\Test\I1_tied.h" />
     <ClInclude Include="..\ORB\Test\I3.h" />
+    <ClInclude Include="..\ORB\Test\I3_dynamic.h" />
+    <ClInclude Include="..\ORB\Test\I3_portable.h" />
+    <ClInclude Include="..\ORB\Test\I3_tied.h" />
     <ClInclude Include="..\ORB\Test\Mock\MockBinder.h" />
     <ClInclude Include="..\ORB\Test\Mock\ObjectFactory.h" />
+    <ClInclude Include="..\ORB\Test\PortableI1.h" />
+    <ClInclude Include="..\ORB\Test\PortableI3.h" />
     <ClInclude Include="..\ORB\Test\Server.h" />
+    <ClInclude Include="..\ORB\Test\I1_static.h" />
+    <ClInclude Include="..\ORB\Test\I3_static.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
     <ClInclude Include="..\ORB\Test\Test_I1.h" />
+    <ClInclude Include="..\ORB\Test\I1_dynamic.h" />
     <ClInclude Include="..\ORB\Test\Test_I1_factory.h" />
     <ClInclude Include="..\ORB\Test\Test_I1_factory_s.h" />
     <ClInclude Include="..\ORB\Test\Test_I1_s.h" />
@@ -257,9 +277,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -278,9 +299,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -299,15 +321,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
-      <OptimizeReferences>
-      </OptimizeReferences>
+      <OptimizeReferences>false</OptimizeReferences>
       <ForceSymbolReferences>
       </ForceSymbolReferences>
     </Link>
@@ -320,9 +342,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -343,8 +366,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -363,8 +387,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -383,8 +408,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -403,8 +429,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

@@ -173,6 +173,7 @@
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -192,6 +193,7 @@
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -211,6 +213,7 @@
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -230,6 +233,7 @@
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -250,6 +254,7 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -275,6 +280,7 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -300,6 +306,7 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -325,6 +332,7 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\basic_string.h;Nirvana\vector.h</ForcedIncludeFiles>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
