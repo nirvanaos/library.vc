@@ -133,9 +133,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ORB\Test\Server.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Test\Test_I1_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>

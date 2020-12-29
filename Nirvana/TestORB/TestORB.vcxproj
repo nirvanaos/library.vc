@@ -107,7 +107,6 @@
     <ClInclude Include="..\ORB\Test\Mock\ObjectFactory.h" />
     <ClInclude Include="..\ORB\Test\PortableI1.h" />
     <ClInclude Include="..\ORB\Test\PortableI3.h" />
-    <ClInclude Include="..\ORB\Test\Server.h" />
     <ClInclude Include="..\ORB\Test\I1_static.h" />
     <ClInclude Include="..\ORB\Test\I3_static.h" />
     <ClInclude Include="..\ORB\Test\TestORB.h" />
