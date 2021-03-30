@@ -1,12 +1,12 @@
 [submodule "googletest/googletest"]
 	path = googletest/googletest
 	url = https://github.com/google/googletest.git
-[submodule "Nirvana/SRC"]
-	path = Nirvana/SRC
-	url = //NAS/Home/Git/N/Library
-[submodule "Nirvana/ORB"]
-	path = Nirvana/ORB
-	url = //nas/Home/Git/N/ORB
 [submodule "Nirvana/preprocessor"]
 	path = Nirvana/preprocessor
 	url = https://github.com/boostorg/preprocessor.git
+[submodule "Nirvana/SRC"]
+	path = Nirvana/SRC
+	url = https://github.com/nirvanaos/library.git
+[submodule "Nirvana/ORB"]
+	path = Nirvana/ORB
+	url = https://github.com/nirvanaos/orb.git
