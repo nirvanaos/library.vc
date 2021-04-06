@@ -389,21 +389,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\InterfaceMetadata.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_any.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_forward.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_sequence.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalTraits_string.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Proxy.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
@@ -445,15 +430,6 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\local_core.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalContext.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Marshal.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Unmarshal.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference.h">
       <Filter>ORB\Header Files\Proxy</Filter>
@@ -517,6 +493,30 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\static.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_any.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_forward.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_sequence.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_string.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Marshal.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Unmarshal.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalContext.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
