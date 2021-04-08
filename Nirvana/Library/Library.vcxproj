@@ -38,6 +38,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleNoCopy.h" />
@@ -47,8 +48,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\local_core.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Marshal.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalContext.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_any.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalTraits_forward.h" />
@@ -59,6 +58,8 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IORequest_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Marshal.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalContext.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Marshal_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IORequest.h" />
@@ -71,6 +72,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeMembers.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeSequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeStruct.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeTypeDef.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Unmarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Unmarshal_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h" />
@@ -114,7 +118,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Any.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ABI_Any.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\primitive_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Bridge.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Client.h" />
     <ClInclude Include="..\ORB\Include\CORBA\CORBA.h" />
@@ -163,7 +167,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_ptr.h" />
     <ClInclude Include="..\ORB\Include\CORBA\UnknownUserException.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Unmarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\UserException.h" />
     <ClInclude Include="..\SRC\Include\assert.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
@@ -206,13 +209,18 @@
     <ClCompile Include="..\ORB\Source\LocalObjectPOA.cpp" />
     <ClCompile Include="..\ORB\Source\MarshalTraits_any.cpp" />
     <ClCompile Include="..\ORB\Source\LocalObjectLink.cpp" />
-    <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp" />
+    <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
+    </ClCompile>
     <ClCompile Include="..\ORB\Source\POA.cpp" />
     <ClCompile Include="..\ORB\Source\servant_core.cpp" />
-    <ClCompile Include="..\ORB\Source\Type.cpp" />
+    <ClCompile Include="..\ORB\Source\Type.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
+    </ClCompile>
     <ClCompile Include="..\ORB\Source\Any.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\EnvironmentImpl.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -225,7 +233,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\FindInterface.cpp" />
-    <ClCompile Include="..\ORB\Source\SystemException.cpp" />
+    <ClCompile Include="..\ORB\Source\SystemException.cpp">
+      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
+    </ClCompile>
     <ClCompile Include="..\ORB\Source\ServantBaseLink.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
