@@ -98,7 +98,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\RepositoryId.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\sequence.h">
+    <ClInclude Include="..\ORB\Include\CORBA\Type_sequence.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ServantBase_s.h">

@@ -150,7 +150,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RepositoryId.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\sequence.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Type_sequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ABI_Sequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Server.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantBase.h" />
