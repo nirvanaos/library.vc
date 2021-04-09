@@ -90,8 +90,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\NamedValue.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\NamedValue_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectLink.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleServant.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterStatic.h" />

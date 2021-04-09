@@ -254,9 +254,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\NamedValue.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\String_compat.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -280,9 +277,6 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\ImportInterface.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\NamedValue_s.h">
-      <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h">
       <Filter>ORB\Header Files</Filter>
