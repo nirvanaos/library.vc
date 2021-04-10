@@ -98,9 +98,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\servant_core.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StringBase.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TCKind.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeByRef.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCode_forward.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeEnum.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeFixLen.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeByVal.h" />

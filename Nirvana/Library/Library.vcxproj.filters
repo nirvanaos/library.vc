@@ -374,9 +374,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\TypeByVal.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TypeCode_forward.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\UnknownUserException.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -507,6 +504,9 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ABI.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TCKind.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
