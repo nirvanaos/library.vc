@@ -181,6 +181,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\ModuleInit.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\ModuleInit_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Module_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\native.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Nirvana.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\NirvanaBase.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\OLF.h" />
@@ -207,6 +208,7 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\POA.cpp" />
     <ClCompile Include="..\ORB\Source\servant_core.cpp" />
+    <ClCompile Include="..\ORB\Source\TCKind.cpp" />
     <ClCompile Include="..\ORB\Source\Type.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
     </ClCompile>
