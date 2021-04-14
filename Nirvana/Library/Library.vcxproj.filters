@@ -497,9 +497,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeStruct.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeTypeDef.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -511,6 +508,9 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\native.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeAlias.h">
+      <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
