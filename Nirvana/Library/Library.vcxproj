@@ -70,6 +70,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeSequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeStruct.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeTypeDef.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Unmarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Unmarshal_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h" />
