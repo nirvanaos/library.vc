@@ -347,9 +347,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\POA_c.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\stateless.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -434,12 +431,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference_s.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Marshal_s.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Unmarshal_s.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IORequest_s.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
@@ -485,15 +476,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\static.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Marshal.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\Unmarshal.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\MarshalContext.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeStruct.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
@@ -514,6 +496,21 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeTypeDef.h">
       <Filter>ORB\Header Files\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Marshal.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Marshal_s.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\MarshalContext.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Unmarshal.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Unmarshal_s.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -610,5 +607,10 @@
       <Filter>ORB</Filter>
     </None>
     <None Include="..\SRC\readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\SRC\Source\Memory.idl">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
