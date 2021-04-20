@@ -24,6 +24,9 @@
       <UniqueIdentifier>{c9f45f44-bf81-4f0c-a367-87088d51a6e6}</UniqueIdentifier>
       <Extensions>h</Extensions>
     </Filter>
+    <Filter Include="IDL">
+      <UniqueIdentifier>{1c7adae6-a9a6-4ce2-a5ac-01d0700648c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -612,17 +615,47 @@
     <None Include="..\SRC\readme.md" />
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="..\SRC\Include\Nirvana\Binder.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Memory.idl">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\Marshal.idl">
-      <Filter>ORB\Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\MarshalContext.idl">
-      <Filter>ORB\Header Files</Filter>
+      <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\Unmarshal.idl">
-      <Filter>ORB\Header Files</Filter>
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Marshal.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\MarshalContext.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\Current.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\HeapFactory.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\Module.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\ModuleInit.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\Runnable.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\RuntimeSupport.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\Process.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Proxy\IOReference.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Proxy\IORequest.idl">
+      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
