@@ -347,7 +347,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\stateless.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\make_stateless.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h">
@@ -519,6 +519,9 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\I_ref.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\servant_reference.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>

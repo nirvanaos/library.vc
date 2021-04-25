@@ -96,6 +96,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ServantMemory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\servant_core.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\servant_reference.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StringBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TCKind.h" />
@@ -194,7 +195,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\stateless.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\make_stateless.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\static.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
