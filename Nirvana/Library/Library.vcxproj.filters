@@ -362,9 +362,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\make_stateless.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -622,6 +619,9 @@
     </ClInclude>
     <ClInclude Include="..\SRC\HandMade\RuntimeSupport_s.h">
       <Filter>HandMade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\make_stateless.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

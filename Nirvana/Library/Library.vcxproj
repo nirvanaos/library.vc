@@ -60,6 +60,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\local_core.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\make_stateless.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Marshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalContext.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalContext_s.h" />
@@ -223,7 +224,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\make_stateless.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\static.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
