@@ -95,7 +95,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Interface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicServantImpl.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\LocalImpl.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Serverless.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectLink.h" />

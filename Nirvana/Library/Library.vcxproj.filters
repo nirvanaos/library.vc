@@ -260,7 +260,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\I_var.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\LocalImpl.h">
+    <ClInclude Include="..\ORB\Include\CORBA\Serverless.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h">
