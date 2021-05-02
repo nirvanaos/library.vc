@@ -339,6 +339,7 @@
     <ClCompile Include="..\ORB\Source\UnknownUserException.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
+    <ClCompile Include="..\SRC\Source\ProcessMain.cpp" />
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
     <ClCompile Include="..\SRC\Source\StlUtils.cpp" />
     <ClCompile Include="..\SRC\Source\throw_exception.cpp" />
@@ -984,7 +985,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <LanguageStandard>Default</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -1003,7 +1004,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <LanguageStandard>Default</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -1026,7 +1027,7 @@
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -1044,7 +1045,7 @@
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -1068,7 +1069,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
     </ClCompile>
@@ -1093,7 +1094,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
     </ClCompile>
@@ -1119,7 +1120,7 @@
       <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
     </ClCompile>
@@ -1144,7 +1145,7 @@
       <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;$(VCToolsInstallDir)crt\src\vcruntime</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
     </ClCompile>
