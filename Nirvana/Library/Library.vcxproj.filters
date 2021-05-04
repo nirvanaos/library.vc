@@ -461,10 +461,10 @@
     <ClInclude Include="..\SRC\Include\Nirvana\ModuleInit_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Process.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Process_s.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\Main_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleStatic.h">
@@ -750,7 +750,7 @@
     <CustomBuild Include="..\SRC\Include\Nirvana\RuntimeSupport.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\Process.idl">
+    <CustomBuild Include="..\SRC\Include\Nirvana\Main.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\Proxy\IOReference.idl">
