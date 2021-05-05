@@ -47,9 +47,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory_s.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\Nirvana.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -140,13 +137,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport_s.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\OLF.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Binder_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode_s.h">
@@ -371,9 +362,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleServant.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Current_s.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Type_interface.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -455,9 +443,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\ModuleInit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Module_s.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\ModuleInit_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -514,9 +499,6 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Unmarshal.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Memory_s.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Marshal_s.h">
       <Filter>ORB\Header Files</Filter>

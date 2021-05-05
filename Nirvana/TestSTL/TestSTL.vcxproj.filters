@@ -21,8 +21,5 @@
     <ClCompile Include="..\SRC\Test\TestVector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Mock\g_module.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
