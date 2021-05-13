@@ -608,6 +608,9 @@
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
