@@ -611,6 +611,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\OLF_Iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -710,6 +713,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\nirvana_singleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\OLF_Iterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

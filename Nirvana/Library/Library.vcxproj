@@ -214,6 +214,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\OLF.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Main.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Main_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\OLF_Iterator.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\real_copy.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_s.h" />
@@ -337,6 +338,7 @@
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
     <ClCompile Include="..\SRC\Source\nirvana_module.cpp" />
     <ClCompile Include="..\SRC\Source\nirvana_singleton.cpp" />
+    <ClCompile Include="..\SRC\Source\OLF_Iterator.cpp" />
     <ClCompile Include="..\SRC\Source\ProcessMain.cpp" />
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
     <ClCompile Include="..\SRC\Source\StlUtils.cpp" />
