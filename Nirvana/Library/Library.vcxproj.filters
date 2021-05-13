@@ -584,12 +584,6 @@
     <ClInclude Include="..\SRC\HandMade\ModuleInit_s.h">
       <Filter>HandMade</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Process.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Process_s.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\HandMade\Runnable.h">
       <Filter>HandMade</Filter>
     </ClInclude>
