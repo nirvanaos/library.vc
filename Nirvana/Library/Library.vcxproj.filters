@@ -718,6 +718,9 @@
     <ClCompile Include="..\SRC\Source\OLF_Iterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\basic_types.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
