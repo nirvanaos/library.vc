@@ -614,6 +614,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\OLF_Iterator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\Chrono.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -767,6 +770,9 @@
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\Unmarshal.idl">
       <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\Chrono.idl">
+      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>

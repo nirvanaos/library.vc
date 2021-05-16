@@ -44,6 +44,7 @@
     <ClCompile Include="..\SRC\CoreImport\g_binder.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
     </ClCompile>
+    <ClCompile Include="..\SRC\CoreImport\g_chrono.cpp" />
     <ClCompile Include="..\SRC\CoreImport\g_memory.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ShowIncludes>

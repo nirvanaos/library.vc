@@ -46,5 +46,8 @@
     <ClCompile Include="..\ORB\CoreImport\tc_TypeCode.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CoreImport\g_chrono.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
