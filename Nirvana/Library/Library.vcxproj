@@ -326,13 +326,8 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\set_exception.cpp" />
     <ClCompile Include="..\ORB\Source\String_compat.cpp" />
+    <ClCompile Include="..\ORB\Source\TypeCode.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp" />
-    <ClCompile Include="..\ORB\Source\TypeCode.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ShowIncludes>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\UnknownUserException.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
     <ClCompile Include="..\SRC\Source\crt_startup.cpp" />

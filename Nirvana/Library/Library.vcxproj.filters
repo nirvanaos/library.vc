@@ -649,9 +649,6 @@
     <ClCompile Include="..\ORB\Source\EnvironmentImpl.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\TypeCode.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\Interface.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -719,6 +716,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\basic_types.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\TypeCode.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
