@@ -35,17 +35,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\ORB\HandMade\Marshal.h" />
-    <ClInclude Include="..\ORB\HandMade\MarshalContext.h" />
-    <ClInclude Include="..\ORB\HandMade\Marshal_s.h" />
-    <ClInclude Include="..\ORB\HandMade\Proxy\IOReference.h" />
-    <ClInclude Include="..\ORB\HandMade\Proxy\IOReference_s.h" />
-    <ClInclude Include="..\ORB\HandMade\Proxy\IORequest.h" />
-    <ClInclude Include="..\ORB\HandMade\Proxy\IORequest_s.h" />
-    <ClInclude Include="..\ORB\HandMade\Proxy\ProxyFactory.h" />
-    <ClInclude Include="..\ORB\HandMade\Proxy\ProxyFactory_s.h" />
-    <ClInclude Include="..\ORB\HandMade\Unmarshal.h" />
-    <ClInclude Include="..\ORB\HandMade\Unmarshal_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ABI.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
@@ -177,22 +166,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Unmarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Unmarshal_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\UserException.h" />
-    <ClInclude Include="..\SRC\HandMade\Binder.h" />
-    <ClInclude Include="..\SRC\HandMade\Binder_s.h" />
-    <ClInclude Include="..\SRC\HandMade\Current.h" />
-    <ClInclude Include="..\SRC\HandMade\Current_s.h" />
-    <ClInclude Include="..\SRC\HandMade\HeapFactory.h" />
-    <ClInclude Include="..\SRC\HandMade\HeapFactory_s.h" />
-    <ClInclude Include="..\SRC\HandMade\Memory.h" />
-    <ClInclude Include="..\SRC\HandMade\Memory_s.h" />
-    <ClInclude Include="..\SRC\HandMade\Module.h" />
-    <ClInclude Include="..\SRC\HandMade\ModuleInit.h" />
-    <ClInclude Include="..\SRC\HandMade\ModuleInit_s.h" />
-    <ClInclude Include="..\SRC\HandMade\Module_s.h" />
-    <ClInclude Include="..\SRC\HandMade\Runnable.h" />
-    <ClInclude Include="..\SRC\HandMade\Runnable_s.h" />
-    <ClInclude Include="..\SRC\HandMade\RuntimeSupport.h" />
-    <ClInclude Include="..\SRC\HandMade\RuntimeSupport_s.h" />
     <ClInclude Include="..\SRC\Include\assert.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Binder.h" />
@@ -335,7 +308,7 @@
     <ClCompile Include="..\SRC\Source\nirvana_module.cpp" />
     <ClCompile Include="..\SRC\Source\nirvana_singleton.cpp" />
     <ClCompile Include="..\SRC\Source\OLF_Iterator.cpp" />
-    <ClCompile Include="..\SRC\Source\ProcessMain.cpp" />
+    <ClCompile Include="..\SRC\Source\nirvana_process.cpp" />
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
     <ClCompile Include="..\SRC\Source\StlUtils.cpp" />
     <ClCompile Include="..\SRC\Source\throw_exception.cpp" />

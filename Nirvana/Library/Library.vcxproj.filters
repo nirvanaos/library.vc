@@ -33,15 +33,6 @@
     <Filter Include="ORB\IDL\Proxy">
       <UniqueIdentifier>{04ff14f8-cd30-49ea-a6da-970603821bc9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ORB\HandMade">
-      <UniqueIdentifier>{fd340940-e861-40bf-b22b-6fb1e1128ab8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ORB\HandMade\Proxy">
-      <UniqueIdentifier>{450058e2-6996-44a5-9cc3-59723a28be14}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="HandMade">
-      <UniqueIdentifier>{c183d55c-4529-4be8-a6f9-d88e6abbce75}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -515,87 +506,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\servant_reference.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\Marshal.h">
-      <Filter>ORB\HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\Marshal_s.h">
-      <Filter>ORB\HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\MarshalContext.h">
-      <Filter>ORB\HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\Unmarshal.h">
-      <Filter>ORB\HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\Unmarshal_s.h">
-      <Filter>ORB\HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\Proxy\IOReference.h">
-      <Filter>ORB\HandMade\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\Proxy\IOReference_s.h">
-      <Filter>ORB\HandMade\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\Proxy\IORequest.h">
-      <Filter>ORB\HandMade\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\Proxy\IORequest_s.h">
-      <Filter>ORB\HandMade\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\Proxy\ProxyFactory.h">
-      <Filter>ORB\HandMade\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\HandMade\Proxy\ProxyFactory_s.h">
-      <Filter>ORB\HandMade\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Binder.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Binder_s.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Current.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Current_s.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\HeapFactory.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\HeapFactory_s.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Memory.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Memory_s.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Module.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Module_s.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\ModuleInit.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\ModuleInit_s.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Runnable.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\Runnable_s.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\RuntimeSupport.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\HandMade\RuntimeSupport_s.h">
-      <Filter>HandMade</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\make_stateless.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -703,7 +613,7 @@
     <ClCompile Include="..\ORB\Source\TCKind.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\ProcessMain.cpp">
+    <ClCompile Include="..\SRC\Source\nirvana_process.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\crt_startup.cpp">
