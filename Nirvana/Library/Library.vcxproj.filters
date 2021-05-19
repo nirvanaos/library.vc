@@ -197,12 +197,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Memory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Binder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\HeapFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -346,9 +340,6 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Current.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleServant.h">
       <Filter>ORB\Header Files</Filter>
@@ -524,7 +515,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\OLF_Iterator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Chrono.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\System.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -639,16 +630,10 @@
     <None Include="..\SRC\readme.md" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\SRC\Include\Nirvana\Binder.idl">
+    <CustomBuild Include="..\SRC\Include\Nirvana\System.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Memory.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\Current.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\HeapFactory.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Module.idl">
@@ -680,9 +665,6 @@
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\Unmarshal.idl">
       <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\Chrono.idl">
-      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
