@@ -119,7 +119,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\StlUtils.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\stl_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\NirvanaBase.h">
@@ -198,9 +198,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\RuntimeSupport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\FindInterface.h">
@@ -535,7 +532,7 @@
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\StlUtils.cpp">
+    <ClCompile Include="..\SRC\Source\stl_utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp">
@@ -643,9 +640,6 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Runnable.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\RuntimeSupport.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Main.idl">

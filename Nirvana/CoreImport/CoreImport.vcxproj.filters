@@ -37,9 +37,6 @@
     <ClCompile Include="..\ORB\CoreImport\g_object_factory.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\g_runtime_support.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CoreImport\g_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

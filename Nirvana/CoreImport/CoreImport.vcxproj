@@ -63,7 +63,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\SRC\CoreImport\g_module.cpp" />
-    <ClCompile Include="..\SRC\CoreImport\g_runtime_support.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -12,6 +12,9 @@
     <Filter Include="IDL">
       <UniqueIdentifier>{75104f9b-6aca-4704-8f92-9487b2a117b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="generated">
+      <UniqueIdentifier>{ad7cbab3-b552-4f69-b381-63329bbb9bd6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Mock\g_memory.cpp">
@@ -20,7 +23,7 @@
     <ClCompile Include="..\SRC\Mock\g_module.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Mock\g_runtime_support.cpp">
+    <ClCompile Include="..\SRC\Mock\g_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -31,6 +34,24 @@
     <ClInclude Include="..\SRC\Include\Mock\TestMock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="generated\Memory.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Memory_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Module.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\Module_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\System.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\System_s.h">
+      <Filter>generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\Memory.idl">
@@ -39,7 +60,7 @@
     <CustomBuild Include="..\SRC\Include\Nirvana\Module.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\RuntimeSupport.idl">
+    <CustomBuild Include="..\SRC\Include\Nirvana\System.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
