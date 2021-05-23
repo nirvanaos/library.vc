@@ -54,7 +54,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Marshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalContext.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalContext_s.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Marshal_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactoryInc.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\InterfaceMetadata.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference_s.h" />
@@ -164,7 +163,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\I_ptr.h" />
     <ClInclude Include="..\ORB\Include\CORBA\UnknownUserException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Unmarshal.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Unmarshal_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\UserException.h" />
     <ClInclude Include="..\SRC\Include\assert.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
