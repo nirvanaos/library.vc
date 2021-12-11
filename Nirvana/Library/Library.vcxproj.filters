@@ -657,5 +657,8 @@
     <CustomBuild Include="..\ORB\Include\CORBA\ObjectFactory.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\File.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
