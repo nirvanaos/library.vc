@@ -298,7 +298,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;.</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;generated</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -317,7 +317,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;.</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;generated</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -340,7 +340,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;.</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;generated</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -359,7 +359,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;.</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;generated</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
@@ -384,7 +384,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;.</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;generated</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
@@ -409,7 +409,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;.</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;generated</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
@@ -435,7 +435,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;.</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;generated</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
@@ -460,7 +460,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;.</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;generated</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
     </ClCompile>
     <Link>
