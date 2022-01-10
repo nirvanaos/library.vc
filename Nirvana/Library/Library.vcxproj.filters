@@ -518,6 +518,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\OctetSeq.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\OctetSeq_s.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -622,14 +625,14 @@
     <ClCompile Include="..\ORB\Source\TypeCode.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\generated\RuntimeError.cpp">
+    <ClCompile Include="..\SRC\Source\File.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\generated\File.cpp">
+    <ClCompile Include="..\SRC\Source\RuntimeError.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\generated\OctetSeq.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\ORB\Source\OctetSeq.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
