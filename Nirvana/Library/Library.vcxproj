@@ -172,6 +172,8 @@
     <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\File.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\file_system.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\fnctl.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Hash.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\ImportInterface.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h" />

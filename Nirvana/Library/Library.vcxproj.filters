@@ -521,6 +521,12 @@
     <ClInclude Include="..\ORB\Include\CORBA\OctetSeq_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\fnctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\file_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">

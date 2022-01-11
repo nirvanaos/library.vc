@@ -35,102 +35,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ORB\Core\POA.cpp" />
-    <ClCompile Include="..\ORB\Core\POA_p.cpp" />
-    <ClCompile Include="..\ORB\Core\ProxyLocal.cpp" />
-    <ClCompile Include="..\ORB\Core\ProxyManager.cpp" />
-    <ClCompile Include="..\ORB\Core\ProxyObject.cpp" />
-    <ClCompile Include="..\ORB\Core\ServantBase.cpp" />
-    <ClCompile Include="..\ORB\Core\ServantMarshaler.cpp" />
-    <ClCompile Include="..\ORB\Core\ServantProxyBase.cpp" />
-    <ClCompile Include="..\ORB\Core\tc_constants.cpp" />
-    <ClCompile Include="..\ORB\Core\tc_exceptions.cpp" />
-    <ClCompile Include="..\ORB\Core\TypeCode.cpp" />
-    <ClCompile Include="..\ORB\Test\ImplI1.cpp" />
-    <ClCompile Include="..\ORB\Test\I1_dynamic.cpp" />
-    <ClCompile Include="..\ORB\Test\I1_portable.cpp" />
-    <ClCompile Include="..\ORB\Test\I1_tied.cpp" />
-    <ClCompile Include="..\ORB\Test\I3_dynamic.cpp" />
-    <ClCompile Include="..\ORB\Test\I3_portable.cpp" />
-    <ClCompile Include="..\ORB\Test\I3_tied.cpp" />
-    <ClCompile Include="..\ORB\Test\Mock\Current.cpp" />
-    <ClCompile Include="..\ORB\Test\Mock\SynchronizationContext.cpp" />
-    <ClCompile Include="..\ORB\Test\Mock\MockBinder.cpp" />
-    <ClCompile Include="..\ORB\Test\Mock\ObjectFactory.cpp" />
-    <ClCompile Include="..\ORB\Test\I1_static.cpp" />
-    <ClCompile Include="..\ORB\Test\I3_static.cpp" />
-    <ClCompile Include="..\ORB\Test\Test.cpp" />
-    <ClCompile Include="..\ORB\Test\TestORB.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I1.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I1_factory.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I1_factory_p.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I1_p.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Test\Test_I2.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I2_p.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I3.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I3_factory.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I3_factory_p.cpp" />
-    <ClCompile Include="..\ORB\Test\Test_I3_p.cpp" />
-    <ClCompile Include="..\SRC\CoreImport\g_module.cpp" />
-    <ClCompile Include="..\SRC\Core\ModuleInfo.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\ORB\Core\tc_impex.h" />
-    <ClInclude Include="..\ORB\Include\Core\ORB\CoreImpl.h" />
-    <ClInclude Include="..\ORB\Include\Core\ORB\LocalObject.h" />
-    <ClInclude Include="..\ORB\Include\Core\ORB\POA.h" />
-    <ClInclude Include="..\ORB\Include\Core\ORB\ProxyLocal.h" />
-    <ClInclude Include="..\ORB\Include\Core\ORB\ProxyManager.h" />
-    <ClInclude Include="..\ORB\Include\Core\ORB\ProxyObject.h" />
-    <ClInclude Include="..\ORB\Include\Core\ORB\ReferenceCounter.h" />
-    <ClInclude Include="..\ORB\Include\Core\ORB\ServantBase.h" />
-    <ClInclude Include="..\ORB\Include\Core\ORB\ServantMarshaler.h" />
-    <ClInclude Include="..\ORB\Include\Core\ORB\ServantProxyBase.h" />
-    <ClInclude Include="..\ORB\Test\DynamicI1.h" />
-    <ClInclude Include="..\ORB\Test\DynamicI3.h" />
-    <ClInclude Include="..\ORB\Test\ImplI1.h" />
-    <ClInclude Include="..\ORB\Test\I1_portable.h" />
-    <ClInclude Include="..\ORB\Test\I1_tied.h" />
-    <ClInclude Include="..\ORB\Test\I3_dynamic.h" />
-    <ClInclude Include="..\ORB\Test\I3_portable.h" />
-    <ClInclude Include="..\ORB\Test\I3_tied.h" />
-    <ClInclude Include="..\ORB\Test\Mock\MockBinder.h" />
-    <ClInclude Include="..\ORB\Test\Mock\ObjectFactory.h" />
-    <ClInclude Include="..\ORB\Test\PortableI1.h" />
-    <ClInclude Include="..\ORB\Test\PortableI3.h" />
-    <ClInclude Include="..\ORB\Test\I1_static.h" />
-    <ClInclude Include="..\ORB\Test\I3_static.h" />
-    <ClInclude Include="..\ORB\Test\TestORB.h" />
-    <ClInclude Include="..\ORB\Test\Test_I1.h" />
-    <ClInclude Include="..\ORB\Test\I1_dynamic.h" />
-    <ClInclude Include="..\ORB\Test\Test_I1_factory.h" />
-    <ClInclude Include="..\ORB\Test\Test_I1_factory_s.h" />
-    <ClInclude Include="..\ORB\Test\Test_I1_s.h" />
-    <ClInclude Include="..\ORB\Test\Test_I2.h" />
-    <ClInclude Include="..\ORB\Test\Test_I2_s.h" />
-    <ClInclude Include="..\ORB\Test\Test_I3.h" />
-    <ClInclude Include="..\ORB\Test\Test_I3_factory.h" />
-    <ClInclude Include="..\ORB\Test\Test_I3_factory_s.h" />
-    <ClInclude Include="..\ORB\Test\Test_I3_s.h" />
-    <ClInclude Include="..\SRC\Include\Core\Array.h" />
-    <ClInclude Include="..\SRC\Include\Core\AtomicCounter.h" />
-    <ClInclude Include="..\SRC\Include\Core\CoreInterface.h" />
-    <ClInclude Include="..\SRC\Include\Core\LifeCycle.h" />
-    <ClInclude Include="..\SRC\Include\Core\ModuleInfo.h" />
-    <ClInclude Include="..\SRC\Include\Core\Runnable.h" />
-    <ClInclude Include="..\SRC\Include\Core\SynchronizationContext.h" />
-    <ClInclude Include="..\SRC\Include\Core\Synchronized.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\googletest\googletest.vcxproj">
       <Project>{5d537823-c595-4fb0-8056-9e6ce6a58ea7}</Project>
     </ProjectReference>
@@ -140,9 +44,12 @@
     <ProjectReference Include="..\Library\Library.vcxproj">
       <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\MockImports\MockImports.vcxproj">
+      <Project>{a39cadf8-37b9-4bac-822b-1bb6bb6f600f}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ClCompile Include="..\ORB\Test\TestORB.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -272,7 +179,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LEGACY_CORBA_CPP;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -293,7 +200,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LEGACY_CORBA_CPP;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -315,7 +222,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LEGACY_CORBA_CPP;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -335,7 +242,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LEGACY_CORBA_CPP;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -358,7 +265,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LEGACY_CORBA_CPP;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -379,7 +286,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LEGACY_CORBA_CPP;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -400,7 +307,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LEGACY_CORBA_CPP;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -421,7 +328,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>LEGACY_CORBA_CPP;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>..\preprocessor\include;..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -436,17 +343,5 @@
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets" Condition="Exists('..\..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" />
-    <Import Project="..\..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets" Condition="Exists('..\..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" />
-    <Import Project="..\..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets" Condition="Exists('..\..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" />
-  </ImportGroup>
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\LLVM.Demangle.8.0.0\build\native\LLVM.Demangle.targets'))" />
-    <Error Condition="!Exists('..\..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\LLVM.Support.8.0.0\build\native\LLVM.Support.targets'))" />
-    <Error Condition="!Exists('..\..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\LLVM.BinaryFormat.8.0.0\build\native\LLVM.BinaryFormat.targets'))" />
-  </Target>
+  <ImportGroup Label="ExtensionTargets" />
 </Project>
