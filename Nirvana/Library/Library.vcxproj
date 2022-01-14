@@ -53,7 +53,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\make_stateless.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Marshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\MarshalContext.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalContext_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactoryInc.h" />
     <ClInclude Include="..\ORB\Include\CORBA\OctetSeq.h" />
     <ClInclude Include="..\ORB\Include\CORBA\OctetSeq_s.h" />
