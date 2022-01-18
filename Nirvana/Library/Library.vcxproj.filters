@@ -524,6 +524,12 @@
     <ClInclude Include="..\SRC\Include\Nirvana\file_system.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\Legacy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\SimpleList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -689,6 +695,9 @@
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\OctetSeq.idl">
       <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\Legacy.idl">
+      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>

@@ -35,7 +35,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\CRTL\gmtime_r.c" />
     <ClCompile Include="..\SRC\Mock\g_memory.cpp" />
     <ClCompile Include="..\SRC\Mock\g_module.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>

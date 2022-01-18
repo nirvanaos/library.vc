@@ -66,6 +66,12 @@
     <ClCompile Include="..\SRC\CRTL\uncaught_exceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\msvc\excptptr.cpp">
+      <Filter>MSVC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\msvc\Lockit.cpp">
+      <Filter>MSVC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\CRTL\utils.h">
