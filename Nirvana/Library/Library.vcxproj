@@ -166,6 +166,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Unmarshal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\UserException.h" />
     <ClInclude Include="..\SRC\Include\assert.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Allocator.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h" />
