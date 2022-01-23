@@ -375,7 +375,12 @@
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\memcpy.cpp" />
     <ClCompile Include="..\SRC\CRTL\msvc\crtdbg.cpp" />
-    <ClCompile Include="..\SRC\CRTL\msvc\excptptr.cpp" />
+    <ClCompile Include="..\SRC\CRTL\msvc\excptptr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\msvc\invalid_parameter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</ExcludedFromBuild>
