@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="MSVC">
-      <UniqueIdentifier>{2c136f3a-d248-4a19-a1db-b66b24ceb2ae}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\CRTL\malloc.cpp">
@@ -33,12 +30,6 @@
     <ClCompile Include="..\SRC\CRTL\strcpy_s.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\msvc\crtdbg.cpp">
-      <Filter>MSVC</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\msvc\invalid_parameter.cpp">
-      <Filter>MSVC</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\abort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -51,33 +42,18 @@
     <ClCompile Include="..\SRC\CRTL\strncmp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\formatter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\errno.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\rand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\msvc\uncaught_exceptions_msvc.cpp">
-      <Filter>MSVC</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\uncaught_exceptions.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\msvc\excptptr.cpp">
-      <Filter>MSVC</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\msvc\Lockit.cpp">
-      <Filter>MSVC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\CRTL\utils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\CRTL\formatter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\errno.h">
