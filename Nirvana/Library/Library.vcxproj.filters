@@ -539,6 +539,15 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Formatter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\c_heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\c_heap_dbg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\nls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -655,6 +664,12 @@
     <ClCompile Include="..\SRC\Source\Formatter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\c_heap_dbg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\assert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
@@ -709,6 +724,9 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Legacy.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\nls.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

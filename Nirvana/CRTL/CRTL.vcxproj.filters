@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\CRTL\malloc.cpp">
+    <ClCompile Include="..\SRC\CRTL\heap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\new_delete.cpp">
