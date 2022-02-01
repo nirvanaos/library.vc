@@ -732,5 +732,14 @@
     <CustomBuild Include="..\SRC\Include\Nirvana\nls.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\TypeCode.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\InterfaceRepository.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\TCKind.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
