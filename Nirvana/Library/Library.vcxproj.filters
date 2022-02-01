@@ -95,7 +95,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\RepositoryId.h">
+    <ClInclude Include="..\ORB\Include\CORBA\RepId.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Sequence.h">
@@ -562,7 +562,7 @@
     <ClCompile Include="..\ORB\Source\ORB.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\RepositoryId.cpp">
+    <ClCompile Include="..\ORB\Source\RepId.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp">
