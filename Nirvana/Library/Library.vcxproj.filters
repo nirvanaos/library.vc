@@ -705,7 +705,7 @@
     <CustomBuild Include="..\ORB\Include\CORBA\Proxy\IORequest.idl">
       <Filter>ORB\IDL\Proxy</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\Marshal.idl">
+    <CustomBuild Include="..\ORB\Include\CORBA\IORequest.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\MarshalContext.idl">
