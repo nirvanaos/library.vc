@@ -398,16 +398,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\IORequest.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyBase.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference_s.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\IORequest_s.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ServantMemory.h">
@@ -466,15 +457,6 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeTypeDef.h">
       <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Marshal.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalContext.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Unmarshal.h">
-      <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\I_ref.h">
       <Filter>ORB\Header Files</Filter>
@@ -549,6 +531,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ValueBase.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\IORequest.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -702,16 +687,7 @@
     <CustomBuild Include="..\ORB\Include\CORBA\Proxy\IOReference.idl">
       <Filter>ORB\IDL\Proxy</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\Proxy\IORequest.idl">
-      <Filter>ORB\IDL\Proxy</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\IORequest.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\MarshalContext.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\Unmarshal.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\ObjectFactory.idl">
