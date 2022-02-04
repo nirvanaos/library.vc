@@ -42,6 +42,8 @@
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\float_types.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypePrimitive.h" />
     <ClInclude Include="..\ORB\Include\CORBA\IORequest.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_ref.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleRefCnt.h" />
