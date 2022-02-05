@@ -168,6 +168,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueBase.h" />
     <ClInclude Include="..\SRC\Include\assert.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Allocator.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\array_bool.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h" />
@@ -334,6 +335,7 @@
     <None Include="..\ORB\Include\CORBA\TypeFixLen.inl" />
     <None Include="..\ORB\Include\CORBA\TypePrimitive.inl" />
     <None Include="..\ORB\Include\CORBA\Object.inl" />
+    <None Include="..\ORB\Include\CORBA\TypeVarLen.inl" />
     <None Include="..\ORB\Include\CORBA\Type_interface.inl" />
     <None Include="..\ORB\Include\CORBA\ValueBase.inl" />
     <None Include="..\ORB\readme.md" />

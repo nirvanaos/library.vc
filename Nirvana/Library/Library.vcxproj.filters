@@ -551,6 +551,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\IORequestClient.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\array_bool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -701,6 +704,9 @@
       <Filter>ORB\Header Files</Filter>
     </None>
     <None Include="..\ORB\Include\CORBA\ValueBase.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\ORB\Include\CORBA\TypeVarLen.inl">
       <Filter>ORB\Header Files</Filter>
     </None>
   </ItemGroup>
