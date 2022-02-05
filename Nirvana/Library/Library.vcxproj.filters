@@ -554,6 +554,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\array_bool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TypeVarLenA.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">

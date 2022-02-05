@@ -109,6 +109,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\TypeByVal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\String_compat.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeVarLen.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeVarLenA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type_array.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type_forward.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type_interface.h" />
