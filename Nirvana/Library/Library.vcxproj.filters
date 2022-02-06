@@ -768,5 +768,8 @@
     <CustomBuild Include="..\ORB\Include\CORBA\TCKind.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\DynamicServant.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
