@@ -771,5 +771,8 @@
     <CustomBuild Include="..\ORB\Include\CORBA\DynamicServant.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.idl">
+      <Filter>ORB\IDL\Proxy</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
