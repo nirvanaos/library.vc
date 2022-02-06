@@ -247,6 +247,7 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\OctetSeq.cpp" />
     <ClCompile Include="..\ORB\Source\POA.cpp" />
+    <ClCompile Include="..\ORB\Source\ProxyBase.cpp" />
     <ClCompile Include="..\ORB\Source\servant_core.cpp" />
     <ClCompile Include="..\ORB\Source\TCKind.cpp" />
     <ClCompile Include="..\ORB\Source\Type.cpp">
