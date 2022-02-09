@@ -398,16 +398,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\IORequest.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyBase.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference_s.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\IORequest_s.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ServantMemory.h">
@@ -467,15 +458,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeTypeDef.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Marshal.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\MarshalContext.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Unmarshal.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\I_ref.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -530,7 +512,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\SimpleList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\memory_forward.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\Memory_forward.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\Allocator.h">
@@ -549,6 +531,30 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ValueBase.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\IORequest.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TypePrimitive.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\float_types.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\SoftFloat.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Type_array.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\IORequestClient.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\array_bool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TypeVarLenHelper.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -673,12 +679,42 @@
     <ClCompile Include="..\SRC\Source\assert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\ProxyBase.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
       <Filter>ORB</Filter>
     </None>
     <None Include="..\SRC\readme.md" />
+    <None Include="..\ORB\Include\CORBA\TypeFixLen.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\ORB\Include\CORBA\TypeEnum.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\ORB\Include\CORBA\TypePrimitive.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\ORB\Include\CORBA\String.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\ORB\Include\CORBA\Object.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\ORB\Include\CORBA\Sequence.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\ORB\Include\CORBA\Type_interface.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\ORB\Include\CORBA\ValueBase.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\ORB\Include\CORBA\TypeVarLen.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\System.idl">
@@ -702,16 +738,7 @@
     <CustomBuild Include="..\ORB\Include\CORBA\Proxy\IOReference.idl">
       <Filter>ORB\IDL\Proxy</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\Proxy\IORequest.idl">
-      <Filter>ORB\IDL\Proxy</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\Marshal.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\MarshalContext.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\Unmarshal.idl">
+    <CustomBuild Include="..\ORB\Include\CORBA\IORequest.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\ObjectFactory.idl">
@@ -740,6 +767,12 @@
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\TCKind.idl">
       <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\DynamicServant.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.idl">
+      <Filter>ORB\IDL\Proxy</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
