@@ -775,4 +775,9 @@
       <Filter>ORB\IDL\Proxy</Filter>
     </CustomBuild>
   </ItemGroup>
+  <ItemGroup>
+    <Midl Include="..\ORB\Include\CORBA\PortableServer.idl">
+      <Filter>ORB\IDL</Filter>
+    </Midl>
+  </ItemGroup>
 </Project>
