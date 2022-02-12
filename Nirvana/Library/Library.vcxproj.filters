@@ -86,12 +86,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ORB.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\POA_s.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\PortableServer.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -180,9 +174,6 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\POA.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter.h">
@@ -557,6 +548,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\TypeVarLenHelper.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\PortableServer.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -625,9 +619,6 @@
     <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\POA.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\UnknownUserException.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -680,6 +671,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ProxyBase.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\PortableServer.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -774,10 +768,8 @@
     <CustomBuild Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.idl">
       <Filter>ORB\IDL\Proxy</Filter>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <Midl Include="..\ORB\Include\CORBA\PortableServer.idl">
+    <CustomBuild Include="..\ORB\Include\CORBA\PortableServer.idl">
       <Filter>ORB\IDL</Filter>
-    </Midl>
+    </CustomBuild>
   </ItemGroup>
 </Project>
