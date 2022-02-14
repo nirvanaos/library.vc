@@ -771,5 +771,8 @@
     <CustomBuild Include="..\ORB\Include\CORBA\PortableServer.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\ORB.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
