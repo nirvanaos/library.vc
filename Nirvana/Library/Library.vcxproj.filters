@@ -506,9 +506,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Memory_forward.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Allocator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\Formatter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
