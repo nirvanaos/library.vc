@@ -204,7 +204,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\System.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
-    <ClInclude Include="..\SRC\Include\siginfo.h" />
     <ClInclude Include="..\SRC\Include\signal.h" />
     <ClInclude Include="..\SRC\Source\crt_startup.h" />
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h" />
