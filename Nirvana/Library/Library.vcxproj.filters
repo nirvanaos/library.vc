@@ -676,6 +676,9 @@
     <ClCompile Include="..\ORB\Source\PortableServer.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\Legacy_Process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
@@ -773,6 +776,9 @@
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\ORB.idl">
       <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\Legacy_Process.idl">
+      <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
