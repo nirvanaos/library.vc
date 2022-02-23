@@ -180,6 +180,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Hash.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\ImportInterface.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Legacy.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Legacy_Process.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Memory.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Memory_forward.h" />
@@ -194,6 +195,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Main.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Main_s.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\OLF_Iterator.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Launcher.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\real_copy.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Runnable_s.h" />
