@@ -86,9 +86,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ORB.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_s.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\RepId.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -174,9 +171,6 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ServantBase.h">
@@ -293,15 +287,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\DynamicServantPOA.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\DynamicServantImpl.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ServantBaseImpl.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -317,16 +302,10 @@
     <ClInclude Include="..\ORB\Include\CORBA\ServantBaseStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterStatic.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleServant.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Type_interface.h">
@@ -620,9 +599,6 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\LocalObjectPOA.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\UnknownUserException.cpp">

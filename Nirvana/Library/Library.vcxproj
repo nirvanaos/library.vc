@@ -75,23 +75,18 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeStruct.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeTypeDef.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoStatic.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\DynamicServantPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudo.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Interface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_var.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\DynamicServantImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Serverless.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectLink.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleServant.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantBaseImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantBaseLink.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantBasePOA.h" />
@@ -143,8 +138,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Object.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Object_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ORB.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounter_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RepId.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Sequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ABI_Sequence.h" />
@@ -233,16 +226,6 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ShowIncludes>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\LocalObjectLink.cpp">
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ShowIncludes>
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ShowIncludes>
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ShowIncludes>
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ShowIncludes>
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ShowIncludes>
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ShowIncludes>
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ShowIncludes>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\LifeCycleServant.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ShowIncludes>
