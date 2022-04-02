@@ -679,6 +679,9 @@
     <ClCompile Include="..\SRC\Source\Legacy_Process.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\ReferenceCounterLink.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
