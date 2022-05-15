@@ -302,9 +302,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ServantBaseStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -713,6 +710,9 @@
       <Filter>ORB\Header Files</Filter>
     </None>
     <None Include="..\ORB\Include\CORBA\TypeVarLen.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
+    <None Include="..\ORB\Include\CORBA\AbstractBase.inl">
       <Filter>ORB\Header Files</Filter>
     </None>
   </ItemGroup>

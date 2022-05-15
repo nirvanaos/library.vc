@@ -38,7 +38,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ABI.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
@@ -329,6 +328,7 @@
     <ClCompile Include="..\SRC\Source\throw_exception.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\ORB\Include\CORBA\AbstractBase.inl" />
     <None Include="..\ORB\Include\CORBA\Sequence.inl" />
     <None Include="..\ORB\Include\CORBA\String.inl" />
     <None Include="..\ORB\Include\CORBA\TypeEnum.inl" />
