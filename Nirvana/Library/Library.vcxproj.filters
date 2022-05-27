@@ -551,6 +551,12 @@
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationValuePOA.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\PseudoBase.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\PseudoBase_s.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -782,6 +788,9 @@
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Legacy_Process.idl">
       <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\ReferenceCounter.idl">
+      <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
