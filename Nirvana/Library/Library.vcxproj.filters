@@ -71,9 +71,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Fixed.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ImplementationPOA.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -263,9 +260,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoPOA.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -279,9 +273,6 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalPOA.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalStatic.h">
@@ -546,9 +537,6 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationValue.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ImplementationValuePOA.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase.h">

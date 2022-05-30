@@ -43,7 +43,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\float_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationValue.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ImplementationValuePOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\IORequestClient.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PortableServer.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase.h" />
@@ -80,9 +79,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeStruct.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeTypeDef.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalStatic.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudo.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Interface.h" />
@@ -134,7 +131,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\FindInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Fixed.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Implementation.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ImplementationPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationTied.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleDynamic.h" />
