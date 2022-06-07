@@ -42,7 +42,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\float_types.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\ImplementationValue.h" />
     <ClInclude Include="..\ORB\Include\CORBA\IORequestClient.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PortableServer.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase.h" />

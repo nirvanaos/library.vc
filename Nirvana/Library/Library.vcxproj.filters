@@ -536,9 +536,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueBasePOA.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ImplementationValue.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
