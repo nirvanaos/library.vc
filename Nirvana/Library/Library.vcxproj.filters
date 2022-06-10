@@ -542,6 +542,12 @@
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ValueFactoryBase.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ValueFactoryBase_s.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">

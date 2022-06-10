@@ -160,6 +160,8 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueBaseImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueBasePOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueBase_s.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ValueFactoryBase.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ValueFactoryBase_s.h" />
     <ClInclude Include="..\SRC\Include\assert.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\array_bool.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
