@@ -44,6 +44,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\float_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\IORequestClient.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PortableServer.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeInterface.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeNative.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValue.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterLink.h" />
