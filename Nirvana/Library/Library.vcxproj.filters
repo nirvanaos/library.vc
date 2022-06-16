@@ -557,6 +557,12 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValue.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ValueFactory.h">
+      <Filter>ORB\Header Files\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ValueCreator.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
