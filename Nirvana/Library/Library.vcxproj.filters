@@ -530,9 +530,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueBaseImpl.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ReferenceCounterLink.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ValueBasePOA.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -688,9 +685,6 @@
     <ClCompile Include="..\SRC\Source\Legacy_Process.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\ReferenceCounterLink.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
@@ -794,9 +788,6 @@
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Legacy_Process.idl">
       <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\ReferenceCounter.idl">
-      <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
