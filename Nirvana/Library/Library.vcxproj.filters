@@ -569,6 +569,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeArray.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h">
+      <Filter>ORB\Header Files\Proxy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">

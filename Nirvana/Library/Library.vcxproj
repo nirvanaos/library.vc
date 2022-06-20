@@ -42,6 +42,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeArray.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueCreator.h" />
