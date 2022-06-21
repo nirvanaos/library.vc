@@ -733,6 +733,9 @@
     <None Include="..\ORB\Include\CORBA\AbstractBase.inl">
       <Filter>ORB\Header Files</Filter>
     </None>
+    <None Include="..\ORB\Include\CORBA\ValueBox.inl">
+      <Filter>ORB\Header Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\System.idl">
