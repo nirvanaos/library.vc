@@ -554,7 +554,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValue.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ValueFactory.h">
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ValueFactoryImpl.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ValueCreator.h">
@@ -571,6 +571,9 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h">
       <Filter>ORB\Header Files\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\InterfaceRepository.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -696,6 +699,9 @@
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Legacy_Process.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\InterfaceRepository.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

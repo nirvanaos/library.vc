@@ -41,6 +41,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Boolean.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\InterfaceRepository.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeArray.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
@@ -52,7 +53,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeNative.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValue.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ValueFactory.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ValueFactoryImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\SoftFloat.h" />
@@ -217,6 +218,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
+    <ClCompile Include="..\ORB\Source\InterfaceRepository.cpp" />
     <ClCompile Include="..\ORB\Source\local_core.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ShowIncludes>
@@ -902,14 +904,14 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\ORB\Include\CORBA\InterfaceRepository.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -client -legacy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -client -legacy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -client -legacy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -client -legacy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -client -legacy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -client -legacy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -client -legacy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -client -legacy -out_cpp $(ProjectDir)..\ORB\Source</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
@@ -926,14 +928,14 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IDL compilation</Message>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
