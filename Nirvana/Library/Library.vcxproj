@@ -46,6 +46,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\T_var.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Union.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueCreator.h" />
     <ClInclude Include="..\ORB\Include\CORBA\float_types.h" />
