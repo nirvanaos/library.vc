@@ -349,7 +349,6 @@
     <None Include="..\ORB\Include\CORBA\TypeVarLen.inl" />
     <None Include="..\ORB\Include\CORBA\Type_interface.inl" />
     <None Include="..\ORB\Include\CORBA\ValueBase.inl" />
-    <None Include="..\ORB\Include\CORBA\ValueBox.inl" />
     <None Include="..\ORB\readme.md" />
     <None Include="..\SRC\readme.md" />
   </ItemGroup>
