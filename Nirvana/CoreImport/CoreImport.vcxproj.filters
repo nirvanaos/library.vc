@@ -49,5 +49,8 @@
     <ClCompile Include="..\SRC\CoreImport\g_factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CoreImport\g_dec_calc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
