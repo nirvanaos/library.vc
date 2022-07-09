@@ -45,6 +45,8 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeUnion.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Type_fixed.h" />
     <ClInclude Include="..\ORB\Include\CORBA\T_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Union.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueBox.h" />
@@ -321,6 +323,7 @@
     <ClCompile Include="..\ORB\Source\String_compat.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCode.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp" />
+    <ClCompile Include="..\ORB\Source\Type_fixed.cpp" />
     <ClCompile Include="..\ORB\Source\UnknownUserException.cpp" />
     <ClCompile Include="..\SRC\Source\assert.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
