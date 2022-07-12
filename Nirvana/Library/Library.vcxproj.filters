@@ -596,6 +596,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeFixed.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\Fixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -727,8 +730,11 @@
     <ClCompile Include="..\ORB\Source\Type_fixed.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\Fixed.cpp">
-      <Filter>ORB\Source Files</Filter>
+    <ClCompile Include="..\SRC\Source\Decimal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\Fixed.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

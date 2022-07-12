@@ -188,6 +188,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\File.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\file_system.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Fixed.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\fnctl.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Formatter.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Hash.h" />
@@ -225,7 +226,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
-    <ClCompile Include="..\ORB\Source\Fixed.cpp" />
     <ClCompile Include="..\ORB\Source\InterfaceRepository.cpp" />
     <ClCompile Include="..\ORB\Source\local_core.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ShowIncludes>
@@ -331,7 +331,9 @@
     <ClCompile Include="..\SRC\Source\bitutils.cpp" />
     <ClCompile Include="..\SRC\Source\crt_startup.cpp" />
     <ClCompile Include="..\SRC\Source\c_heap_dbg.cpp" />
+    <ClCompile Include="..\SRC\Source\Decimal.cpp" />
     <ClCompile Include="..\SRC\Source\File.cpp" />
+    <ClCompile Include="..\SRC\Source\Fixed.cpp" />
     <ClCompile Include="..\SRC\Source\Formatter.cpp" />
     <ClCompile Include="..\SRC\Source\Legacy_Process.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
