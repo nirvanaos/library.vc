@@ -355,6 +355,7 @@
     <None Include="..\ORB\Include\CORBA\TypePrimitive.inl" />
     <None Include="..\ORB\Include\CORBA\Object.inl" />
     <None Include="..\ORB\Include\CORBA\TypeVarLen.inl" />
+    <None Include="..\ORB\Include\CORBA\Type_fixed.inl" />
     <None Include="..\ORB\Include\CORBA\Type_interface.inl" />
     <None Include="..\ORB\Include\CORBA\ValueBase.inl" />
     <None Include="..\ORB\readme.md" />
