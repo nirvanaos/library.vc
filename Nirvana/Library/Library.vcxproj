@@ -349,6 +349,7 @@
   <ItemGroup>
     <None Include="..\ORB\Include\CORBA\AbstractBase.inl" />
     <None Include="..\ORB\Include\CORBA\Sequence.inl" />
+    <None Include="..\ORB\Include\CORBA\ServantBase.inl" />
     <None Include="..\ORB\Include\CORBA\String.inl" />
     <None Include="..\ORB\Include\CORBA\TypeEnum.inl" />
     <None Include="..\ORB\Include\CORBA\TypeFixLen.inl" />
