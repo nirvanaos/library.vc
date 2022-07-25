@@ -265,6 +265,7 @@
     <ClCompile Include="..\ORB\Source\Policy.cpp" />
     <ClCompile Include="..\ORB\Source\PortableServer.cpp" />
     <ClCompile Include="..\ORB\Source\ProxyBase.cpp" />
+    <ClCompile Include="..\ORB\Source\ServantLocator_native.cpp" />
     <ClCompile Include="..\ORB\Source\servant_core.cpp" />
     <ClCompile Include="..\ORB\Source\TCKind.cpp" />
     <ClCompile Include="..\ORB\Source\Type.cpp">
@@ -342,6 +343,7 @@
     <ClCompile Include="..\SRC\Source\Formatter.cpp" />
     <ClCompile Include="..\SRC\Source\Legacy_Process.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
+    <ClCompile Include="..\SRC\Source\native.cpp" />
     <ClCompile Include="..\SRC\Source\nirvana_module.cpp" />
     <ClCompile Include="..\SRC\Source\nirvana_singleton.cpp" />
     <ClCompile Include="..\SRC\Source\OLF_Iterator.cpp" />
