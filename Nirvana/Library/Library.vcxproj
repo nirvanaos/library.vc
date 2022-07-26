@@ -49,7 +49,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantLocator_native.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeAlias.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeTypeDef.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type_fixed.h" />
     <ClInclude Include="..\ORB\Include\CORBA\T_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Union.h" />
@@ -85,7 +87,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Proxy.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory_s.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeAlias.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeEnum.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeImpl.h" />
@@ -93,7 +94,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeSequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeString.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeStruct.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeTypeDef.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocal.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationLocalStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudoStatic.h" />

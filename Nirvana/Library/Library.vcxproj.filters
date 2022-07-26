@@ -407,12 +407,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\native.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeAlias.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeTypeDef.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\I_ref.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -606,6 +600,12 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ServantLocator_native.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeTypeDef.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TypeAlias.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
