@@ -220,8 +220,10 @@
     <ClInclude Include="..\SRC\Include\Nirvana\SimpleList.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\static.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\stl_utils.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\string_conv.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\System.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\UTF8.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
     <ClInclude Include="..\SRC\Include\signal.h" />
     <ClInclude Include="..\SRC\Source\crt_startup.h" />
@@ -352,6 +354,7 @@
     <ClCompile Include="..\SRC\Source\RuntimeError.cpp" />
     <ClCompile Include="..\SRC\Source\stl_utils.cpp" />
     <ClCompile Include="..\SRC\Source\throw_exception.cpp" />
+    <ClCompile Include="..\SRC\Source\UTF8.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\Include\CORBA\AbstractBase.inl" />
