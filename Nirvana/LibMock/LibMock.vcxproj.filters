@@ -45,5 +45,8 @@
     <CustomBuild Include="..\SRC\Include\Nirvana\Legacy_Process.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\TimeBase.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
