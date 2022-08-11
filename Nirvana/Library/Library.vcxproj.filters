@@ -614,6 +614,18 @@
     <ClInclude Include="..\SRC\Include\Nirvana\string_conv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TimeBase.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\muldiv64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TimeBase_s.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\time_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -766,6 +778,12 @@
     <ClCompile Include="..\SRC\Source\UTF8.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\TimeBase.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\muldiv64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
@@ -880,6 +898,9 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\Current.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\TimeBase.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
