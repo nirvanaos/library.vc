@@ -617,7 +617,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\muldiv64.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\time_constants.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\time_defs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\TimeBase.h">
