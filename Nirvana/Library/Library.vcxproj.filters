@@ -443,12 +443,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\RuntimeError.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\OctetSeq.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\OctetSeq_s.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\fnctl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -614,7 +608,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\string_conv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\muldiv64.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\rescale.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\time_defs.h">
@@ -622,6 +616,18 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\TimeBase.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Messaging.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Dynamic.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\IOP.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Pollable.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -727,9 +733,6 @@
     <ClCompile Include="..\SRC\Source\RuntimeError.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\OctetSeq.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Source\Formatter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -775,11 +778,23 @@
     <ClCompile Include="..\SRC\Source\UTF8.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\muldiv64.cpp">
+    <ClCompile Include="..\SRC\Source\rescale.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\TimeBase.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\Dynamic.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\IOP.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\Messaging.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\Pollable.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -855,9 +870,6 @@
     <CustomBuild Include="..\SRC\Include\Nirvana\RuntimeError.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\OctetSeq.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Legacy.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
@@ -899,6 +911,18 @@
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\TimeBase.idl">
       <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Dynamic.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Messaging.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Pollable.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\IOP.idl">
+      <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
