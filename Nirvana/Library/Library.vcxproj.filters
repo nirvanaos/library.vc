@@ -36,9 +36,6 @@
     <Filter Include="IDL\Legacy">
       <UniqueIdentifier>{93e8472d-d768-4121-8ccf-7cb968afe8f6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Legacy">
-      <UniqueIdentifier>{0e768128-ae75-4817-bb3b-0ee1e4251ae7}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -65,9 +62,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\CORBA_Environment.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\DynamicServant_s.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Exception.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -81,9 +75,6 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Object_s.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ORB.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\RepId.h">
@@ -164,13 +155,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\DynamicServant.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Object.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\ObjectFactory.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ServantBase.h">
@@ -395,9 +380,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ABI.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\TCKind.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\native.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -464,9 +446,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\IORequest.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\TypePrimitive.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -486,9 +465,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\MarshalHelper.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\PortableServer.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\signal.h">
@@ -545,9 +521,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\InterfaceRepository.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\T_var.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -575,9 +548,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Fixed.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Policy.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Current.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -604,36 +574,6 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\TimeBase.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Messaging.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Dynamic.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\IOP.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Pollable.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Legacy\Legacy.h">
-      <Filter>Header Files\Legacy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Legacy\Legacy_Process.h">
-      <Filter>Header Files\Legacy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Legacy\Runnable.h">
-      <Filter>Header Files\Legacy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Legacy\Runnable_s.h">
-      <Filter>Header Files\Legacy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Legacy\Main.h">
-      <Filter>Header Files\Legacy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Legacy\Main_s.h">
-      <Filter>Header Files\Legacy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -805,6 +745,9 @@
     <ClCompile Include="..\SRC\Source\System.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\Request.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
@@ -932,6 +875,18 @@
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Legacy\Main.idl">
       <Filter>IDL\Legacy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Request.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Context.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\NVList.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CORBA_types.idl">
+      <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
