@@ -802,6 +802,9 @@
     <ClCompile Include="..\ORB\Source\Pollable.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">

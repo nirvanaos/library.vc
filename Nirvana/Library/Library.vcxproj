@@ -362,6 +362,7 @@
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
     <ClCompile Include="..\SRC\Source\RuntimeError.cpp" />
     <ClCompile Include="..\SRC\Source\stl_utils.cpp" />
+    <ClCompile Include="..\SRC\Source\System.cpp" />
     <ClCompile Include="..\SRC\Source\throw_exception.cpp" />
     <ClCompile Include="..\SRC\Source\TimeBase.cpp" />
     <ClCompile Include="..\SRC\Source\UTF8.cpp" />
@@ -455,14 +456,14 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\System.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -I ..\ORB\Include -client -out_cpp $(ProjectDir)..\SRC\Source</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RelativeDir)%(Filename).h</Outputs>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
