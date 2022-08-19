@@ -216,6 +216,7 @@
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\Source\CORBA_types.cpp" />
     <ClCompile Include="..\ORB\Source\Current.cpp" />
     <ClCompile Include="..\ORB\Source\Dynamic.cpp" />
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
@@ -1558,22 +1559,22 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\ORB\Include\CORBA\CORBA_types.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -no_client_cpp</Command>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -no_proxy -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
