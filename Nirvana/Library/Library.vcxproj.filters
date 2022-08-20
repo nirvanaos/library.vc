@@ -575,6 +575,12 @@
     <ClInclude Include="..\SRC\Include\Nirvana\TimeBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TypeObject.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Object_c.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -751,6 +757,9 @@
     <ClCompile Include="..\ORB\Source\CORBA_types.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\DomainManager.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
@@ -769,7 +778,7 @@
     <None Include="..\ORB\Include\CORBA\String.inl">
       <Filter>ORB\Header Files</Filter>
     </None>
-    <None Include="..\ORB\Include\CORBA\Object.inl">
+    <None Include="..\ORB\Include\CORBA\TypeObject.inl">
       <Filter>ORB\Header Files</Filter>
     </None>
     <None Include="..\ORB\Include\CORBA\Sequence.inl">
@@ -889,6 +898,9 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\CORBA_types.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\DomainManager.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
