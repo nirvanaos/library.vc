@@ -221,7 +221,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ABI_String.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\StringBase.h">
+    <ClInclude Include="..\ORB\Include\CORBA\StringView.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\ImportInterface.h">

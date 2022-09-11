@@ -125,7 +125,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\servant_core.h" />
     <ClInclude Include="..\ORB\Include\CORBA\servant_reference.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\StringBase.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\StringView.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Type.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeByRef.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeEnum.h" />
