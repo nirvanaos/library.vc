@@ -60,6 +60,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Object_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeArray.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeFixed.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeOps.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeUnion.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
