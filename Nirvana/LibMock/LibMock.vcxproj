@@ -66,6 +66,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\SRC\Mock\g_ORB.cpp" />
     <ClCompile Include="..\SRC\Mock\g_system.cpp" />
   </ItemGroup>
   <ItemGroup>
