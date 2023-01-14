@@ -51,6 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\SRC\Mock\g_factory.cpp" />
     <ClCompile Include="..\SRC\Mock\g_memory.cpp" />
     <ClCompile Include="..\SRC\Mock\g_module.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
@@ -66,6 +67,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\SRC\Mock\g_object_factory.cpp" />
     <ClCompile Include="..\SRC\Mock\g_ORB.cpp" />
     <ClCompile Include="..\SRC\Mock\g_system.cpp" />
   </ItemGroup>
