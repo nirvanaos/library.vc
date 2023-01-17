@@ -584,6 +584,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeOps.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">

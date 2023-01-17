@@ -210,6 +210,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Module.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\ModuleInit.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\ModuleInit_s.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\platform.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\rescale.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\native.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Nirvana.h" />
