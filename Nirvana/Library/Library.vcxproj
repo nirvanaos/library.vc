@@ -487,18 +487,18 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\ORB\Include\CORBA\IORequest.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" -I "%(RelativeDir).." "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe"  -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" "%(Identity)" -legacy -client -no_client_cpp</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h</Outputs>
@@ -795,18 +795,18 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\ORB\Include\CORBA\Proxy\IOReference.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(SolutionDir)Library.VC\Nirvana\ORB\Include" -legacy -client -out_cpp $(TMP)</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h</Outputs>
