@@ -739,9 +739,6 @@
     <ClCompile Include="..\SRC\Source\rescale.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\TimeBase.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\Dynamic.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -768,6 +765,24 @@
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Domains.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\TimeBase.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosEventComm.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosNaming.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosTime.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosTimerEvent.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\FT.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -870,9 +885,6 @@
     <CustomBuild Include="..\ORB\Include\CORBA\Current.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\TimeBase.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\Dynamic.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
@@ -914,6 +926,24 @@
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Domains.idl">
       <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\TimeBase.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosEventComm.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosNaming.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\FT.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosTime.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosTimerEvent.idl">
+      <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
