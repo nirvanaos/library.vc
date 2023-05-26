@@ -299,6 +299,7 @@
     <ClCompile Include="..\ORB\Source\ProxyBase.cpp" />
     <ClCompile Include="..\ORB\Source\Request.cpp" />
     <ClCompile Include="..\ORB\Source\ServantLocator_native.cpp" />
+    <ClCompile Include="..\ORB\Source\ServantStatic.cpp" />
     <ClCompile Include="..\ORB\Source\servant_core.cpp" />
     <ClCompile Include="..\ORB\Source\TCKind.cpp" />
     <ClCompile Include="..\ORB\Source\TimeBase.cpp" />
