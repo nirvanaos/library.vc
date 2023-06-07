@@ -99,11 +99,8 @@
     <ClInclude Include="..\ORB\Include\CORBA\make_stateless.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactoryInc.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\InterfaceMetadata.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Proxy.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeEnum.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeException.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeMembers.h" />

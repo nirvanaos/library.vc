@@ -296,12 +296,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\Proxy.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyFactory_s.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeException.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
@@ -325,9 +319,6 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\local_core.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\IOReference.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyBase.h">
       <Filter>ORB\Header Files\Proxy</Filter>
