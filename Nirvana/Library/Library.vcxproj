@@ -196,7 +196,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Decimal.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\File.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\file_system.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Fixed.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\fnctl.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Formatter.h" />

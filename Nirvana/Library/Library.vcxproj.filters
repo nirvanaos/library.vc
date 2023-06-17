@@ -404,9 +404,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\fnctl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\file_system.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\SimpleList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
