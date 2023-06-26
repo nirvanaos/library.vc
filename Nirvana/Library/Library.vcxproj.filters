@@ -380,9 +380,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ObjectFactoryInc.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\fnctl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\SimpleList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -547,6 +544,9 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\NoDefaultPOA.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\fnctl.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
