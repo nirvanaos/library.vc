@@ -46,7 +46,7 @@
     <ClCompile Include="..\ORB\CoreImport\g_ORB.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\g_factory.cpp">
+    <ClCompile Include="..\SRC\CoreImport\g_legacy_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\CoreImport\g_dec_calc.cpp">

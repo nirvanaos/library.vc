@@ -29,7 +29,7 @@
     <ClCompile Include="..\SRC\Mock\g_object_factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Mock\g_factory.cpp">
+    <ClCompile Include="..\SRC\Mock\g_legacy_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

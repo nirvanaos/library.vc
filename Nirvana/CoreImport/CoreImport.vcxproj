@@ -61,7 +61,7 @@
     <ClCompile Include="..\ORB\CoreImport\tc_exceptions.cpp" />
     <ClCompile Include="..\ORB\CoreImport\tc_TypeCode.cpp" />
     <ClCompile Include="..\SRC\CoreImport\g_dec_calc.cpp" />
-    <ClCompile Include="..\SRC\CoreImport\g_factory.cpp" />
+    <ClCompile Include="..\SRC\CoreImport\g_legacy_system.cpp" />
     <ClCompile Include="..\SRC\CoreImport\g_system.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>
