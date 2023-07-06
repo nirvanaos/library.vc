@@ -548,6 +548,9 @@
     <ClInclude Include="..\SRC\Include\fnctl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\DirectoryIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -751,7 +754,7 @@
     <ClCompile Include="..\ORB\Source\NirvanaDGC.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\errno.cpp">
+    <ClCompile Include="..\SRC\Source\DirectoryIterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

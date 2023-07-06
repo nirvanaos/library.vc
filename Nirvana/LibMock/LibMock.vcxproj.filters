@@ -57,5 +57,8 @@
     <CustomBuild Include="..\ORB\Include\CORBA\TimeBase.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosNaming.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
