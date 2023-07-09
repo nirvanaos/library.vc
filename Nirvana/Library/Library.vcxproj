@@ -404,6 +404,7 @@
     <ClCompile Include="..\SRC\Source\stl_utils.cpp" />
     <ClCompile Include="..\SRC\Source\System.cpp" />
     <ClCompile Include="..\SRC\Source\throw_exception.cpp" />
+    <ClCompile Include="..\SRC\Source\trace.cpp" />
     <ClCompile Include="..\SRC\Source\UTF8.cpp" />
   </ItemGroup>
   <ItemGroup>
