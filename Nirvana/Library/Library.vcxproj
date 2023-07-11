@@ -395,6 +395,7 @@
     <ClCompile Include="..\SRC\Source\Formatter.cpp" />
     <ClCompile Include="..\SRC\Source\Legacy_Process.cpp" />
     <ClCompile Include="..\SRC\Source\MemoryHelper.cpp" />
+    <ClCompile Include="..\SRC\Source\fnctl.cpp" />
     <ClCompile Include="..\SRC\Source\rescale.cpp" />
     <ClCompile Include="..\SRC\Source\native.cpp" />
     <ClCompile Include="..\SRC\Source\nirvana_module.cpp" />
