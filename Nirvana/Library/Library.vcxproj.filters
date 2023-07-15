@@ -652,9 +652,6 @@
     <ClCompile Include="..\SRC\Source\File.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\RuntimeError.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Source\Formatter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -832,9 +829,6 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\File.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\RuntimeError.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\nls.idl">

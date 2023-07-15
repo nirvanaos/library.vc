@@ -51,9 +51,6 @@
     <CustomBuild Include="..\SRC\Include\Nirvana\System.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\RuntimeError.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\TimeBase.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
