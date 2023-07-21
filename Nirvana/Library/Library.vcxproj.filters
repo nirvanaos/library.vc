@@ -554,6 +554,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\filesystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ValueImpl.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -765,6 +768,9 @@
     </ClCompile>
     <ClCompile Include="..\SRC\Source\fnctl.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\ValueImpl.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
