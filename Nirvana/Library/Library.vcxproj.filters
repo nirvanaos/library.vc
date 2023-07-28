@@ -36,6 +36,9 @@
     <Filter Include="IDL\Legacy">
       <UniqueIdentifier>{93e8472d-d768-4121-8ccf-7cb968afe8f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ORB\Generated">
+      <UniqueIdentifier>{c4d85883-dd1e-4d7b-acaf-67d21a37b1f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -565,9 +568,6 @@
     <ClCompile Include="..\SRC\Source\real_copy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\ORB.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\RepId.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -631,9 +631,6 @@
     <ClCompile Include="..\ORB\Source\servant_core.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\TCKind.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Source\nirvana_process.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -648,9 +645,6 @@
     </ClCompile>
     <ClCompile Include="..\SRC\Source\OLF_Iterator.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\TypeCode.cpp">
-      <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\File.cpp">
       <Filter>Source Files</Filter>
@@ -667,14 +661,8 @@
     <ClCompile Include="..\ORB\Source\ProxyBase.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\PortableServer.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Source\Legacy_Process.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\InterfaceRepository.cpp">
-      <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\Type_fixed.cpp">
       <Filter>ORB\Source Files</Filter>
@@ -684,12 +672,6 @@
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Fixed.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\Policy.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\Current.cpp">
-      <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ServantLocator_native.cpp">
       <Filter>ORB\Source Files</Filter>
@@ -703,29 +685,8 @@
     <ClCompile Include="..\SRC\Source\rescale.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\Dynamic.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\IOP.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\Messaging.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\Pollable.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Source\System.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\Request.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CORBA_types.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\DomainManager.cpp">
-      <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Domains.cpp">
       <Filter>Source Files</Filter>
@@ -733,28 +694,10 @@
     <ClCompile Include="..\ORB\Source\TimeBase.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosEventComm.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosNaming.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosTime.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosTimerEvent.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\FT.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\NoDefaultPOA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ServantStatic.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\NirvanaDGC.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\DirectoryIterator.cpp">
@@ -771,6 +714,84 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ValueImpl.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CORBA_types.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosEventComm.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosNaming.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosTime.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosTimerEvent.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\Current.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\DomainManager.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\Dynamic.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\FT.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\InterfaceRepository.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\IOP.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\Messaging.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\NirvanaDGC.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\ORB.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\Policy.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\Pollable.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\PortableServer.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\Request.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\TCKind.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\TypeCode.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CORBA_Stream.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosLwLogAdministrator.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosLwLogConsumer.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosLwLogProducer.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosLwLogService.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosLwLogStatus.cpp">
+      <Filter>ORB\Generated</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -931,6 +952,24 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\NirvanaDGC.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CORBA_Stream.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogAdministrator.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogConsumer.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogProducer.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogService.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogStatus.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>

@@ -226,8 +226,27 @@
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ORB\Source\CORBA_Stream.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\ORB\Source\CORBA_types.cpp" />
     <ClCompile Include="..\ORB\Source\CosEventComm.cpp" />
+    <ClCompile Include="..\ORB\Source\CosLwLogAdministrator.cpp" />
+    <ClCompile Include="..\ORB\Source\CosLwLogConsumer.cpp" />
+    <ClCompile Include="..\ORB\Source\CosLwLogProducer.cpp" />
+    <ClCompile Include="..\ORB\Source\CosLwLogService.cpp" />
+    <ClCompile Include="..\ORB\Source\CosLwLogStatus.cpp" />
     <ClCompile Include="..\ORB\Source\CosNaming.cpp" />
     <ClCompile Include="..\ORB\Source\CosTime.cpp" />
     <ClCompile Include="..\ORB\Source\CosTimerEvent.cpp" />
@@ -2587,6 +2606,310 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\ORB\Include\CORBA\CORBA_Stream.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogAdministrator.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogConsumer.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogProducer.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogService.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogStatus.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I "$(ProjectDir)..\ORB\Include" -legacy -client -out_cpp $(ProjectDir)..\ORB\Source</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)%(Filename).h;$(ProjectDir)..\ORB\Source\%(Filename).cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
     </CustomBuild>
   </ItemGroup>
