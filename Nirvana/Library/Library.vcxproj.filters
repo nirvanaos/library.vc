@@ -566,6 +566,12 @@
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionList.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ExceptionSet.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\DynObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -798,6 +804,9 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\CosLwLogStatus.cpp">
       <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\ExceptionHolder.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

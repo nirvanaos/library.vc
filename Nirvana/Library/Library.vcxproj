@@ -58,6 +58,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionHolder.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionList.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ExceptionSet.h" />
     <ClInclude Include="..\ORB\Include\CORBA\NoDefaultPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Object_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeUnion.h" />
@@ -198,6 +199,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\DecCalc.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Decimal.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\DirectoryIterator.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\DynObject.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\filesystem.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Fixed.h" />
@@ -256,6 +258,20 @@
     <ClCompile Include="..\ORB\Source\DomainManager.cpp" />
     <ClCompile Include="..\ORB\Source\Dynamic.cpp" />
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
+    <ClCompile Include="..\ORB\Source\ExceptionHolder.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\ORB\Source\FT.cpp" />
     <ClCompile Include="..\ORB\Source\InterfaceRepository.cpp" />
     <ClCompile Include="..\ORB\Source\IOP.cpp" />
