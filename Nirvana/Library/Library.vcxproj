@@ -64,6 +64,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeUnion.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\RefCountLink.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantLocator_native.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeAlias.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h" />
