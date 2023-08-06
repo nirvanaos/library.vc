@@ -730,9 +730,6 @@
     <ClCompile Include="..\ORB\Source\ValueImpl.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\CORBA_types.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\CosEventComm.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
@@ -943,9 +940,6 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\NVList.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\CORBA_types.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\DomainManager.idl">
