@@ -63,6 +63,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleNone.h" />
     <ClInclude Include="..\ORB\Include\CORBA\NoDefaultPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Object_c.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\PollerBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeUnion.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
