@@ -56,9 +56,11 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\DynamicServantImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionHolder.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionList.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionSet.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\LifeCycleNone.h" />
     <ClInclude Include="..\ORB\Include\CORBA\NoDefaultPOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Object_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeUnion.h" />
@@ -275,6 +277,7 @@
     <ClCompile Include="..\ORB\Source\FT.cpp" />
     <ClCompile Include="..\ORB\Source\InterfaceRepository.cpp" />
     <ClCompile Include="..\ORB\Source\IOP.cpp" />
+    <ClCompile Include="..\ORB\Source\LifeCycleNone.cpp" />
     <ClCompile Include="..\ORB\Source\local_core.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>
