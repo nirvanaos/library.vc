@@ -326,6 +326,7 @@
     <ClCompile Include="..\ORB\Source\NoDefaultPOA.cpp" />
     <ClCompile Include="..\ORB\Source\Policy.cpp" />
     <ClCompile Include="..\ORB\Source\Pollable.cpp" />
+    <ClCompile Include="..\ORB\Source\PollerBase.cpp" />
     <ClCompile Include="..\ORB\Source\PortableServer.cpp" />
     <ClCompile Include="..\ORB\Source\ProxyBase.cpp" />
     <ClCompile Include="..\ORB\Source\RefCountLink.cpp" />
