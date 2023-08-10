@@ -57,6 +57,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicServantImpl.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\EnvironmentEx.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionHolder.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionList.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionSet.h" />
@@ -118,7 +119,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ImplementationPseudo.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Interface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\I_var.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Serverless.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObject_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LocalObjectLink.h" />
@@ -151,8 +151,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Bridge.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Client.h" />
     <ClInclude Include="..\ORB\Include\CORBA\CORBA.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\CORBA_Environment.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\EnvironmentEx.h" />
     <ClInclude Include="..\ORB\Include\CORBA\EnvironmentImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Environment_c.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Environment.h" />

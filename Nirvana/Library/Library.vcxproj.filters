@@ -62,9 +62,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\CORBA.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\CORBA_Environment.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Exception.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -152,9 +149,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\TypeCode.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\EnvironmentEx.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -195,9 +189,6 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\I_var.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Serverless.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Servant_var.h">
@@ -586,6 +577,9 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyBaseInterface.h">
       <Filter>ORB\Header Files\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\EnvironmentEx.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
