@@ -581,6 +581,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\EnvironmentEx.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\OperationIndex.h">
+      <Filter>ORB\Header Files\Proxy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -784,9 +787,6 @@
     <ClCompile Include="..\ORB\Source\PortableServer.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\Request.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\TCKind.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
@@ -821,6 +821,9 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\PollerBase.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\AMI.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -1000,6 +1003,9 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\RefCnt.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\AMI.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>

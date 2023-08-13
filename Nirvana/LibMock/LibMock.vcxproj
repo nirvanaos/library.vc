@@ -181,18 +181,18 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\System.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\IDL</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
@@ -238,18 +238,18 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\ORB\Include\CORBA\TimeBase.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">$(ProjectDir)..\SRC\Mock\CORBA\%(Filename).h;$(ProjectDir)..\SRC\Mock\CORBA\%(Filename)_s.h</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\SRC\Mock\CORBA\%(Filename).h;$(ProjectDir)..\SRC\Mock\CORBA\%(Filename)_s.h</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">$(ProjectDir)..\SRC\Mock\CORBA\%(Filename).h;$(ProjectDir)..\SRC\Mock\CORBA\%(Filename)_s.h</Outputs>
@@ -290,18 +290,18 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\ORB\Include\CORBA\CosNaming.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -I ..\ORB\Include -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp -out_h $(ProjectDir)..\SRC\Mock\CORBA</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">$(ProjectDir)..\SRC\Mock\CORBA\%(Filename).h;$(ProjectDir)..\SRC\Mock\CORBA\%(Filename)_s.h</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(ProjectDir)..\SRC\Mock\CORBA\%(Filename).h;$(ProjectDir)..\SRC\Mock\CORBA\%(Filename)_s.h</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">$(ProjectDir)..\SRC\Mock\CORBA\%(Filename).h;$(ProjectDir)..\SRC\Mock\CORBA\%(Filename)_s.h</Outputs>
@@ -472,49 +472,61 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>$(SolutionDir)Library.VC\Nirvana\ORB\Include;$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(ExternalIncludePath);$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">
     <ClCompile>
