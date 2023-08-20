@@ -838,6 +838,9 @@
     <ClCompile Include="..\ORB\Source\AMI.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosEventChannelAdmin.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
@@ -1018,6 +1021,9 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\AMI.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosEventChannelAdmin.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
   </ItemGroup>
