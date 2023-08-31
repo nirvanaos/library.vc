@@ -1026,5 +1026,11 @@
     <CustomBuild Include="..\ORB\Include\CORBA\CosEventChannelAdmin.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosTypedEventChannelAdmin.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\CosTypedEventComm.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
