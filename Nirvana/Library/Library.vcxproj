@@ -263,6 +263,8 @@
     <ClCompile Include="..\ORB\Source\CosNaming.cpp" />
     <ClCompile Include="..\ORB\Source\CosTime.cpp" />
     <ClCompile Include="..\ORB\Source\CosTimerEvent.cpp" />
+    <ClCompile Include="..\ORB\Source\CosTypedEventChannelAdmin.cpp" />
+    <ClCompile Include="..\ORB\Source\CosTypedEventComm.cpp" />
     <ClCompile Include="..\ORB\Source\Current.cpp" />
     <ClCompile Include="..\ORB\Source\DomainManager.cpp" />
     <ClCompile Include="..\ORB\Source\Dynamic.cpp" />

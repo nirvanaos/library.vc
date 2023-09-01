@@ -841,6 +841,12 @@
     <ClCompile Include="..\ORB\Source\CosEventChannelAdmin.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosTypedEventChannelAdmin.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosTypedEventComm.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
