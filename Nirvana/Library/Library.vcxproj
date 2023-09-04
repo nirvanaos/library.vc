@@ -70,6 +70,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\PollerBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyBaseInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyHolder.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\RqProcWrapper.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeUnion.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
@@ -325,6 +326,7 @@
     <ClCompile Include="..\ORB\Source\PortableServer.cpp" />
     <ClCompile Include="..\ORB\Source\ProxyBase.cpp" />
     <ClCompile Include="..\ORB\Source\RefCountLink.cpp" />
+    <ClCompile Include="..\ORB\Source\RqProcWrapper.cpp" />
     <ClCompile Include="..\ORB\Source\ServantLocator_native.cpp" />
     <ClCompile Include="..\ORB\Source\ServantStatic.cpp" />
     <ClCompile Include="..\ORB\Source\servant_core.cpp" />

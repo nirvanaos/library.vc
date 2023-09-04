@@ -596,6 +596,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ProxyHolder.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\RqProcWrapper.h">
+      <Filter>ORB\Header Files\Proxy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -846,6 +849,9 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\CosTypedEventComm.cpp">
       <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\RqProcWrapper.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
