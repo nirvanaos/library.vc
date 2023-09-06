@@ -599,9 +599,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\RqProcWrapper.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\DerivedServant.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">

@@ -56,7 +56,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\DerivedServant.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicExport.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicServantImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\EnvironmentEx.h" />
