@@ -40,6 +40,10 @@
       <UniqueIdentifier>{c4d85883-dd1e-4d7b-acaf-67d21a37b1f4}</UniqueIdentifier>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{6ffa7432-6edc-4d7c-82ac-691ab9094e11}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -600,6 +604,12 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\RqProcWrapper.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Source\pch.h">
+      <Filter>ORB\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Source\lpch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -686,9 +696,6 @@
     <ClCompile Include="..\SRC\Source\OLF_Iterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\File.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Source\Formatter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -700,9 +707,6 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ProxyBase.cpp">
       <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\Legacy_Process.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\Type_fixed.cpp">
       <Filter>ORB\Source Files</Filter>
@@ -723,12 +727,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\rescale.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\System.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\Domains.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\NoDefaultPOA.cpp">
@@ -853,6 +851,24 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\TypeCode.cpp">
       <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\pch.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\File.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\Domains.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\Legacy_Process.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\System.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\lpch.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
