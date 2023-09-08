@@ -38,6 +38,7 @@
     </Filter>
     <Filter Include="ORB\Generated">
       <UniqueIdentifier>{c4d85883-dd1e-4d7b-acaf-67d21a37b1f4}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -730,9 +731,6 @@
     <ClCompile Include="..\SRC\Source\Domains.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\TimeBase.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\NoDefaultPOA.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -754,7 +752,46 @@
     <ClCompile Include="..\ORB\Source\ValueImpl.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\ExceptionHolder.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\RefCountLink.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\LifeCycleNone.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\PollerBase.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\RqProcWrapper.cpp">
+      <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\AMI.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CORBA_Stream.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosEventChannelAdmin.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
     <ClCompile Include="..\ORB\Source\CosEventComm.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosLwLogAdministrator.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosLwLogConsumer.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosLwLogProducer.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosLwLogService.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosLwLogStatus.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\CosNaming.cpp">
@@ -764,6 +801,12 @@
       <Filter>ORB\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\CosTimerEvent.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosTypedEventChannelAdmin.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CosTypedEventComm.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\Current.cpp">
@@ -790,9 +833,6 @@
     <ClCompile Include="..\ORB\Source\NirvanaDGC.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\ORB.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\Policy.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
@@ -805,53 +845,14 @@
     <ClCompile Include="..\ORB\Source\TCKind.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\TimeBase.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\ORB.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
     <ClCompile Include="..\ORB\Source\TypeCode.cpp">
       <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CORBA_Stream.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosLwLogAdministrator.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosLwLogConsumer.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosLwLogProducer.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosLwLogService.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosLwLogStatus.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\ExceptionHolder.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\RefCountLink.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\LifeCycleNone.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\PollerBase.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\AMI.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosEventChannelAdmin.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosTypedEventChannelAdmin.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\CosTypedEventComm.cpp">
-      <Filter>ORB\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\RqProcWrapper.cpp">
-      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

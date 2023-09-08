@@ -240,20 +240,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Source\AMI.cpp" />
-    <ClCompile Include="..\ORB\Source\CORBA_Stream.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CORBA_Stream.cpp" />
     <ClCompile Include="..\ORB\Source\CosEventChannelAdmin.cpp" />
     <ClCompile Include="..\ORB\Source\CosEventComm.cpp" />
     <ClCompile Include="..\ORB\Source\CosLwLogAdministrator.cpp" />
@@ -320,6 +307,7 @@
     <ClCompile Include="..\ORB\Source\Messaging.cpp" />
     <ClCompile Include="..\ORB\Source\NirvanaDGC.cpp" />
     <ClCompile Include="..\ORB\Source\NoDefaultPOA.cpp" />
+    <ClCompile Include="..\ORB\Source\ORB.cpp" />
     <ClCompile Include="..\ORB\Source\Policy.cpp" />
     <ClCompile Include="..\ORB\Source\Pollable.cpp" />
     <ClCompile Include="..\ORB\Source\PollerBase.cpp" />
@@ -331,7 +319,6 @@
     <ClCompile Include="..\ORB\Source\ServantStatic.cpp" />
     <ClCompile Include="..\ORB\Source\servant_core.cpp" />
     <ClCompile Include="..\ORB\Source\TCKind.cpp" />
-    <ClCompile Include="..\ORB\Source\TimeBase.cpp" />
     <ClCompile Include="..\ORB\Source\Any.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>
@@ -397,11 +384,6 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\ORB.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\RepId.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>
@@ -418,6 +400,7 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\set_exception.cpp" />
     <ClCompile Include="..\ORB\Source\String_compat.cpp" />
+    <ClCompile Include="..\ORB\Source\TimeBase.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCode.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp" />
     <ClCompile Include="..\ORB\Source\Type_fixed.cpp" />
