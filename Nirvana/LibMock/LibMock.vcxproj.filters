@@ -9,9 +9,6 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="IDL">
-      <UniqueIdentifier>{75104f9b-6aca-4704-8f92-9487b2a117b0}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Mock\g_memory.cpp">
@@ -40,22 +37,5 @@
     <ClInclude Include="..\SRC\Include\Mock\TestMock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="..\SRC\Include\Nirvana\Memory.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\Module.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\System.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\TimeBase.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\CosNaming.idl">
-      <Filter>IDL</Filter>
-    </CustomBuild>
   </ItemGroup>
 </Project>
