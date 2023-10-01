@@ -540,6 +540,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\itoa.cpp" />
     <ClCompile Include="..\SRC\CRTL\memcpy.cpp" />
     <ClCompile Include="..\SRC\CRTL\new_delete.cpp" />
     <ClCompile Include="..\SRC\CRTL\rand.cpp" />
