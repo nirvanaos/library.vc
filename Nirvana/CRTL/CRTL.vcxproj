@@ -545,6 +545,7 @@
     <ClCompile Include="..\SRC\CRTL\memcpy.cpp" />
     <ClCompile Include="..\SRC\CRTL\new_delete.cpp" />
     <ClCompile Include="..\SRC\CRTL\rand.cpp" />
+    <ClCompile Include="..\SRC\CRTL\strcat_s.cpp" />
     <ClCompile Include="..\SRC\CRTL\strcmp.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
@@ -580,7 +581,6 @@
     <ClCompile Include="..\SRC\CRTL\uncaught_exceptions.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SRC\CRTL\utils.h" />
     <ClInclude Include="..\SRC\Include\CRTL\errno.h" />
     <ClInclude Include="..\SRC\Include\CRTL\stddef.h" />
     <ClInclude Include="..\SRC\Include\CRTL\stdlib.h" />

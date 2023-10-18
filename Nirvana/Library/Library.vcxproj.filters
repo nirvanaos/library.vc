@@ -610,6 +610,12 @@
     <ClInclude Include="..\SRC\Source\lpch.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\strlen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\strcpy_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">

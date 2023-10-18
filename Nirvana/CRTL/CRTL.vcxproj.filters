@@ -60,11 +60,11 @@
     <ClCompile Include="..\SRC\CRTL\strtol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\strcat_s.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SRC\CRTL\utils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\errno.h">
       <Filter>Header Files</Filter>
     </ClInclude>
