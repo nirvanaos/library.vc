@@ -542,6 +542,7 @@
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\iswspace.cpp" />
     <ClCompile Include="..\SRC\CRTL\itoa.cpp" />
+    <ClCompile Include="..\SRC\CRTL\llabs.cpp" />
     <ClCompile Include="..\SRC\CRTL\memcpy.cpp" />
     <ClCompile Include="..\SRC\CRTL\new_delete.cpp" />
     <ClCompile Include="..\SRC\CRTL\rand.cpp" />
