@@ -525,7 +525,10 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ShowIncludes>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\errno.cpp" />
+    <ClCompile Include="..\SRC\CRTL\errno.cpp">
+      <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</WholeProgramOptimization>
+      <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</WholeProgramOptimization>
+    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\heap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
