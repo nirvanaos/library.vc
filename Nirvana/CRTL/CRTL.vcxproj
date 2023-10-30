@@ -529,6 +529,7 @@
       <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</WholeProgramOptimization>
       <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</WholeProgramOptimization>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\fnctl.cpp" />
     <ClCompile Include="..\SRC\CRTL\heap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
@@ -550,6 +551,7 @@
     <ClCompile Include="..\SRC\CRTL\new_delete.cpp" />
     <ClCompile Include="..\SRC\CRTL\raise.cpp" />
     <ClCompile Include="..\SRC\CRTL\rand.cpp" />
+    <ClCompile Include="..\SRC\CRTL\read.cpp" />
     <ClCompile Include="..\SRC\CRTL\strcat_s.cpp" />
     <ClCompile Include="..\SRC\CRTL\strcmp.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
@@ -585,6 +587,7 @@
     <ClCompile Include="..\SRC\CRTL\strtol.cpp" />
     <ClCompile Include="..\SRC\CRTL\terminate.cpp" />
     <ClCompile Include="..\SRC\CRTL\uncaught_exceptions.cpp" />
+    <ClCompile Include="..\SRC\CRTL\write.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\CRTL\errno.h" />
@@ -592,6 +595,9 @@
     <ClInclude Include="..\SRC\Include\CRTL\stdlib.h" />
     <ClInclude Include="..\SRC\Include\CRTL\string.h" />
     <ClInclude Include="..\SRC\Include\CRTL\wchar.h" />
+    <ClInclude Include="..\SRC\Include\fnctl.h" />
+    <ClInclude Include="..\SRC\Include\signal.h" />
+    <ClInclude Include="..\SRC\Include\unistd.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Library\Library.vcxproj">

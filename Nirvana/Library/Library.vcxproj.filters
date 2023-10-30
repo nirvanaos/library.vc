@@ -418,9 +418,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\MarshalHelper.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\signal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\Launcher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -543,9 +540,6 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\NoDefaultPOA.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\fnctl.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\DirectoryIterator.h">
       <Filter>Header Files</Filter>
@@ -748,9 +742,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\filesystem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\fnctl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ValueImpl.cpp">
