@@ -529,6 +529,9 @@
       <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</WholeProgramOptimization>
       <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</WholeProgramOptimization>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\exit.cpp" />
+    <ClCompile Include="..\SRC\CRTL\mkstemp.cpp" />
+    <ClCompile Include="..\SRC\CRTL\name_service.cpp" />
     <ClCompile Include="..\SRC\CRTL\stat.cpp" />
     <ClCompile Include="..\SRC\CRTL\stdio.cpp" />
     <ClCompile Include="..\SRC\CRTL\fnctl.cpp" />
@@ -595,6 +598,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\CRTL\fd2file.h" />
+    <ClInclude Include="..\SRC\CRTL\name_service.h" />
+    <ClInclude Include="..\SRC\Include\cmath" />
     <ClInclude Include="..\SRC\Include\CRTL\errno.h" />
     <ClInclude Include="..\SRC\Include\CRTL\limits.h" />
     <ClInclude Include="..\SRC\Include\CRTL\stddef.h" />

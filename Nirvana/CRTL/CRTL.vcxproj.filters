@@ -96,6 +96,15 @@
     <ClCompile Include="..\SRC\CRTL\stat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\exit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\mkstemp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\name_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\CRTL\errno.h">
@@ -138,6 +147,12 @@
       <Filter>Header Files\sys</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\CRTL\fd2file.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\cmath">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\CRTL\name_service.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
