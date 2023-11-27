@@ -867,6 +867,9 @@
     <ClCompile Include="..\SRC\Source\lpch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\NVList.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
