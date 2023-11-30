@@ -870,6 +870,9 @@
     <ClCompile Include="..\ORB\Source\NVList.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\Memory.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
