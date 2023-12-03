@@ -44,6 +44,9 @@
       <UniqueIdentifier>{6ffa7432-6edc-4d7c-82ac-691ab9094e11}</UniqueIdentifier>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{5a87cdd6-5ddc-41d0-a99e-6e254c9d670b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -598,17 +601,14 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\RqProcWrapper.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Source\pch.h">
-      <Filter>ORB\Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Source\lpch.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\strlen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\strcpy_s.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pch\pch.h">
+      <Filter>pch</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -849,9 +849,6 @@
     <ClCompile Include="..\ORB\Source\TypeCode.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\pch.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Source\File.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
@@ -864,14 +861,14 @@
     <ClCompile Include="..\SRC\Source\System.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\lpch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\NVList.cpp">
       <Filter>ORB\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Memory.cpp">
       <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pch\pch.cpp">
+      <Filter>pch</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
