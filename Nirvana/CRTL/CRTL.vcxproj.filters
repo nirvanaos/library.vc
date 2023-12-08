@@ -155,5 +155,11 @@
     <ClInclude Include="..\SRC\CRTL\name_service.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\strcpy_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\strlen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -619,7 +619,9 @@
     <ClInclude Include="..\SRC\Include\CRTL\limits.h" />
     <ClInclude Include="..\SRC\Include\CRTL\stddef.h" />
     <ClInclude Include="..\SRC\Include\CRTL\stdlib.h" />
+    <ClInclude Include="..\SRC\Include\CRTL\strcpy_s.h" />
     <ClInclude Include="..\SRC\Include\CRTL\string.h" />
+    <ClInclude Include="..\SRC\Include\CRTL\strlen.h" />
     <ClInclude Include="..\SRC\Include\CRTL\sys\stat.h" />
     <ClInclude Include="..\SRC\Include\CRTL\sys\time.h" />
     <ClInclude Include="..\SRC\Include\CRTL\sys\types.h" />

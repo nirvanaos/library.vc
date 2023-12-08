@@ -601,12 +601,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\RqProcWrapper.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\strlen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\strcpy_s.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\pch\pch.h">
       <Filter>pch</Filter>
     </ClInclude>
