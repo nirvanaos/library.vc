@@ -149,9 +149,6 @@
     <ClInclude Include="..\SRC\CRTL\fd2file.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\cmath">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\CRTL\name_service.h">
       <Filter>Source Files</Filter>
     </ClInclude>
