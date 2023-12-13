@@ -199,7 +199,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueMemory.h" />
     <ClInclude Include="..\pch\pch.h" />
     <ClInclude Include="..\SRC\Include\assert.h" />
-    <ClInclude Include="..\SRC\Include\errno.h" />
     <ClInclude Include="..\SRC\Include\fnctl.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\array_bool.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />

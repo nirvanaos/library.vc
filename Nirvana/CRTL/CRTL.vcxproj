@@ -614,6 +614,7 @@
   <ItemGroup>
     <ClInclude Include="..\SRC\CRTL\fd2file.h" />
     <ClInclude Include="..\SRC\CRTL\name_service.h" />
+    <ClInclude Include="..\SRC\Include\CRTL\errno.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strcpy_s.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strlen.h" />
     <ClInclude Include="..\SRC\Include\CRTL\limits.h" />

@@ -607,9 +607,6 @@
     <ClInclude Include="..\SRC\Include\signal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\errno.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\fnctl.h">
       <Filter>Header Files</Filter>
     </ClInclude>

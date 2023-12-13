@@ -152,5 +152,8 @@
     <ClInclude Include="..\SRC\Include\CRTL\unistd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
