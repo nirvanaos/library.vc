@@ -199,6 +199,8 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueMemory.h" />
     <ClInclude Include="..\pch\pch.h" />
     <ClInclude Include="..\SRC\Include\assert.h" />
+    <ClInclude Include="..\SRC\Include\errno.h" />
+    <ClInclude Include="..\SRC\Include\fnctl.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\array_bool.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h" />
@@ -234,6 +236,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\time_defs.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\UTF8.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
+    <ClInclude Include="..\SRC\Include\signal.h" />
     <ClInclude Include="..\SRC\Source\crt_startup.h" />
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h" />
   </ItemGroup>

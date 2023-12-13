@@ -16,6 +16,9 @@
     <Filter Include="Header Files\sys">
       <UniqueIdentifier>{32e81da7-bec7-4835-ac2f-cf4633f18ef4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\impl">
+      <UniqueIdentifier>{8254b978-3827-42d1-86a2-9b11fba5e536}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\CRTL\heap.cpp">
@@ -107,55 +110,46 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SRC\Include\CRTL\errno.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\string.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\stddef.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\wchar.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\stdlib.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\fnctl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\signal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\unistd.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\strings.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\sys\stat.h">
-      <Filter>Header Files\sys</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\sys\types.h">
-      <Filter>Header Files\sys</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\limits.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\sys\time.h">
-      <Filter>Header Files\sys</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\CRTL\fd2file.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\CRTL\name_service.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\strcpy_s.h">
+    <ClInclude Include="..\SRC\Include\CRTL\sys\stat.h">
+      <Filter>Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\sys\time.h">
+      <Filter>Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\sys\types.h">
+      <Filter>Header Files\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\impl\strcpy_s.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\impl\strlen.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\limits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\strlen.h">
+    <ClInclude Include="..\SRC\Include\CRTL\stddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\stdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\wchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\unistd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
