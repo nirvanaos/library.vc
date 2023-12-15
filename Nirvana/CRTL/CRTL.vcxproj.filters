@@ -81,9 +81,6 @@
     <ClCompile Include="..\SRC\CRTL\fnctl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\write.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\strcspn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -131,28 +128,10 @@
     <ClInclude Include="..\SRC\Include\CRTL\impl\strlen.h">
       <Filter>Header Files\impl</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\limits.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\stddef.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\stdlib.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\string.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\strings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\wchar.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\unistd.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\errno.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
