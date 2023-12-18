@@ -108,6 +108,9 @@
     <ClCompile Include="..\SRC\CRTL\stdlib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\pch\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\CRTL\name_service.h">
@@ -163,6 +166,9 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\inttypes.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\CRTL\pch\pch.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
