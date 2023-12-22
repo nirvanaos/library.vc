@@ -681,6 +681,7 @@
     <ClInclude Include="..\SRC\Include\CRTL\time.h" />
     <ClInclude Include="..\SRC\Include\CRTL\unistd.h" />
     <ClInclude Include="..\SRC\Include\CRTL\wchar.h" />
+    <ClInclude Include="..\SRC\Include\CRTL\wctype.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Library\Library.vcxproj">

@@ -170,5 +170,8 @@
     <ClInclude Include="..\SRC\CRTL\pch\pch.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\wctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
