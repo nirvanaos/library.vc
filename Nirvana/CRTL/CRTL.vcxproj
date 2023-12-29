@@ -619,7 +619,6 @@
     <ClCompile Include="..\SRC\CRTL\llabs.cpp" />
     <ClCompile Include="..\SRC\CRTL\locale.cpp" />
     <ClCompile Include="..\SRC\CRTL\memcpy.cpp" />
-    <ClCompile Include="..\SRC\CRTL\new_delete.cpp" />
     <ClCompile Include="..\SRC\CRTL\raise.cpp" />
     <ClCompile Include="..\SRC\CRTL\rand.cpp" />
     <ClCompile Include="..\SRC\CRTL\stdlib.cpp" />

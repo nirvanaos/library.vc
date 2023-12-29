@@ -870,6 +870,9 @@
     <ClCompile Include="..\pch\pch.cpp">
       <Filter>pch</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\new_delete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">

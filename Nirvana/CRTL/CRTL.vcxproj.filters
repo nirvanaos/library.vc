@@ -24,9 +24,6 @@
     <ClCompile Include="..\SRC\CRTL\heap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\new_delete.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\strlen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
