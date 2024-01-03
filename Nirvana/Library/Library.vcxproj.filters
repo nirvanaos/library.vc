@@ -562,9 +562,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionSet.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\DynObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\RefCountLink.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>

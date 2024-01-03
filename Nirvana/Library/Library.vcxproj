@@ -209,7 +209,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\DecCalc.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Decimal.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\DirectoryIterator.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\DynObject.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\filesystem.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Fixed.h" />
