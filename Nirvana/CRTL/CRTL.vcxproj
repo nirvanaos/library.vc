@@ -659,6 +659,7 @@
     <ClCompile Include="..\SRC\CRTL\strncmp.cpp" />
     <ClCompile Include="..\SRC\CRTL\strtol.cpp" />
     <ClCompile Include="..\SRC\CRTL\terminate.cpp" />
+    <ClCompile Include="..\SRC\CRTL\time.cpp" />
     <ClCompile Include="..\SRC\CRTL\uncaught_exceptions.cpp" />
     <ClCompile Include="..\SRC\CRTL\unistd.cpp" />
   </ItemGroup>
