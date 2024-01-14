@@ -56,6 +56,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\DefaultValueRefCountBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicExport.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicServantImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\EnvironmentEx.h" />
@@ -197,6 +198,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueFactoryBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueMemory.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ValueRefCountBase.h" />
     <ClInclude Include="..\pch\pch.h" />
     <ClInclude Include="..\SRC\Include\assert.h" />
     <ClInclude Include="..\SRC\Include\fnctl.h" />
@@ -1138,6 +1140,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\ValueBasePOA.cpp" />
     <ClCompile Include="..\ORB\Source\ValueImpl.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
