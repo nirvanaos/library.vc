@@ -54,6 +54,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ABI.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DefaultValueRefCountBase.h" />
@@ -90,6 +91,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Type_fixed.h" />
     <ClInclude Include="..\ORB\Include\CORBA\T_var.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Union.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ValueBaseStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueBox.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueCreator.h" />
     <ClInclude Include="..\ORB\Include\CORBA\float_types.h" />
@@ -197,6 +199,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueFactoryBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueFactoryBase_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueImpl.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\ValueStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueMemory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ValueRefCountBase.h" />
     <ClInclude Include="..\pch\pch.h" />

@@ -613,6 +613,15 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueRefCountBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ValueBaseStatic.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ValueStatic.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
