@@ -451,10 +451,10 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeNative.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValue.h">
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueAbstract.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ValueFactoryImpl.h">
+    <ClInclude Include="..\ORB\Include\CORBA\Proxy\ValueBoxFactory.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ValueCreator.h">
@@ -620,6 +620,12 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\ValueFactoryImpl.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeValue.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
