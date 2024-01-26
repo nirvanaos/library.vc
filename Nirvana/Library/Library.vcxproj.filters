@@ -340,9 +340,6 @@
     <ClInclude Include="..\SRC\Include\assert.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\static.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeStruct.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
@@ -420,9 +417,6 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\MarshalHelper.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Launcher.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\ValueBase_s.h">
       <Filter>ORB\Header Files</Filter>
