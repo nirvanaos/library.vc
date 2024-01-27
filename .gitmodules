@@ -1,9 +1,6 @@
 [submodule "googletest/googletest"]
 	path = googletest/googletest
 	url = https://github.com/google/googletest.git
-[submodule "Nirvana/preprocessor"]
-	path = Nirvana/preprocessor
-	url = https://github.com/boostorg/preprocessor.git
 [submodule "Nirvana/SRC"]
 	path = Nirvana/SRC
 	url = https://github.com/nirvanaos/library.git
