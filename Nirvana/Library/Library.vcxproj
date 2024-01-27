@@ -84,6 +84,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeArray.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeFixed.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeImpl.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeOps.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeSequence.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeString.h" />
@@ -99,7 +100,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueCreator.h" />
     <ClInclude Include="..\ORB\Include\CORBA\float_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\IORequestClient.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeNative.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ValueBoxFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase.h" />

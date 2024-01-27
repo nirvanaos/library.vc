@@ -439,9 +439,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueFactoryBase_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeInterface.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeNative.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
@@ -623,6 +620,9 @@
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\StaticTC.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeInterface.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
