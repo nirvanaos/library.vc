@@ -52,7 +52,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Mock\g_dec_calc.cpp" />
-    <ClCompile Include="..\SRC\Mock\g_legacy_system.cpp" />
     <ClCompile Include="..\SRC\Mock\g_memory.cpp" />
     <ClCompile Include="..\SRC\Mock\g_module.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
