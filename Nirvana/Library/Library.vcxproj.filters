@@ -436,9 +436,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueFactoryBase_s.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeNative.h">
-      <Filter>ORB\Header Files\Proxy</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ValueBoxFactory.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
@@ -727,12 +724,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Fixed.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\ServantLocator_native.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\native.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\UTF8.cpp">

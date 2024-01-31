@@ -100,7 +100,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueCreator.h" />
     <ClInclude Include="..\ORB\Include\CORBA\float_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\IORequestClient.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeNative.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\ValueBoxFactory.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\PseudoBase_s.h" />
@@ -801,20 +800,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\ServantLocator_native.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\ServantStatic.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
@@ -1395,20 +1380,6 @@
     <ClCompile Include="..\SRC\Source\new_delete.cpp" />
     <ClCompile Include="..\SRC\Source\ProcessFactory.cpp" />
     <ClCompile Include="..\SRC\Source\rescale.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\native.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">Use</PrecompiledHeader>
