@@ -882,6 +882,9 @@
     <ClCompile Include="..\SRC\Source\ProcessFactory.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\SFloat.cpp">
+      <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
