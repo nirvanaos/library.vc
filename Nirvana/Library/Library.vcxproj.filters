@@ -1070,5 +1070,8 @@
     <CustomBuild Include="..\SRC\Include\Nirvana\ProcessFactory.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\SFloat.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
