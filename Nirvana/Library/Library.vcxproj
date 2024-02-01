@@ -78,6 +78,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountLink.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantLocator_native.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\SoftFloat_impl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StaticTC.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Alias.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h" />
@@ -4449,7 +4450,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <LanguageStandard>stdcpp14</LanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderFile>../../pch/pch.h</PrecompiledHeaderFile>
@@ -4520,7 +4521,7 @@
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <LanguageStandard>stdcpp14</LanguageStandard>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -4594,7 +4595,7 @@
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp14</LanguageStandard>
       <PrecompiledHeaderFile>../../pch/pch.h</PrecompiledHeaderFile>
     </ClCompile>
@@ -4679,7 +4680,7 @@
       <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <BufferSecurityCheck>false</BufferSecurityCheck>
-      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus /Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp14</LanguageStandard>
       <PrecompiledHeaderFile>../../pch/pch.h</PrecompiledHeaderFile>
     </ClCompile>
