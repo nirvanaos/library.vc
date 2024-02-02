@@ -830,6 +830,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\SFloat.cpp" />
+    <ClCompile Include="..\ORB\Source\SoftFloat_impl.cpp" />
     <ClCompile Include="..\ORB\Source\TCKind.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
