@@ -1230,6 +1230,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\DecCalc.cpp" />
     <ClCompile Include="..\SRC\Source\Decimal.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
@@ -2468,18 +2469,18 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\DecCalc.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\Source</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">IDL compilation</Message>
@@ -2492,18 +2493,18 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\Source\%(Filename).cpp</Outputs>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</BuildInParallel>

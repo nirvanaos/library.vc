@@ -891,6 +891,9 @@
     <ClCompile Include="..\ORB\Source\SoftFloat_impl.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\DecCalc.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">

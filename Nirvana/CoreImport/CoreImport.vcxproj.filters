@@ -46,9 +46,6 @@
     <ClCompile Include="..\ORB\CoreImport\g_ORB.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\g_dec_calc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\CoreImport\Any.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>

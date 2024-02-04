@@ -26,9 +26,6 @@
     <ClCompile Include="..\SRC\Mock\g_object_factory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Mock\g_dec_calc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Mock\MockMemory.h">
