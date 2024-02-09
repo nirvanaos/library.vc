@@ -44,6 +44,9 @@
       <UniqueIdentifier>{c4d85883-dd1e-4d7b-acaf-67d21a37b1f4}</UniqueIdentifier>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="ORB\IDL\CCM">
+      <UniqueIdentifier>{4b3f74e1-2d08-41b5-92a2-f0da7060e03f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -894,6 +897,30 @@
     <ClCompile Include="..\ORB\IDL\TypeCode.cpp">
       <Filter>ORB\Source Files\Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\IDL\CCM_Base.cpp">
+      <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\IDL\CCM_Cookie.cpp">
+      <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\IDL\CCM_Events.cpp">
+      <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\IDL\CCM_Exceptions.cpp">
+      <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\IDL\CCM_Home.cpp">
+      <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\IDL\CCM_Navigation.cpp">
+      <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\IDL\CCM_Object.cpp">
+      <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\IDL\CCM_Receptacle.cpp">
+      <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
@@ -1084,6 +1111,33 @@
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\SFloat.idl">
       <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\Components.idl">
+      <Filter>ORB\IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Navigation.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Object.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Base.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Cookie.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Receptacle.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Events.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Home.idl">
+      <Filter>ORB\IDL\CCM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Exceptions.idl">
+      <Filter>ORB\IDL\CCM</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>
