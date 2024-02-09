@@ -625,6 +625,9 @@
     <ClInclude Include="..\ORB\Include\CORBA\SoftFloat_impl.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\CCMObjectImpl.h">
+      <Filter>ORB\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -920,6 +923,9 @@
     </ClCompile>
     <ClCompile Include="..\ORB\IDL\CCM_Receptacle.cpp">
       <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\CCMObjectImpl.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
