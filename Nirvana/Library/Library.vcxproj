@@ -76,6 +76,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\RqProcWrapper.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeUnion.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\TypeCodeValueBox.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Receptacle.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountLink.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ServantLocator_native.h" />
@@ -449,6 +450,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\Receptacle.cpp" />
     <ClCompile Include="..\ORB\Source\RefCountLink.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
