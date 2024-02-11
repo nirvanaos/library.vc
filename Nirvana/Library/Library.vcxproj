@@ -51,6 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\ORB\Include\CORBA\2base.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ABI.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBasePOA.h" />
@@ -287,6 +288,7 @@
     <ClCompile Include="..\ORB\IDL\TCKind.cpp" />
     <ClCompile Include="..\ORB\IDL\TimeBase.cpp" />
     <ClCompile Include="..\ORB\IDL\TypeCode.cpp" />
+    <ClCompile Include="..\ORB\Source\2base.cpp" />
     <ClCompile Include="..\ORB\Source\CCMObjectImpl.cpp" />
     <ClCompile Include="..\ORB\Source\Exception.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
