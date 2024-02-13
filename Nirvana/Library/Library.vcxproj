@@ -66,6 +66,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionHolder.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionList.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ExceptionSet.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\Facet.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleNoCopy.h" />
     <ClInclude Include="..\ORB\Include\CORBA\LifeCycleNone.h" />
     <ClInclude Include="..\ORB\Include\CORBA\NoDefaultPOA.h" />
