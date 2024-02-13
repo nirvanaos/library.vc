@@ -942,6 +942,9 @@
     <ClCompile Include="..\ORB\Source\2base.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ORB\IDL\ObjectFactory.cpp">
+      <Filter>ORB\Source Files\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
