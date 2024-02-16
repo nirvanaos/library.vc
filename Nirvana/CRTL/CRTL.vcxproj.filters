@@ -120,6 +120,9 @@
     <ClCompile Include="..\SRC\CRTL\gmtime_r.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\CRTL\name_service.h">
@@ -144,9 +147,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\ctype.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\errno.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\locale.h">
@@ -180,9 +180,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\math.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\fnctl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

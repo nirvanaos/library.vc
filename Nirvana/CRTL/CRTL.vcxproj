@@ -595,6 +595,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\math.cpp" />
     <ClCompile Include="..\SRC\CRTL\mkstemp.cpp" />
     <ClCompile Include="..\SRC\CRTL\name_service.cpp" />
     <ClCompile Include="..\SRC\CRTL\pch\pch.cpp">
@@ -693,8 +694,6 @@
     <ClInclude Include="..\SRC\CRTL\name_service.h" />
     <ClInclude Include="..\SRC\CRTL\pch\pch.h" />
     <ClInclude Include="..\SRC\Include\CRTL\ctype.h" />
-    <ClInclude Include="..\SRC\Include\CRTL\errno.h" />
-    <ClInclude Include="..\SRC\Include\CRTL\fnctl.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strcpy_s.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strlen.h" />
     <ClInclude Include="..\SRC\Include\CRTL\inttypes.h" />
