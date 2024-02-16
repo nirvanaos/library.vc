@@ -589,9 +589,6 @@
     <ClInclude Include="..\SRC\Include\signal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\fnctl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\DefaultValueRefCountBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -793,9 +790,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ValueBasePOA.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\Source\SoftFloat_impl.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\IDL\DecCalc.cpp">

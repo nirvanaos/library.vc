@@ -694,6 +694,7 @@
     <ClInclude Include="..\SRC\CRTL\pch\pch.h" />
     <ClInclude Include="..\SRC\Include\CRTL\ctype.h" />
     <ClInclude Include="..\SRC\Include\CRTL\errno.h" />
+    <ClInclude Include="..\SRC\Include\CRTL\fnctl.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strcpy_s.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strlen.h" />
     <ClInclude Include="..\SRC\Include\CRTL\inttypes.h" />

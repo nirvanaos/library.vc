@@ -182,5 +182,8 @@
     <ClInclude Include="..\SRC\Include\CRTL\math.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\fnctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
