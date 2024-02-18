@@ -954,6 +954,9 @@
     <ClCompile Include="..\SRC\IDL\NDBC.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\Fixed_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
