@@ -321,6 +321,7 @@
       <UndefinePreprocessorDefinitions>_WIN32</UndefinePreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>..\SRC\CRTL\pch/pch.h</PrecompiledHeaderFile>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -472,6 +473,7 @@
       <UndefinePreprocessorDefinitions>_WIN32</UndefinePreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>..\SRC\CRTL\pch/pch.h</PrecompiledHeaderFile>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
