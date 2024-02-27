@@ -18,8 +18,5 @@
     <ClCompile Include="..\ORB\Mock\tc_exceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Mock\tc_TypeCode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

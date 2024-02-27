@@ -37,9 +37,6 @@
     <ClCompile Include="..\SRC\CoreImport\g_system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\CoreImport\tc_TypeCode.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\CoreImport\g_ORB.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>

@@ -52,7 +52,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ORB\Mock\tc_exceptions.cpp" />
-    <ClCompile Include="..\ORB\Mock\tc_TypeCode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Library\Library.vcxproj">
