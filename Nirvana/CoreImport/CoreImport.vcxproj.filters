@@ -25,9 +25,6 @@
     <ClCompile Include="..\SRC\CoreImport\g_memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\CoreImport\tc_constants.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\CoreImport\tc_exceptions.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>

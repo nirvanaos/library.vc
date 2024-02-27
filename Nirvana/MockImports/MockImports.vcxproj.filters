@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ORB\Mock\tc_constants.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Mock\tc_exceptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

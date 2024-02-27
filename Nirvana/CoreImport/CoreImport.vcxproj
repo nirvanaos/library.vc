@@ -57,7 +57,6 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>
     </ClCompile>
     <ClCompile Include="..\ORB\CoreImport\g_ORB.cpp" />
-    <ClCompile Include="..\ORB\CoreImport\tc_constants.cpp" />
     <ClCompile Include="..\ORB\CoreImport\tc_exceptions.cpp" />
     <ClCompile Include="..\ORB\CoreImport\tc_TypeCode.cpp" />
     <ClCompile Include="..\SRC\CoreImport\g_system.cpp">
