@@ -89,6 +89,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\SystemException_impl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeArray.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\TypeCodeExceptionEmpty.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeFixed.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeImpl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeInterface.h" />
