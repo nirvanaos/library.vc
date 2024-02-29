@@ -85,7 +85,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\SoftFloat_impl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StaticTC.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Alias.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\SystemExceptionTC.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\StaticIdNameTC.h" />
     <ClInclude Include="..\ORB\Include\CORBA\SystemException_impl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeArray.h" />
