@@ -85,6 +85,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\SoftFloat_impl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\StaticTC.h" />
     <ClInclude Include="..\ORB\Include\CORBA\Alias.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\SystemExceptionTC.h" />
     <ClInclude Include="..\ORB\Include\CORBA\SystemException_impl.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeArray.h" />
@@ -732,6 +733,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\SystemExceptionTC.cpp" />
     <ClCompile Include="..\ORB\Source\tc_constants.cpp" />
     <ClCompile Include="..\ORB\Source\TypeCodeImpl.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
