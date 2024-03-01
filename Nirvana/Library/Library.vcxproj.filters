@@ -744,9 +744,6 @@
     <ClCompile Include="..\SRC\Source\c_heap_dbg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\assert.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\Source\ProxyBase.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
@@ -774,7 +771,7 @@
     <ClCompile Include="..\SRC\Source\DirectoryIterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\trace.cpp">
+    <ClCompile Include="..\SRC\Source\debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\filesystem.cpp">
