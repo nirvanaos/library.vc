@@ -123,6 +123,9 @@
     <ClCompile Include="..\SRC\CRTL\math.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\memcmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\CRTL\name_service.h">
@@ -181,6 +184,9 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\math.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\impl\word.h">
+      <Filter>Header Files\impl</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
