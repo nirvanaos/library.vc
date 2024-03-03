@@ -712,7 +712,7 @@
     <ClInclude Include="..\SRC\Include\CRTL\ctype.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strcpy_s.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strlen.h" />
-    <ClInclude Include="..\SRC\Include\CRTL\impl\word.h" />
+    <ClInclude Include="..\SRC\Include\CRTL\impl\Word.h" />
     <ClInclude Include="..\SRC\Include\CRTL\inttypes.h" />
     <ClInclude Include="..\SRC\Include\CRTL\locale.h" />
     <ClInclude Include="..\SRC\Include\CRTL\math.h" />
