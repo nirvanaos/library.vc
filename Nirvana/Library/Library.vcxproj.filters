@@ -652,6 +652,12 @@
     <ClInclude Include="..\ORB\Include\CORBA\TypeCodeExceptionEmpty.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\FNV1a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\MurmurHash2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -971,6 +977,9 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\SystemExceptionTC.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\MurmurHash2.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

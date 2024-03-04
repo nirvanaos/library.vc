@@ -185,8 +185,5 @@
     <ClInclude Include="..\SRC\Include\CRTL\math.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\impl\Word.h">
-      <Filter>Header Files\impl</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
