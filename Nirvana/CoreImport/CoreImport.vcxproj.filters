@@ -22,26 +22,23 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\CoreImport\g_memory.cpp">
+    <ClCompile Include="..\SRC\CoreImport\module.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\CoreImport\tc_exceptions.cpp">
+    <ClCompile Include="..\ORB\CoreImport\object_factory.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\g_module.cpp">
+    <ClCompile Include="..\SRC\CoreImport\system.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\CoreImport\g_object_factory.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\g_system.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\CoreImport\g_ORB.cpp">
-      <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\CoreImport\Any.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\CoreImport\orb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CoreImport\memory.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
