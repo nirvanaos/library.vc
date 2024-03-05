@@ -637,9 +637,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\base64.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\fnctl.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\errno.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -656,6 +653,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\MurmurHash2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\posix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
