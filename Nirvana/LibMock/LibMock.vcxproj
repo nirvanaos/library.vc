@@ -51,8 +51,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\Mock\memory.cpp" />
-    <ClCompile Include="..\SRC\Mock\module.cpp">
+    <ClCompile Include="..\SRC\Mock\Memory.cpp" />
+    <ClCompile Include="..\SRC\Mock\Module.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
@@ -67,7 +67,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\SRC\Mock\Debugger.cpp" />
-    <ClCompile Include="..\SRC\Mock\system.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Mock\MockMemory.h" />

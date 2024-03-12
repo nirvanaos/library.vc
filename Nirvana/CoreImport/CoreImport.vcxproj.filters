@@ -11,13 +11,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\CoreImport\module.cpp">
+    <ClCompile Include="..\SRC\CoreImport\Module.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\system.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\memory.cpp">
+    <ClCompile Include="..\SRC\CoreImport\Memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\CoreImport\Debugger.cpp">

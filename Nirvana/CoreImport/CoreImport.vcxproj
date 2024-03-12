@@ -52,11 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\CoreImport\Debugger.cpp" />
-    <ClCompile Include="..\SRC\CoreImport\system.cpp">
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
-      <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>
-    </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\memory.cpp">
+    <ClCompile Include="..\SRC\CoreImport\Memory.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ShowIncludes>
@@ -82,7 +78,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\module.cpp" />
+    <ClCompile Include="..\SRC\CoreImport\Module.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Library\Library.vcxproj">
