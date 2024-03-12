@@ -822,6 +822,7 @@
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="..\SRC\IDL\Binder.cpp" />
+    <ClCompile Include="..\SRC\IDL\Debugger.cpp" />
     <ClCompile Include="..\SRC\IDL\DecCalc.cpp" />
     <ClCompile Include="..\SRC\IDL\Domains.cpp" />
     <ClCompile Include="..\SRC\IDL\File.cpp" />
@@ -829,7 +830,6 @@
     <ClCompile Include="..\SRC\IDL\Memory.cpp" />
     <ClCompile Include="..\SRC\IDL\NDBC.cpp" />
     <ClCompile Include="..\SRC\IDL\ProcessFactory.cpp" />
-    <ClCompile Include="..\SRC\IDL\RuntimeSupport.cpp" />
     <ClCompile Include="..\SRC\IDL\System.cpp" />
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
@@ -4393,7 +4393,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\SRC\Include\Nirvana\RuntimeSupport.idl">
+    <CustomBuild Include="..\SRC\Include\Nirvana\Debugger.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>

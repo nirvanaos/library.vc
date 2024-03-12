@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\CoreImport\RuntimeSupport.cpp" />
+    <ClCompile Include="..\SRC\CoreImport\Debugger.cpp" />
     <ClCompile Include="..\SRC\CoreImport\system.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>

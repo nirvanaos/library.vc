@@ -981,10 +981,10 @@
     <ClCompile Include="..\SRC\Source\MurmurHash2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\IDL\RuntimeSupport.cpp">
+    <ClCompile Include="..\SRC\IDL\Binder.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\IDL\Binder.cpp">
+    <ClCompile Include="..\SRC\IDL\Debugger.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
   </ItemGroup>
@@ -1211,7 +1211,7 @@
     <CustomBuild Include="..\SRC\Include\Nirvana\JSON.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\RuntimeSupport.idl">
+    <CustomBuild Include="..\SRC\Include\Nirvana\Debugger.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Binder.idl">

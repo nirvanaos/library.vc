@@ -20,7 +20,7 @@
     <ClCompile Include="..\SRC\CoreImport\memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CoreImport\RuntimeSupport.cpp">
+    <ClCompile Include="..\SRC\CoreImport\Debugger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

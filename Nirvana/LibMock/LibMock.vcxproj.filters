@@ -20,7 +20,7 @@
     <ClCompile Include="..\SRC\Mock\system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\Mock\RuntimeSupport.cpp">
+    <ClCompile Include="..\SRC\Mock\Debugger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
