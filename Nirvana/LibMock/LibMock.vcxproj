@@ -71,6 +71,7 @@
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Mock\MockMemory.h" />
     <ClInclude Include="..\SRC\Include\Mock\TestMock.h" />
+    <ClInclude Include="..\SRC\Mock\debug-trap\debug-trap.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Library\Library.vcxproj">

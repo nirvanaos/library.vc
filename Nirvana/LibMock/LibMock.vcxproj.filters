@@ -28,5 +28,8 @@
     <ClInclude Include="..\SRC\Include\Mock\TestMock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Mock\debug-trap\debug-trap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
