@@ -236,7 +236,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Memory_forward.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\MurmurHash2.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\platform.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\posix.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\posix_defs.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\rescale.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\native.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Nirvana.h" />

@@ -655,7 +655,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\MurmurHash2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\posix.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\posix_defs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
