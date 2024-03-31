@@ -822,9 +822,6 @@
     <ClCompile Include="..\SRC\IDL\Memory.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\IDL\ProcessFactory.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\IDL\System.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
@@ -985,6 +982,9 @@
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\IDL\POSIX.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\IDL\Shell.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
   </ItemGroup>
@@ -1169,7 +1169,7 @@
     <CustomBuild Include="..\SRC\Include\Nirvana\Main.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\SRC\Include\Nirvana\ProcessFactory.idl">
+    <CustomBuild Include="..\SRC\Include\Nirvana\Shell.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\SFloat.idl">
