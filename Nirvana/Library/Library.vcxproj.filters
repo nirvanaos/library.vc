@@ -888,9 +888,6 @@
     <ClCompile Include="..\ORB\IDL\InterfaceRepository.cpp">
       <Filter>ORB\Source Files\Generated</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\IDL\IOP.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\ORB\IDL\Messaging.cpp">
       <Filter>ORB\Source Files\Generated</Filter>
     </ClCompile>
@@ -1098,9 +1095,6 @@
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\Pollable.idl">
-      <Filter>ORB\IDL</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\ORB\Include\CORBA\IOP.idl">
       <Filter>ORB\IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\Request.idl">
