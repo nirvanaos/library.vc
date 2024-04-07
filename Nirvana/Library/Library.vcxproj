@@ -824,10 +824,10 @@
     <ClCompile Include="..\SRC\IDL\DecCalc.cpp" />
     <ClCompile Include="..\SRC\IDL\Domains.cpp" />
     <ClCompile Include="..\SRC\IDL\File.cpp" />
-    <ClCompile Include="..\SRC\IDL\Installer.cpp" />
     <ClCompile Include="..\SRC\IDL\JSON.cpp" />
     <ClCompile Include="..\SRC\IDL\Memory.cpp" />
     <ClCompile Include="..\SRC\IDL\NDBC.cpp" />
+    <ClCompile Include="..\SRC\IDL\NDBC_ex.cpp" />
     <ClCompile Include="..\SRC\IDL\POSIX.cpp" />
     <ClCompile Include="..\SRC\IDL\Security.cpp" />
     <ClCompile Include="..\SRC\IDL\Shell.cpp" />
@@ -4498,7 +4498,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\SRC\Include\Nirvana\Installer.idl">
+    <CustomBuild Include="..\SRC\Include\Nirvana\NDBC_ex.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">"$(TargetDir)nidl2cpp.exe" -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
