@@ -234,6 +234,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\ImportInterface.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Memory_forward.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\ModuleMetadata.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\MurmurHash2.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\platform.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\posix_defs.h" />
@@ -974,6 +975,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\ModuleMetadata.cpp" />
     <ClCompile Include="..\SRC\Source\MurmurHash2.c">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">NotUsing</PrecompiledHeader>
