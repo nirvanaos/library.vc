@@ -996,6 +996,9 @@
     <ClCompile Include="..\SRC\Source\ModuleMetadata.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\IDL\BindError.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
@@ -1227,6 +1230,9 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\NDBC_ex.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\BindError.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>

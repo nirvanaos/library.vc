@@ -649,7 +649,20 @@
     <ClCompile Include="..\SRC\CRTL\itoa.cpp" />
     <ClCompile Include="..\SRC\CRTL\llabs.cpp" />
     <ClCompile Include="..\SRC\CRTL\locale.cpp" />
-    <ClCompile Include="..\SRC\CRTL\memcpy.cpp" />
+    <ClCompile Include="..\SRC\CRTL\memcpy.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\raise.cpp" />
     <ClCompile Include="..\SRC\CRTL\rand.cpp" />
     <ClCompile Include="..\SRC\CRTL\stdlib.cpp" />
