@@ -664,6 +664,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\ModuleMetadata.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\BindErrorUtl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -1001,6 +1004,9 @@
     </ClCompile>
     <ClCompile Include="..\SRC\IDL\Packages.cpp">
       <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\BindErrorUtl.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
