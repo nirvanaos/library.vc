@@ -586,6 +586,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\ORB\Source\SoftFloat_impl.cpp" />
     <ClCompile Include="..\ORB\Source\SystemException.cpp">
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ShowIncludes>
