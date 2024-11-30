@@ -58,7 +58,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseStatic.h" />
     <ClInclude Include="..\ORB\Include\CORBA\basic_types.h" />
     <ClInclude Include="..\ORB\Include\CORBA\CCMObjectImpl.h" />
-    <ClInclude Include="..\ORB\Include\CORBA\core_objects.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DefaultValueRefCountBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicExport.h" />
     <ClInclude Include="..\ORB\Include\CORBA\DynamicServantImpl.h" />

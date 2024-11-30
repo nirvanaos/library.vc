@@ -274,9 +274,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ServantBaseStatic.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\ORB\Include\CORBA\core_objects.h">
-      <Filter>ORB\Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\Type_interface.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
