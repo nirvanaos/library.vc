@@ -583,9 +583,6 @@
     <ClInclude Include="..\pch\pch.h">
       <Filter>pch</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\signal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\DefaultValueRefCountBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -634,9 +631,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\base64.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\errno.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\SystemException_impl.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -662,6 +656,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\BindErrorUtl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRT\errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRT\signal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
