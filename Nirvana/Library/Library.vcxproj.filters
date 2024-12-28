@@ -1044,6 +1044,8 @@
     <None Include="..\ORB\Include\CORBA\Type_fixed.inl">
       <Filter>ORB\Header Files</Filter>
     </None>
+    <None Include="vcpkg.json" />
+    <None Include="vcpkg-configuration.json" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\System.idl">
