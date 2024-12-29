@@ -51,29 +51,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\Mock\Memory.cpp" />
-    <ClCompile Include="..\SRC\Mock\Module.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Mock\Debugger.cpp" />
+    <ClCompile Include="..\SRC\Mock\imports.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Mock\MockMemory.h" />
     <ClInclude Include="..\SRC\Include\Mock\TestMock.h" />
-    <ClInclude Include="..\SRC\Mock\debug-trap\debug-trap.h" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CoreMock\CoreMock.vcxproj">
+      <Project>{a528162b-f039-42b0-9754-ce8612a9eb06}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\Library\Library.vcxproj">
       <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
     </ProjectReference>
@@ -295,7 +282,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -317,7 +304,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -339,7 +326,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -365,7 +352,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -387,7 +374,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -409,7 +396,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -437,7 +424,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -463,7 +450,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -489,7 +476,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -516,7 +503,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -542,7 +529,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -568,7 +555,7 @@
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include;..\SRC\Mock</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SRC\Include;..\ORB\Include;..\..\googletest\googletest\googletest\include</AdditionalIncludeDirectories>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
