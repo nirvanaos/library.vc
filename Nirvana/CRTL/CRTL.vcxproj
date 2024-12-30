@@ -600,7 +600,6 @@
     <ClCompile Include="..\SRC\CRTL\math.cpp" />
     <ClCompile Include="..\SRC\CRTL\memcmp.cpp" />
     <ClCompile Include="..\SRC\CRTL\mkstemp.cpp" />
-    <ClCompile Include="..\SRC\CRTL\name_service.cpp" />
     <ClCompile Include="..\SRC\CRTL\pch\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Create</PrecompiledHeader>
@@ -720,7 +719,6 @@
     <ClCompile Include="..\SRC\CRTL\unistd.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SRC\CRTL\name_service.h" />
     <ClInclude Include="..\SRC\CRTL\pch\pch.h" />
     <ClInclude Include="..\SRC\Include\CRTL\ctype.h" />
     <ClInclude Include="..\SRC\Include\CRTL\fnctl.h" />

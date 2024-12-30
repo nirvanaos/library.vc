@@ -99,9 +99,6 @@
     <ClCompile Include="..\SRC\CRTL\mkstemp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\name_service.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\stdlib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -128,9 +125,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SRC\CRTL\name_service.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\sys\stat.h">
       <Filter>Header Files\sys</Filter>
     </ClInclude>
