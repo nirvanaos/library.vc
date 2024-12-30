@@ -20,5 +20,8 @@
     <ClCompile Include="..\SRC\CoreImport\Debugger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CoreImport\POSIX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

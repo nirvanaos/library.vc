@@ -24,6 +24,9 @@
     <ClCompile Include="..\SRC\Mock\Module.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\Mock\POSIX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Mock\debug-trap\debug-trap.h">

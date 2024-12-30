@@ -1141,18 +1141,18 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\Memory.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\IDL\%(Filename).cpp</Outputs>
@@ -1297,18 +1297,18 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\Module.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -no_ami "%(Identity)" -no_proxy -no_client_cpp</Command>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">IDL compilation</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h</Outputs>
@@ -4325,18 +4325,18 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\Debugger.idl">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">nidl2cpp.exe -no_ami -inc_cpp "../../pch/pch.h" "%(Identity)" -no_proxy -out_cpp $(ProjectDir)..\SRC\IDL</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\IDL\%(Filename).cpp</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\IDL\%(Filename).cpp</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">%(RelativeDir)%(Filename).h;%(RelativeDir)%(Filename)_s.h;$(ProjectDir)..\SRC\IDL\%(Filename).cpp</Outputs>
