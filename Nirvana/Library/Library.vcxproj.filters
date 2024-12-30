@@ -664,12 +664,6 @@
     <ClInclude Include="..\SRC\Include\CRT\signal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\sys_types.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\sys_stat.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -1011,6 +1005,9 @@
     <ClCompile Include="..\ORB\Source\SoftFloat_impl.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\IDL\FileStat.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ORB\readme.md">
@@ -1250,6 +1247,9 @@
       <Filter>IDL</Filter>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Packages.idl">
+      <Filter>IDL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SRC\Include\Nirvana\FileStat.idl">
       <Filter>IDL</Filter>
     </CustomBuild>
   </ItemGroup>
