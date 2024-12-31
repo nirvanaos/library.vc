@@ -27,12 +27,18 @@
     <ClCompile Include="..\SRC\Mock\POSIX.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\Mock\constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Mock\debug-trap\debug-trap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Mock\export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Mock\constants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
