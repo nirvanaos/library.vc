@@ -255,12 +255,14 @@
     <ClInclude Include="..\SRC\Include\Nirvana\stl_utils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Stream.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\string_conv.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\strtof.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\strtoi.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\time_defs.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\UTF8.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\WideIn.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\WideInEx.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\WideOut.h" />
     <ClInclude Include="..\SRC\Source\crt_startup.h" />
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h" />
@@ -1134,6 +1136,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\WideIn.cpp" />
+    <ClCompile Include="..\SRC\Source\WideInEx.cpp" />
     <ClCompile Include="..\SRC\Source\WideOut.cpp" />
   </ItemGroup>
   <ItemGroup>
