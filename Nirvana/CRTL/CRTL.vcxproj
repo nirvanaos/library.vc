@@ -724,6 +724,7 @@
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\strncmp.cpp" />
     <ClCompile Include="..\SRC\CRTL\strspn.cpp" />
+    <ClCompile Include="..\SRC\CRTL\strtof.cpp" />
     <ClCompile Include="..\SRC\CRTL\strtol.cpp" />
     <ClCompile Include="..\SRC\CRTL\terminate.cpp" />
     <ClCompile Include="..\SRC\CRTL\time.cpp" />
