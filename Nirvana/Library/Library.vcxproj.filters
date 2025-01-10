@@ -694,6 +694,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\WideInEx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\printf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -1057,6 +1060,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\WideInEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\printf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

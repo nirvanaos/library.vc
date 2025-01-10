@@ -244,6 +244,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Parser.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\platform.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\posix_defs.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\printf.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\rescale.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\native.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Nirvana.h" />
@@ -1009,6 +1010,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Parser.cpp" />
+    <ClCompile Include="..\SRC\Source\printf.cpp" />
     <ClCompile Include="..\SRC\Source\rescale.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
