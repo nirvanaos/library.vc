@@ -226,13 +226,13 @@
     <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\c_heap.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\c_heap_dbg.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\DecCalc.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Decimal.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\DirectoryIterator.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\filesystem.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Fixed.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\FloatToBCD.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\FloatToPacked.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\FNV1a.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Formatter.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Hash.h" />
@@ -956,6 +956,7 @@
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Fixed_io.cpp" />
     <ClCompile Include="..\SRC\Source\FloatToBCD.cpp" />
+    <ClCompile Include="..\SRC\Source\FloatToPacked.cpp" />
     <ClCompile Include="..\SRC\Source\Formatter.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
