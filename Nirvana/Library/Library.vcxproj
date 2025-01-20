@@ -245,6 +245,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\MurmurHash2.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Parser.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\platform.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\Polynomial.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\posix_defs.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\printf.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\rescale.h" />
@@ -1028,6 +1029,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\Polynomial.cpp" />
     <ClCompile Include="..\SRC\Source\printf.cpp" />
     <ClCompile Include="..\SRC\Source\rescale.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
