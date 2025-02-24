@@ -259,7 +259,7 @@
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -282,7 +282,7 @@
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -305,7 +305,7 @@
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <FunctionLevelLinking>true</FunctionLevelLinking>
     </ClCompile>
@@ -330,7 +330,7 @@
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -353,7 +353,7 @@
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -376,7 +376,7 @@
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus -mlzcnt %(AdditionalOptions)</AdditionalOptions>
       <FunctionLevelLinking>true</FunctionLevelLinking>
     </ClCompile>
@@ -402,7 +402,7 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -429,7 +429,7 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -456,7 +456,7 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -483,7 +483,7 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -510,7 +510,7 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -537,7 +537,7 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\Nirvana.h</ForcedIncludeFiles>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus -mlzcnt %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
