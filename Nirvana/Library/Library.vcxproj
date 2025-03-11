@@ -1033,6 +1033,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\SRC\Source\platform.cpp" />
     <ClCompile Include="..\SRC\Source\Polynomial.cpp" />
     <ClCompile Include="..\SRC\Source\printf.cpp" />
     <ClCompile Include="..\SRC\Source\RandomGen.cpp" />
