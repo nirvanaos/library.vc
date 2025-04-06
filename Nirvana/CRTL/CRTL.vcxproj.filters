@@ -123,6 +123,9 @@
     <ClCompile Include="..\SRC\CRTL\strtof.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\pthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\CRTL\sys\stat.h">
@@ -180,6 +183,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\fnctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\pthread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
