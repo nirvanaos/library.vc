@@ -643,7 +643,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\fnctl.cpp" />
+    <ClCompile Include="..\SRC\CRTL\fcntl.cpp" />
     <ClCompile Include="..\SRC\CRTL\heap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</ExcludedFromBuild>
@@ -735,7 +735,7 @@
   <ItemGroup>
     <ClInclude Include="..\SRC\CRTL\pch\pch.h" />
     <ClInclude Include="..\SRC\Include\CRTL\ctype.h" />
-    <ClInclude Include="..\SRC\Include\CRTL\fnctl.h" />
+    <ClInclude Include="..\SRC\Include\CRTL\fcntl.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strcpy_s.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strlen.h" />
     <ClInclude Include="..\SRC\Include\CRTL\inttypes.h" />

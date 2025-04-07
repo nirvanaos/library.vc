@@ -72,7 +72,7 @@
     <ClCompile Include="..\SRC\CRTL\strcpy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\fnctl.cpp">
+    <ClCompile Include="..\SRC\CRTL\fcntl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\strcspn.cpp">
@@ -182,7 +182,7 @@
     <ClInclude Include="..\SRC\Include\CRTL\math.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\fnctl.h">
+    <ClInclude Include="..\SRC\Include\CRTL\fcntl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\pthread.h">
