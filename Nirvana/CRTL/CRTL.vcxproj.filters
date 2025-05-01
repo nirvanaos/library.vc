@@ -188,5 +188,8 @@
     <ClInclude Include="..\SRC\Include\CRTL\pthread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
