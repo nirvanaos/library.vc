@@ -661,7 +661,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Converter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\locale.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\locale_defs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\ByteIn.h">
@@ -718,7 +718,10 @@
     <ClInclude Include="..\SRC\Include\Nirvana\errors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\signal.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\signal_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\errno.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
