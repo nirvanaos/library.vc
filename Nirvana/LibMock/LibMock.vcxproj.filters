@@ -11,7 +11,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\Mock\imports.cpp">
+    <ClCompile Include="..\SRC\Mock\Debugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Mock\Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Mock\Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Mock\POSIX.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

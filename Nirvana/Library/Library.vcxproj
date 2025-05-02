@@ -216,8 +216,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\ValueRefCountBase.h" />
     <ClInclude Include="..\pch\pch.h" />
     <ClInclude Include="..\SRC\Include\assert.h" />
-    <ClInclude Include="..\SRC\Include\CRT\errno.h" />
-    <ClInclude Include="..\SRC\Include\CRT\signal.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\array_bool.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\base64.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\basic_string.h" />
@@ -232,6 +230,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Decimal.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\DirectoryIterator.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\errors.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\filesystem.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Fixed.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\FloatToBCD.h" />
@@ -260,6 +259,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\OLF_Iterator.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\real_copy.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\scanf.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\signal.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\SimpleList.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\stl_utils.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Stream.h" />

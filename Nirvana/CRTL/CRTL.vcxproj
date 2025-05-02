@@ -736,6 +736,7 @@
     <ClInclude Include="..\SRC\CRTL\pch\pch.h" />
     <ClInclude Include="..\SRC\Include\CRTL\complex.h" />
     <ClInclude Include="..\SRC\Include\CRTL\ctype.h" />
+    <ClInclude Include="..\SRC\Include\CRTL\errno.h" />
     <ClInclude Include="..\SRC\Include\CRTL\fcntl.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strcpy_s.h" />
     <ClInclude Include="..\SRC\Include\CRTL\impl\strlen.h" />
@@ -744,6 +745,7 @@
     <ClInclude Include="..\SRC\Include\CRTL\math.h" />
     <ClInclude Include="..\SRC\Include\CRTL\pthread.h" />
     <ClInclude Include="..\SRC\Include\CRTL\sched.h" />
+    <ClInclude Include="..\SRC\Include\CRTL\signal.h" />
     <ClInclude Include="..\SRC\Include\CRTL\stdio.h" />
     <ClInclude Include="..\SRC\Include\CRTL\stdlib.h" />
     <ClInclude Include="..\SRC\Include\CRTL\string.h" />

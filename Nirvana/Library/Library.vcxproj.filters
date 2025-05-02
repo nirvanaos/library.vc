@@ -655,12 +655,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\BindErrorUtl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRT\errno.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRT\signal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\Parser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -720,6 +714,12 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\TraitsInterface.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\signal.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
