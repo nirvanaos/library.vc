@@ -16,8 +16,8 @@
     <Filter Include="Header Files\sys">
       <UniqueIdentifier>{32e81da7-bec7-4835-ac2f-cf4633f18ef4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\impl">
-      <UniqueIdentifier>{8254b978-3827-42d1-86a2-9b11fba5e536}</UniqueIdentifier>
+    <Filter Include="Source Files\impl">
+      <UniqueIdentifier>{af14c09c-3d35-43b2-afe7-07152dfc50c1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +126,12 @@
     <ClCompile Include="..\SRC\CRTL\pthread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\impl\fdio.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\impl\file.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\CRTL\sys\stat.h">
@@ -133,12 +139,6 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\sys\types.h">
       <Filter>Header Files\sys</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\impl\strcpy_s.h">
-      <Filter>Header Files\impl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\impl\strlen.h">
-      <Filter>Header Files\impl</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\strings.h">
       <Filter>Header Files</Filter>
@@ -193,6 +193,18 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\signal.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\CRTL\impl\fdio.h">
+      <Filter>Source Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\CRTL\impl\file.h">
+      <Filter>Source Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\CRTL\impl\strcpy_s.h">
+      <Filter>Source Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\CRTL\impl\strlen.h">
+      <Filter>Source Files\impl</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
