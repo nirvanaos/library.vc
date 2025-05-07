@@ -250,6 +250,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\platform.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Polynomial.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\posix_defs.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\printf.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\RandomGen.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\rescale.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\native.h" />
@@ -258,6 +259,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\OLF.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\OLF_Iterator.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\real_copy.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\scanf.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\signal_defs.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\SimpleList.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\stl_utils.h" />
