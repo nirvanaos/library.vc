@@ -147,6 +147,9 @@
     <ClCompile Include="..\SRC\CRTL\scanf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\ctype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\CRTL\sys\stat.h">
