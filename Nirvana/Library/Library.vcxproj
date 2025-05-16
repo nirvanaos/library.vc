@@ -242,6 +242,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\ImportInterface.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\IntTypes.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\locale_defs.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\mbstate.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Memory_forward.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\ModuleMetadata.h" />
@@ -269,7 +270,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\strtoi.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\throw_exception.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\time_defs.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\UTF8.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\utf8.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\vector.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\WideIn.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\WideInEx.h" />
@@ -1149,20 +1150,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\SRC\Source\UTF8.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2019|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2019|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
-    </ClCompile>
+    <ClCompile Include="..\SRC\Source\utf8.cpp" />
     <ClCompile Include="..\SRC\Source\WideIn.cpp" />
     <ClCompile Include="..\SRC\Source\WideInEx.cpp" />
     <ClCompile Include="..\SRC\Source\WideOut.cpp" />
