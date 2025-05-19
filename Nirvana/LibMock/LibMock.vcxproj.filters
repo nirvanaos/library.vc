@@ -31,5 +31,8 @@
     <ClInclude Include="..\SRC\Include\Mock\TestMock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Mock\HostAllocator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
