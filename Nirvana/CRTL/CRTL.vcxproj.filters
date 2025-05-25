@@ -22,6 +22,9 @@
     <Filter Include="Header Files\impl">
       <UniqueIdentifier>{3fc4a142-66d3-4b85-82a7-0a664b81a94b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\wctype">
+      <UniqueIdentifier>{0006a38a-0927-45f2-b1f1-224e93464430}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\CRTL\heap.cpp">
@@ -55,9 +58,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\uncaught_exceptions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\iswspace.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\strtol.cpp">
@@ -153,17 +153,68 @@
     <ClCompile Include="..\SRC\CRTL\strcasecmp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\towlower.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\towupper.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\strftime.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\gmtime_r.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\categories.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswalnum.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswalpha.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswblank.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswcntrl.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswctype.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswdigit.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswgraph.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswlower.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswprint.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswpunct.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswspace.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswupper.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\iswxdigit.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\towctrans.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\towlower.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\towupper.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\wctrans.c">
+      <Filter>Source Files\wctype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\wctype\wctype.c">
+      <Filter>Source Files\wctype</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -244,6 +295,12 @@
     </ClInclude>
     <ClInclude Include="..\SRC\CRTL\impl\locale.h">
       <Filter>Source Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\CRTL\wctype\categories.h">
+      <Filter>Source Files\wctype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\CRTL\wctype\local.h">
+      <Filter>Source Files\wctype</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
