@@ -216,6 +216,9 @@
     <ClCompile Include="..\SRC\CRTL\wctype\wctype.c">
       <Filter>Source Files\wctype</Filter>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\impl\RandomGen.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\CRTL\sys\stat.h">
@@ -301,6 +304,9 @@
     </ClInclude>
     <ClInclude Include="..\SRC\CRTL\wctype\local.h">
       <Filter>Source Files\wctype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\CRTL\impl\RandomGen.h">
+      <Filter>Source Files\impl</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
