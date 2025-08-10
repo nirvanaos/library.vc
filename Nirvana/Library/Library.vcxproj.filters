@@ -1062,9 +1062,6 @@
     <ClCompile Include="..\SRC\Source\BindErrorUtl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\ORB\Source\SoftFloat_impl.cpp">
-      <Filter>ORB\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\IDL\FileStat.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
@@ -1106,6 +1103,9 @@
     </ClCompile>
     <ClCompile Include="..\SRC\Source\utf8.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ORB\Source\SoftFloat.cpp">
+      <Filter>ORB\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

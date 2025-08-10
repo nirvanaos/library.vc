@@ -302,5 +302,11 @@
     <ClInclude Include="..\SRC\CRTL\impl\RandomGen.h">
       <Filter>Source Files\impl</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\impl\jmpbuf.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\CRTL\setjmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
