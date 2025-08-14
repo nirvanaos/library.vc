@@ -718,6 +718,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\strchr.cpp" />
     <ClCompile Include="..\SRC\CRTL\stream.cpp" />
     <ClCompile Include="..\SRC\CRTL\fcntl.cpp" />
     <ClCompile Include="..\SRC\CRTL\heap.cpp">
@@ -800,6 +801,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\strncmp.cpp" />
+    <ClCompile Include="..\SRC\CRTL\strrchr.cpp" />
     <ClCompile Include="..\SRC\CRTL\strspn.cpp" />
     <ClCompile Include="..\SRC\CRTL\strtof.cpp" />
     <ClCompile Include="..\SRC\CRTL\strtol.cpp" />
