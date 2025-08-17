@@ -62,9 +62,6 @@
     <ClInclude Include="..\SRC\Mock\HostAllocator.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CoreMock\CoreMock.vcxproj">
-      <Project>{a528162b-f039-42b0-9754-ce8612a9eb06}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\Library\Library.vcxproj">
       <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
     </ProjectReference>
@@ -274,7 +271,9 @@
     <IncludePath>$(SolutionDir)Library.VC\Nirvana\SRC\Include;$(LLVMInstallDir)\lib\clang\$(LLVMIncludeVersion)\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
-    <VcpkgEnabled>false</VcpkgEnabled>
+    <VcpkgEnabled>true</VcpkgEnabled>
+    <VcpkgEnableManifest>true</VcpkgEnableManifest>
+    <VcpkgAutoLink>true</VcpkgAutoLink>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 2019|Win32'">
     <ClCompile>

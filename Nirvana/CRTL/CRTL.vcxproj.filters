@@ -57,9 +57,6 @@
     <ClCompile Include="..\SRC\CRTL\rand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\uncaught_exceptions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\strtol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
