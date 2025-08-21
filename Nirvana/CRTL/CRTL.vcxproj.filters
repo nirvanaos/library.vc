@@ -25,6 +25,12 @@
     <Filter Include="Source Files\wctype">
       <UniqueIdentifier>{0006a38a-0927-45f2-b1f1-224e93464430}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\impl\win">
+      <UniqueIdentifier>{11fabc04-0898-439c-86bb-20eaeccc64b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\impl\elf">
+      <UniqueIdentifier>{05f63789-0336-4be3-b9db-bccfc60b4470}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\CRTL\heap.cpp">
@@ -240,11 +246,26 @@
     <ClCompile Include="..\SRC\CRTL\memset.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\impl\initterm.cpp">
-      <Filter>Source Files\impl</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\impl\external_threading.cpp">
       <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\impl\win\initterm.cpp">
+      <Filter>Source Files\impl\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\impl\win\mainCRTStartup.cpp">
+      <Filter>Source Files\impl\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\impl\win\tlsdtor.cpp">
+      <Filter>Source Files\impl\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\impl\win\tlsdyn.cpp">
+      <Filter>Source Files\impl\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\impl\win\tlssup.cpp">
+      <Filter>Source Files\impl\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\impl\elf\initterm.cpp">
+      <Filter>Source Files\impl\elf</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -361,6 +382,9 @@
     </ClInclude>
     <ClInclude Include="..\SRC\CRTL\impl\UTF8In.h">
       <Filter>Source Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\CRTL\impl\win\crtdefs.h">
+      <Filter>Source Files\impl\win</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
