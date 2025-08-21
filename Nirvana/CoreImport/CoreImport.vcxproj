@@ -57,11 +57,6 @@
     <ClCompile Include="..\SRC\CoreImport\Module.cpp" />
     <ClCompile Include="..\SRC\CoreImport\POSIX.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Library\Library.vcxproj">
-      <Project>{810a987d-bff4-4112-a59f-b8eae9fccd65}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{0D8B0020-62E3-472F-BE10-5400BC8183CA}</ProjectGuid>
