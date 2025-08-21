@@ -47,6 +47,9 @@
     <Filter Include="ORB\IDL\CCM">
       <UniqueIdentifier>{4b3f74e1-2d08-41b5-92a2-f0da7060e03f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Windows">
+      <UniqueIdentifier>{938dd308-4de6-4e64-8d0f-29167536f0ef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -360,9 +363,6 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\make_pseudo.h">
       <Filter>ORB\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Source\crt_startup.h">
-      <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h">
       <Filter>Source Files</Filter>
@@ -730,6 +730,9 @@
     <ClInclude Include="..\SRC\Include\Nirvana\force_include.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\Windows\CmdLineParser.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -802,9 +805,6 @@
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\nirvana_process.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\crt_startup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\nirvana_module.cpp">
