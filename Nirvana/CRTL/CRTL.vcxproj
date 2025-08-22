@@ -193,7 +193,8 @@
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <UndefinePreprocessorDefinitions>_WIN32</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch\pch.h</PrecompiledHeaderFile>
     </ClCompile>
@@ -214,7 +215,8 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <UndefinePreprocessorDefinitions>_WIN32</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>..\SRC\CRTL\pch/pch.h</PrecompiledHeaderFile>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -241,7 +243,8 @@
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
-      <UndefinePreprocessorDefinitions>_WIN32</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch\pch.h</PrecompiledHeaderFile>
     </ClCompile>
@@ -265,7 +268,8 @@
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
-      <UndefinePreprocessorDefinitions>_WIN32</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>..\SRC\CRTL\pch/pch.h</PrecompiledHeaderFile>
     </ClCompile>
@@ -293,7 +297,8 @@
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <SupportJustMyCode>false</SupportJustMyCode>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <UndefinePreprocessorDefinitions>_WIN32</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch\pch.h</PrecompiledHeaderFile>
     </ClCompile>
@@ -314,7 +319,8 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <FunctionLevelLinking>true</FunctionLevelLinking>
-      <UndefinePreprocessorDefinitions>_WIN32</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>..\SRC\CRTL\pch/pch.h</PrecompiledHeaderFile>
       <SupportJustMyCode>false</SupportJustMyCode>
@@ -341,7 +347,8 @@
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
-      <UndefinePreprocessorDefinitions>_WIN32</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch\pch.h</PrecompiledHeaderFile>
     </ClCompile>
@@ -365,7 +372,8 @@
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
-      <UndefinePreprocessorDefinitions>_WIN32</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>..\SRC\CRTL\pch/pch.h</PrecompiledHeaderFile>
     </ClCompile>
@@ -955,7 +963,6 @@
     <ClInclude Include="..\SRC\CRTL\wctype\local.h" />
     <ClInclude Include="..\SRC\Include\CRTL\ctype.h" />
     <ClInclude Include="..\SRC\Include\CRTL\fcntl.h" />
-    <ClInclude Include="..\SRC\Include\CRTL\impl\jmpbuf.h" />
     <ClInclude Include="..\SRC\Include\CRTL\inttypes.h" />
     <ClInclude Include="..\SRC\Include\CRTL\locale.h" />
     <ClInclude Include="..\SRC\Include\CRTL\pthread.h" />

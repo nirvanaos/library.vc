@@ -19,9 +19,6 @@
     <Filter Include="Source Files\impl">
       <UniqueIdentifier>{af14c09c-3d35-43b2-afe7-07152dfc50c1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\impl">
-      <UniqueIdentifier>{3fc4a142-66d3-4b85-82a7-0a664b81a94b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\wctype">
       <UniqueIdentifier>{0006a38a-0927-45f2-b1f1-224e93464430}</UniqueIdentifier>
     </Filter>
@@ -349,9 +346,6 @@
     </ClInclude>
     <ClInclude Include="..\SRC\CRTL\impl\RandomGen.h">
       <Filter>Source Files\impl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\CRTL\impl\jmpbuf.h">
-      <Filter>Header Files\impl</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\CRTL\setjmp.h">
       <Filter>Header Files</Filter>

@@ -733,6 +733,12 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Windows\CmdLineParser.h">
       <Filter>Header Files\Windows</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\crt_startup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\jmpbuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
