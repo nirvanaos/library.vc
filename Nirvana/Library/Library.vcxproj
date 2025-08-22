@@ -912,8 +912,6 @@
     <None Include="..\ORB\Include\CORBA\ValueBase.inl" />
     <None Include="..\ORB\readme.md" />
     <None Include="..\SRC\readme.md" />
-    <None Include="vcpkg-configuration.json" />
-    <None Include="vcpkg.json" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\SRC\Include\Nirvana\Memory.idl">
