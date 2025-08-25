@@ -399,6 +399,7 @@
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ShowIncludes>
       <ShowIncludes Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ShowIncludes>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\bsearch.cpp" />
     <ClCompile Include="..\SRC\CRTL\ctype.cpp" />
     <ClCompile Include="..\SRC\CRTL\errno.cpp">
       <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</WholeProgramOptimization>
@@ -540,24 +541,6 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(IntDir)impl\</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(IntDir)impl\</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\impl\RandomGen.cpp">
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">..\SRC\CRTL\pch/pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">..\SRC\CRTL\pch/pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">..\pch\pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">..\pch\pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">..\SRC\CRTL\pch/pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">..\SRC\CRTL\pch/pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">..\pch\pch.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">..\pch\pch.h</PrecompiledHeaderFile>
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">$(IntDir)impl\</ObjectFileName>
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">$(IntDir)impl\</ObjectFileName>
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">$(IntDir)impl\</ObjectFileName>
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">$(IntDir)impl\</ObjectFileName>
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">$(IntDir)impl\</ObjectFileName>
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">$(IntDir)impl\</ObjectFileName>
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(IntDir)impl\</ObjectFileName>
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">$(IntDir)impl\</ObjectFileName>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\impl\UTF8In.cpp">
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">..\pch\pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">..\pch\pch.h</PrecompiledHeaderFile>
@@ -665,6 +648,7 @@
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\printf.cpp" />
     <ClCompile Include="..\SRC\CRTL\pthread.cpp" />
+    <ClCompile Include="..\SRC\CRTL\qsort.cpp" />
     <ClCompile Include="..\SRC\CRTL\scanf.cpp" />
     <ClCompile Include="..\SRC\CRTL\sched.cpp" />
     <ClCompile Include="..\SRC\CRTL\stat.cpp" />
@@ -679,6 +663,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\SRC\CRTL\strcat.cpp" />
     <ClCompile Include="..\SRC\CRTL\strchr.cpp" />
     <ClCompile Include="..\SRC\CRTL\stream.cpp" />
     <ClCompile Include="..\SRC\CRTL\fcntl.cpp" />
@@ -707,7 +692,6 @@
     <ClCompile Include="..\SRC\CRTL\raise.cpp" />
     <ClCompile Include="..\SRC\CRTL\rand.cpp" />
     <ClCompile Include="..\SRC\CRTL\stdlib.cpp" />
-    <ClCompile Include="..\SRC\CRTL\strcat_s.cpp" />
     <ClCompile Include="..\SRC\CRTL\strcmp.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
@@ -719,16 +703,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\strcpy.cpp" />
-    <ClCompile Include="..\SRC\CRTL\strcpy_s.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">false</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="..\SRC\CRTL\strcspn.cpp" />
     <ClCompile Include="..\SRC\CRTL\strftime.cpp" />
     <ClCompile Include="..\SRC\CRTL\strlen.cpp">
@@ -741,7 +715,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\strncmp.cpp" />
     <ClCompile Include="..\SRC\CRTL\strrchr.cpp" />
     <ClCompile Include="..\SRC\CRTL\strspn.cpp" />
     <ClCompile Include="..\SRC\CRTL\strtof.cpp" />
@@ -950,10 +923,7 @@
     <ClInclude Include="..\SRC\CRTL\impl\Global.h" />
     <ClInclude Include="..\SRC\CRTL\impl\locale.h" />
     <ClInclude Include="..\SRC\CRTL\impl\mbcs.h" />
-    <ClInclude Include="..\SRC\CRTL\impl\memset.h" />
     <ClInclude Include="..\SRC\CRTL\impl\RandomGen.h" />
-    <ClInclude Include="..\SRC\CRTL\impl\strchr.h" />
-    <ClInclude Include="..\SRC\CRTL\impl\strcpy_s.h" />
     <ClInclude Include="..\SRC\CRTL\impl\strlen.h" />
     <ClInclude Include="..\SRC\CRTL\impl\strutl.h" />
     <ClInclude Include="..\SRC\CRTL\impl\UTF8In.h" />
