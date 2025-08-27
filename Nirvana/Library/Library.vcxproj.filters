@@ -50,6 +50,12 @@
     <Filter Include="Header Files\Windows">
       <UniqueIdentifier>{938dd308-4de6-4e64-8d0f-29167536f0ef}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CRTL">
+      <UniqueIdentifier>{1700bf2c-ef28-482d-ab1a-119293ae6351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CRTL\Windows">
+      <UniqueIdentifier>{69565b2b-0b12-49c2-a162-e82580f9e0e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -733,11 +739,20 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Windows\CmdLineParser.h">
       <Filter>Header Files\Windows</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\crt_startup.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\initterm.h">
+      <Filter>Header Files\CRTL</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\jmpbuf.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\SRC\Source\crt_startup.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\jmpbuf.h">
+      <Filter>Header Files\CRTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\crtdefs.h">
+      <Filter>Header Files\CRTL\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\custom_init.h">
+      <Filter>Header Files\CRTL\Windows</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

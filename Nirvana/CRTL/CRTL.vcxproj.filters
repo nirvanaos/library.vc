@@ -237,7 +237,7 @@
     <ClCompile Include="..\SRC\CRTL\impl\win\initterm.cpp">
       <Filter>Source Files\impl\win</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\CRTL\impl\win\mainCRTStartup.cpp">
+    <ClCompile Include="..\SRC\CRTL\impl\win\main.cpp">
       <Filter>Source Files\impl\win</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\CRTL\impl\win\tlsdtor.cpp">
@@ -364,9 +364,6 @@
     </ClInclude>
     <ClInclude Include="..\SRC\CRTL\impl\UTF8In.h">
       <Filter>Source Files\impl</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\CRTL\impl\win\crtdefs.h">
-      <Filter>Source Files\impl\win</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
