@@ -214,6 +214,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\CRTL\jmpbuf.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\crtdefs.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\custom_init.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\crt_startup.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\c_heap.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\c_heap_dbg.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Decimal.h" />
@@ -234,6 +235,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\mbstate.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Memory_forward.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\ModuleInitImpl.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\ModuleMetadata.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\MurmurHash2.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\ObjectMemory.h" />
@@ -242,6 +244,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Polynomial.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\posix_defs.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\printf.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\ProcessMain.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\RandomGen.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\rescale.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\native.h" />
@@ -265,7 +268,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\WideInEx.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\WideOut.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Windows\CmdLineParser.h" />
-    <ClInclude Include="..\SRC\Source\crt_startup.h" />
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h" />
   </ItemGroup>
   <ItemGroup>
@@ -817,26 +819,6 @@
     <ClCompile Include="..\SRC\Source\Polynomial.cpp" />
     <ClCompile Include="..\SRC\Source\RandomGen.cpp" />
     <ClCompile Include="..\SRC\Source\rescale.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\nirvana_module.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">Use</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Source\nirvana_singleton.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">Use</PrecompiledHeader>
