@@ -64,6 +64,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Receptacle.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountBase.h" />
     <ClInclude Include="..\ORB\Include\CORBA\RefCountLink.h" />
+    <ClInclude Include="..\ORB\Include\CORBA\system_exceptions_end.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TraitsInterface.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TraitsServant.h" />
     <ClInclude Include="..\ORB\Include\CORBA\TraitsServantPseudo.h" />
