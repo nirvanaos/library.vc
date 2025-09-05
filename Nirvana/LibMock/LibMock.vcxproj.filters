@@ -11,43 +11,43 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\SRC\Mock\imports.cpp">
+    <ClInclude Include="..\SRC\Mock\Include\MockMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Mock\Include\TestMock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Mock\Source\Debugger.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Mock\Memory.cpp">
+    </ClInclude>
+    <ClInclude Include="..\SRC\Mock\Source\HostAllocator.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Mock\Module.cpp">
+    </ClInclude>
+    <ClInclude Include="..\SRC\Mock\Source\Memory.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\Mock\Debugger.cpp">
+    </ClInclude>
+    <ClInclude Include="..\SRC\Mock\Source\Module.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Mock\Source\POSIX.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Mock\Source\StaticallyAllocated.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SRC\Include\Mock\MockMemory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Mock\TestMock.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Mock\HostAllocator.h">
+    <ClCompile Include="..\SRC\Mock\Source\Debugger.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Mock\Memory.h">
+    </ClCompile>
+    <ClCompile Include="..\SRC\Mock\Source\imports.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Mock\Module.h">
+    </ClCompile>
+    <ClCompile Include="..\SRC\Mock\Source\Memory.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Mock\Debugger.h">
+    </ClCompile>
+    <ClCompile Include="..\SRC\Mock\Source\Module.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Mock\POSIX.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Mock\StaticallyAllocated.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>

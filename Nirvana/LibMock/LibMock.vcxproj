@@ -35,22 +35,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SRC\Mock\Debugger.h" />
-    <ClInclude Include="..\SRC\Mock\Memory.h" />
-    <ClInclude Include="..\SRC\Mock\Module.h" />
-    <ClInclude Include="..\SRC\Mock\POSIX.h" />
-    <ClInclude Include="..\SRC\Mock\StaticallyAllocated.h" />
+    <ClInclude Include="..\SRC\Mock\Include\MockMemory.h" />
+    <ClInclude Include="..\SRC\Mock\Include\TestMock.h" />
+    <ClInclude Include="..\SRC\Mock\Source\Debugger.h" />
+    <ClInclude Include="..\SRC\Mock\Source\HostAllocator.h" />
+    <ClInclude Include="..\SRC\Mock\Source\Memory.h" />
+    <ClInclude Include="..\SRC\Mock\Source\Module.h" />
+    <ClInclude Include="..\SRC\Mock\Source\POSIX.h" />
+    <ClInclude Include="..\SRC\Mock\Source\StaticallyAllocated.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\SRC\Include\Mock\MockMemory.h" />
-    <ClInclude Include="..\SRC\Include\Mock\TestMock.h" />
-    <ClInclude Include="..\SRC\Mock\HostAllocator.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\SRC\Mock\Debugger.cpp" />
-    <ClCompile Include="..\SRC\Mock\imports.cpp" />
-    <ClCompile Include="..\SRC\Mock\Memory.cpp" />
-    <ClCompile Include="..\SRC\Mock\Module.cpp" />
+    <ClCompile Include="..\SRC\Mock\Source\Debugger.cpp" />
+    <ClCompile Include="..\SRC\Mock\Source\imports.cpp" />
+    <ClCompile Include="..\SRC\Mock\Source\Memory.cpp" />
+    <ClCompile Include="..\SRC\Mock\Source\Module.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
