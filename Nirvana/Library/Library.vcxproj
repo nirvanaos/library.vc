@@ -212,7 +212,6 @@
     <ClInclude Include="..\SRC\Include\Nirvana\Converter.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\CRTL\initterm.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\jmpbuf.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\crtdefs.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\custom_init.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\crt_startup.h" />
@@ -266,7 +265,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\WideIn.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\WideInEx.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\WideOut.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\Windows\CmdLineParser.h" />
+    <ClInclude Include="..\SRC\Port\Windows\Include\CmdLineParser.h" />
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h" />
   </ItemGroup>
   <ItemGroup>

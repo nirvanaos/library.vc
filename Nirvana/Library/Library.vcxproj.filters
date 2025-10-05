@@ -730,13 +730,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\force_include.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\Windows\CmdLineParser.h">
-      <Filter>Header Files\Windows</Filter>
-    </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\CRTL\initterm.h">
-      <Filter>Header Files\CRTL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\jmpbuf.h">
       <Filter>Header Files\CRTL</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\crtdefs.h">
@@ -756,6 +750,9 @@
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\system_exceptions_end.h">
       <Filter>ORB\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Port\Windows\Include\CmdLineParser.h">
+      <Filter>Header Files\Windows</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
