@@ -33,17 +33,6 @@
     <Filter Include="ORB\IDL\Proxy">
       <UniqueIdentifier>{04ff14f8-cd30-49ea-a6da-970603821bc9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Generated">
-      <UniqueIdentifier>{6ffa7432-6edc-4d7c-82ac-691ab9094e11}</UniqueIdentifier>
-      <SourceControlFiles>False</SourceControlFiles>
-    </Filter>
-    <Filter Include="pch">
-      <UniqueIdentifier>{5a87cdd6-5ddc-41d0-a99e-6e254c9d670b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ORB\Source Files\Generated">
-      <UniqueIdentifier>{c4d85883-dd1e-4d7b-acaf-67d21a37b1f4}</UniqueIdentifier>
-      <SourceControlFiles>False</SourceControlFiles>
-    </Filter>
     <Filter Include="ORB\IDL\CCM">
       <UniqueIdentifier>{4b3f74e1-2d08-41b5-92a2-f0da7060e03f}</UniqueIdentifier>
     </Filter>
@@ -580,9 +569,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\Proxy\RqProcWrapper.h">
       <Filter>ORB\Header Files\Proxy</Filter>
     </ClInclude>
-    <ClInclude Include="..\pch\pch.h">
-      <Filter>pch</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\DefaultValueRefCountBase.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -628,7 +614,7 @@
     <ClInclude Include="..\ORB\Include\CORBA\Facet.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\base64.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\Base64.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\SystemException_impl.h">
@@ -753,6 +739,9 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Port\Windows\Include\CmdLineParser.h">
       <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ORB\Include\CORBA\RepIdOf.h">
+      <Filter>ORB\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -882,146 +871,11 @@
     <ClCompile Include="..\ORB\Source\RqProcWrapper.cpp">
       <Filter>ORB\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\pch\pch.cpp">
-      <Filter>pch</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Source\new_delete.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\ValueBasePOA.cpp">
       <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\DecCalc.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\Domains.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\File.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\Memory.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\System.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\AMI.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CORBA_Stream.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CORBA_types.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosEventChannelAdmin.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosEventComm.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosLwLogAdministrator.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosLwLogConsumer.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosLwLogProducer.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosLwLogService.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosLwLogStatus.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosNaming.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosTime.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosTimerEvent.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosTypedEventChannelAdmin.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CosTypedEventComm.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\Current.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\DomainManager.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\Dynamic.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\FT.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\InterfaceRepository.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\Messaging.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\NirvanaDGC.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\NVList.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\ORB.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\Policy.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\Pollable.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\PortableServer.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\SFloat.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\TCKind.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\TimeBase.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\TypeCode.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CCM_Base.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CCM_Cookie.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CCM_Events.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CCM_Exceptions.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CCM_Home.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CCM_Navigation.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CCM_Object.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\CCM_Receptacle.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\ORB\Source\CCMObjectImpl.cpp">
       <Filter>ORB\Source Files</Filter>
@@ -1031,15 +885,6 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\2base.cpp">
       <Filter>ORB\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ORB\IDL\ObjectFactory.cpp">
-      <Filter>ORB\Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\JSON.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\NDBC.cpp">
-      <Filter>Source Files\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Fixed_io.cpp">
       <Filter>Source Files</Filter>
@@ -1053,35 +898,11 @@
     <ClCompile Include="..\SRC\Source\MurmurHash2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\IDL\Debugger.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\Security.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\POSIX.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\Shell.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\NDBC_ex.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Source\ModuleMetadata.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\SRC\IDL\BindError.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\Packages.cpp">
-      <Filter>Source Files\Generated</Filter>
-    </ClCompile>
     <ClCompile Include="..\SRC\Source\BindErrorUtl.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\SRC\IDL\FileStat.cpp">
-      <Filter>Source Files\Generated</Filter>
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Parser.cpp">
       <Filter>Source Files</Filter>
@@ -1124,6 +945,9 @@
     </ClCompile>
     <ClCompile Include="..\ORB\Source\SoftFloat.cpp">
       <Filter>ORB\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\Base64.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
