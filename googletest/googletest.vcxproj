@@ -182,7 +182,7 @@
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;..\Nirvana\IDL;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\force_include.h</ForcedIncludeFiles>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -205,7 +205,7 @@
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;..\Nirvana\IDL;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\force_include.h</ForcedIncludeFiles>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -230,7 +230,7 @@
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;..\Nirvana\IDL;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\force_include.h</ForcedIncludeFiles>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
@@ -253,7 +253,7 @@
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;..\Nirvana\IDL;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>Nirvana\force_include.h</ForcedIncludeFiles>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus -mlzcnt %(AdditionalOptions)</AdditionalOptions>
@@ -280,7 +280,7 @@
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;..\Nirvana\IDL;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\force_include.h</ForcedIncludeFiles>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
@@ -307,7 +307,7 @@
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;..\Nirvana\IDL;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\force_include.h</ForcedIncludeFiles>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
@@ -334,7 +334,7 @@
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;..\Nirvana\IDL;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\force_include.h</ForcedIncludeFiles>
       <AdditionalOptions>/Zc:sizedDealloc /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
@@ -361,7 +361,7 @@
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Nirvana\SRC\Include;..\Nirvana\ORB\Include;..\Nirvana\IDL;googletest\googletest;googletest\googletest\include</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Nirvana\force_include.h</ForcedIncludeFiles>
       <AdditionalOptions>/Zc:sizedDealloc /showFilenames /Zc:__cplusplus -mlzcnt %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp17</LanguageStandard>
