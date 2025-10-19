@@ -35,6 +35,140 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\IDL\CORBA\AMI.h" />
+    <ClInclude Include="..\IDL\CORBA\AMI_s.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Base.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Base_s.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Cookie.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Cookie_s.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Events.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Events_s.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Exceptions.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Exceptions_s.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Home.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Home_s.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Navigation.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Navigation_s.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Object.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Object_s.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Receptacle.h" />
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Receptacle_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Components.h" />
+    <ClInclude Include="..\IDL\CORBA\Components_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Context.h" />
+    <ClInclude Include="..\IDL\CORBA\Context_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CORBA_Stream.h" />
+    <ClInclude Include="..\IDL\CORBA\CORBA_Stream_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CORBA_types.h" />
+    <ClInclude Include="..\IDL\CORBA\CORBA_types_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosEventChannelAdmin.h" />
+    <ClInclude Include="..\IDL\CORBA\CosEventChannelAdmin_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosEventComm.h" />
+    <ClInclude Include="..\IDL\CORBA\CosEventComm_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosLwLogAdministrator.h" />
+    <ClInclude Include="..\IDL\CORBA\CosLwLogAdministrator_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosLwLogConsumer.h" />
+    <ClInclude Include="..\IDL\CORBA\CosLwLogConsumer_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosLwLogProducer.h" />
+    <ClInclude Include="..\IDL\CORBA\CosLwLogProducer_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosLwLogService.h" />
+    <ClInclude Include="..\IDL\CORBA\CosLwLogService_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosLwLogStatus.h" />
+    <ClInclude Include="..\IDL\CORBA\CosLwLogStatus_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosNaming.h" />
+    <ClInclude Include="..\IDL\CORBA\CosNaming_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosTime.h" />
+    <ClInclude Include="..\IDL\CORBA\CosTimerEvent.h" />
+    <ClInclude Include="..\IDL\CORBA\CosTimerEvent_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosTime_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosTypedEventChannelAdmin.h" />
+    <ClInclude Include="..\IDL\CORBA\CosTypedEventChannelAdmin_s.h" />
+    <ClInclude Include="..\IDL\CORBA\CosTypedEventComm.h" />
+    <ClInclude Include="..\IDL\CORBA\CosTypedEventComm_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Current.h" />
+    <ClInclude Include="..\IDL\CORBA\Current_s.h" />
+    <ClInclude Include="..\IDL\CORBA\DomainManager.h" />
+    <ClInclude Include="..\IDL\CORBA\DomainManager_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Dynamic.h" />
+    <ClInclude Include="..\IDL\CORBA\DynamicServant.h" />
+    <ClInclude Include="..\IDL\CORBA\DynamicServant_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Dynamic_s.h" />
+    <ClInclude Include="..\IDL\CORBA\FT.h" />
+    <ClInclude Include="..\IDL\CORBA\FT_s.h" />
+    <ClInclude Include="..\IDL\CORBA\InterfaceRepository.h" />
+    <ClInclude Include="..\IDL\CORBA\InterfaceRepository_s.h" />
+    <ClInclude Include="..\IDL\CORBA\IORequest.h" />
+    <ClInclude Include="..\IDL\CORBA\IORequest_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Messaging.h" />
+    <ClInclude Include="..\IDL\CORBA\Messaging_s.h" />
+    <ClInclude Include="..\IDL\CORBA\NirvanaDGC.h" />
+    <ClInclude Include="..\IDL\CORBA\NirvanaDGC_s.h" />
+    <ClInclude Include="..\IDL\CORBA\NVList.h" />
+    <ClInclude Include="..\IDL\CORBA\NVList_s.h" />
+    <ClInclude Include="..\IDL\CORBA\ObjectFactory.h" />
+    <ClInclude Include="..\IDL\CORBA\ObjectFactory_s.h" />
+    <ClInclude Include="..\IDL\CORBA\ORB.h" />
+    <ClInclude Include="..\IDL\CORBA\ORB_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Policy.h" />
+    <ClInclude Include="..\IDL\CORBA\Policy_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Pollable.h" />
+    <ClInclude Include="..\IDL\CORBA\Pollable_s.h" />
+    <ClInclude Include="..\IDL\CORBA\PortableServer.h" />
+    <ClInclude Include="..\IDL\CORBA\PortableServer_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Proxy\IOReference.h" />
+    <ClInclude Include="..\IDL\CORBA\Proxy\IOReference_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Proxy\ProxyFactory.h" />
+    <ClInclude Include="..\IDL\CORBA\Proxy\ProxyFactory_s.h" />
+    <ClInclude Include="..\IDL\CORBA\RefCnt.h" />
+    <ClInclude Include="..\IDL\CORBA\RefCnt_s.h" />
+    <ClInclude Include="..\IDL\CORBA\Request.h" />
+    <ClInclude Include="..\IDL\CORBA\Request_s.h" />
+    <ClInclude Include="..\IDL\CORBA\SFloat.h" />
+    <ClInclude Include="..\IDL\CORBA\SFloat_s.h" />
+    <ClInclude Include="..\IDL\CORBA\TCKind.h" />
+    <ClInclude Include="..\IDL\CORBA\TCKind_s.h" />
+    <ClInclude Include="..\IDL\CORBA\TimeBase.h" />
+    <ClInclude Include="..\IDL\CORBA\TimeBase_s.h" />
+    <ClInclude Include="..\IDL\CORBA\TypeCode.h" />
+    <ClInclude Include="..\IDL\CORBA\TypeCode_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\BindError.h" />
+    <ClInclude Include="..\IDL\Nirvana\BindError_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\Debugger.h" />
+    <ClInclude Include="..\IDL\Nirvana\Debugger_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\DecCalc.h" />
+    <ClInclude Include="..\IDL\Nirvana\DecCalc_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\Domains.h" />
+    <ClInclude Include="..\IDL\Nirvana\Domains_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\File.h" />
+    <ClInclude Include="..\IDL\Nirvana\FileStat.h" />
+    <ClInclude Include="..\IDL\Nirvana\FileStat_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\File_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\JSON.h" />
+    <ClInclude Include="..\IDL\Nirvana\JSON_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\Main.h" />
+    <ClInclude Include="..\IDL\Nirvana\Main_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\Memory.h" />
+    <ClInclude Include="..\IDL\Nirvana\Memory_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\Module.h" />
+    <ClInclude Include="..\IDL\Nirvana\ModuleInit.h" />
+    <ClInclude Include="..\IDL\Nirvana\ModuleInit_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\Module_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\NDBC.h" />
+    <ClInclude Include="..\IDL\Nirvana\NDBC_ex.h" />
+    <ClInclude Include="..\IDL\Nirvana\NDBC_ex_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\NDBC_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\nls.h" />
+    <ClInclude Include="..\IDL\Nirvana\nls_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\Packages.h" />
+    <ClInclude Include="..\IDL\Nirvana\Packages_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\POSIX.h" />
+    <ClInclude Include="..\IDL\Nirvana\POSIX_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\Security.h" />
+    <ClInclude Include="..\IDL\Nirvana\Security_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\Shell.h" />
+    <ClInclude Include="..\IDL\Nirvana\Shell_s.h" />
+    <ClInclude Include="..\IDL\Nirvana\System.h" />
+    <ClInclude Include="..\IDL\Nirvana\System_s.h" />
     <ClInclude Include="..\ORB\Include\CORBA\2base.h" />
     <ClInclude Include="..\ORB\Include\CORBA\ABI.h" />
     <ClInclude Include="..\ORB\Include\CORBA\AbstractBaseImpl.h" />
@@ -269,6 +403,73 @@
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\IDL\CORBA\AMI.cpp" />
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Base.cpp" />
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Cookie.cpp" />
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Events.cpp" />
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Exceptions.cpp" />
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Home.cpp" />
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Navigation.cpp" />
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Object.cpp" />
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Receptacle.cpp" />
+    <ClCompile Include="..\IDL\CORBA\Components.cpp" />
+    <ClCompile Include="..\IDL\CORBA\Context.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CORBA_Stream.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CORBA_types.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosEventChannelAdmin.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosEventComm.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosLwLogAdministrator.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosLwLogConsumer.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosLwLogProducer.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosLwLogService.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosLwLogStatus.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosNaming.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosTime.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosTimerEvent.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosTypedEventChannelAdmin.cpp" />
+    <ClCompile Include="..\IDL\CORBA\CosTypedEventComm.cpp" />
+    <ClCompile Include="..\IDL\CORBA\Current.cpp" />
+    <ClCompile Include="..\IDL\CORBA\DomainManager.cpp" />
+    <ClCompile Include="..\IDL\CORBA\Dynamic.cpp" />
+    <ClCompile Include="..\IDL\CORBA\DynamicServant.cpp" />
+    <ClCompile Include="..\IDL\CORBA\FT.cpp" />
+    <ClCompile Include="..\IDL\CORBA\InterfaceRepository.cpp" />
+    <ClCompile Include="..\IDL\CORBA\IORequest.cpp" />
+    <ClCompile Include="..\IDL\CORBA\Messaging.cpp" />
+    <ClCompile Include="..\IDL\CORBA\NirvanaDGC.cpp" />
+    <ClCompile Include="..\IDL\CORBA\NVList.cpp" />
+    <ClCompile Include="..\IDL\CORBA\ObjectFactory.cpp" />
+    <ClCompile Include="..\IDL\CORBA\ORB.cpp" />
+    <ClCompile Include="..\IDL\CORBA\Policy.cpp" />
+    <ClCompile Include="..\IDL\CORBA\Pollable.cpp" />
+    <ClCompile Include="..\IDL\CORBA\PortableServer.cpp" />
+    <ClCompile Include="..\IDL\CORBA\Proxy\IOReference.cpp" />
+    <ClCompile Include="..\IDL\CORBA\Proxy\ProxyFactory.cpp" />
+    <ClCompile Include="..\IDL\CORBA\RefCnt.cpp" />
+    <ClCompile Include="..\IDL\CORBA\Request.cpp" />
+    <ClCompile Include="..\IDL\CORBA\SFloat.cpp" />
+    <ClCompile Include="..\IDL\CORBA\TCKind.cpp" />
+    <ClCompile Include="..\IDL\CORBA\TimeBase.cpp" />
+    <ClCompile Include="..\IDL\CORBA\TypeCode.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\BindError.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\Debugger.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\DecCalc.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\Domains.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\File.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\FileStat.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\JSON.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\Main.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\Memory.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\Module.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\ModuleInit.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\NDBC.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\NDBC_ex.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\nls.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\Packages.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\POSIX.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\Security.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\Shell.cpp" />
+    <ClCompile Include="..\IDL\Nirvana\System.cpp" />
     <ClCompile Include="..\ORB\Source\2base.cpp" />
     <ClCompile Include="..\ORB\Source\CCMObjectImpl.cpp" />
     <ClCompile Include="..\ORB\Source\Exception.cpp" />
@@ -480,14 +681,6 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)..\IDL\Nirvana\%(Filename).h;$(ProjectDir)..\IDL\Nirvana\%(Filename)_s.h;$(ProjectDir)..\IDL\Nirvana\%(Filename).cpp</Outputs>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -524,14 +717,6 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)..\IDL\CORBA\%(Filename).h;$(ProjectDir)..\IDL\CORBA\%(Filename)_s.h;$(ProjectDir)..\IDL\CORBA\%(Filename).cpp</Outputs>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -568,14 +753,6 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)..\IDL\Nirvana\%(Filename).h;$(ProjectDir)..\IDL\Nirvana\%(Filename)_s.h;$(ProjectDir)..\IDL\Nirvana\%(Filename).cpp</Outputs>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -612,14 +789,6 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)..\IDL\Nirvana\%(Filename).h;$(ProjectDir)..\IDL\Nirvana\%(Filename)_s.h;$(ProjectDir)..\IDL\Nirvana\%(Filename).cpp</Outputs>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\ModuleInit.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -no_proxy -out $(ProjectDir)..\IDL\Nirvana</Command>
@@ -654,14 +823,6 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">$(ProjectDir)..\IDL\Nirvana\%(Filename).h;$(ProjectDir)..\IDL\Nirvana\%(Filename)_s.h;$(ProjectDir)..\IDL\Nirvana\%(Filename).cpp</Outputs>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -706,14 +867,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -750,14 +903,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -794,14 +939,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -838,14 +975,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -890,14 +1019,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -942,14 +1063,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -994,14 +1107,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">false</ExcludedFromBuild>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1038,14 +1143,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1090,14 +1187,6 @@
       <Message Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">IDL compilation</Message>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1142,14 +1231,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1186,14 +1267,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1230,14 +1303,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1274,14 +1339,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1318,14 +1375,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1362,14 +1411,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1406,14 +1447,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\Pollable.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA</Command>
@@ -1448,14 +1481,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1492,14 +1517,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1536,14 +1553,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\NVList.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">nidl2cpp.exe "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA</Command>
@@ -1578,14 +1587,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1622,14 +1623,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1682,14 +1675,6 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">
       </AdditionalInputs>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1726,14 +1711,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1770,14 +1747,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\CosNaming.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA</Command>
@@ -1812,14 +1781,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1856,14 +1817,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1900,14 +1853,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\CosTimerEvent.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA</Command>
@@ -1942,14 +1887,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -1986,14 +1923,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2030,14 +1959,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2074,14 +1995,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogConsumer.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA</Command>
@@ -2116,14 +2029,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogProducer.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA</Command>
@@ -2158,14 +2063,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogService.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA</Command>
@@ -2200,14 +2097,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\CosLwLogStatus.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA</Command>
@@ -2242,14 +2131,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2286,14 +2167,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2330,14 +2203,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2374,14 +2239,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2418,14 +2275,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\CosTypedEventComm.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA</Command>
@@ -2460,14 +2309,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2504,14 +2345,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2548,14 +2381,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\SRC\Include\Nirvana\Main.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -no_proxy -out $(ProjectDir)..\IDL\Nirvana</Command>
@@ -2590,14 +2415,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2634,14 +2451,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2678,14 +2487,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Object.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -DCCM_LW -DCCM_NOEVENT "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA\ccm</Command>
@@ -2720,14 +2521,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\Components.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA</Command>
@@ -2762,14 +2555,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2806,14 +2591,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Cookie.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -DCCM_LW -DCCM_NOEVENT "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA\ccm</Command>
@@ -2848,14 +2625,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Receptacle.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -DCCM_LW -DCCM_NOEVENT "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA\ccm</Command>
@@ -2890,14 +2659,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2934,14 +2695,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -2978,14 +2731,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
     <CustomBuild Include="..\ORB\Include\CORBA\ccm\CCM_Home.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">nidl2cpp.exe -DCCM_LW -DCCM_NOEVENT "%(Identity)" -legacy -no_proxy -out $(ProjectDir)..\IDL\CORBA\ccm</Command>
@@ -3020,14 +2765,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -3064,14 +2801,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -3108,14 +2837,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -3152,14 +2873,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -3196,14 +2909,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -3240,14 +2945,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -3284,14 +2981,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -3328,14 +3017,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -3372,14 +3053,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">IDL compilation</Message>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -3416,14 +3089,6 @@
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</BuildInParallel>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</BuildInParallel>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|Win32'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug LLVM|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Release 2022|x64'">true</TreatOutputAsContent>
-      <TreatOutputAsContent Condition="'$(Configuration)|$(Platform)'=='Debug 2022|x64'">true</TreatOutputAsContent>
     </CustomBuild>
   </ItemGroup>
   <PropertyGroup Label="Globals">

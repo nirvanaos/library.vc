@@ -45,6 +45,18 @@
     <Filter Include="Header Files\CRTL\Windows">
       <UniqueIdentifier>{69565b2b-0b12-49c2-a162-e82580f9e0e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{4780f934-b635-4ead-ad64-35443b662443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ORB\Generated">
+      <UniqueIdentifier>{9f3af21c-c767-454f-af34-0726adb6b9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ORB\Generated\CCM">
+      <UniqueIdentifier>{b6c8ce11-5a3b-4b0f-b18a-d2c9c0659122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ORB\Generated\Proxy">
+      <UniqueIdentifier>{de0e5b4f-749a-4c25-a408-9e273c4abc76}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SRC\Include\Nirvana\bitutils.h">
@@ -743,6 +755,408 @@
     <ClInclude Include="..\ORB\Include\CORBA\RepIdOf.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\BindError.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\BindError_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Debugger.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Debugger_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\DecCalc.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\DecCalc_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Domains.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Domains_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\File.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\File_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\FileStat.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\FileStat_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\JSON.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\JSON_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Main.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Main_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Memory.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Memory_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Module.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Module_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\ModuleInit.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\ModuleInit_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\NDBC.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\NDBC_ex.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\NDBC_ex_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\NDBC_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\nls.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\nls_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Packages.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Packages_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\POSIX.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\POSIX_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Security.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Security_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Shell.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\Shell_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\System.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\Nirvana\System_s.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\AMI.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\AMI_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Components.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Components_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Context.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Context_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CORBA_Stream.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CORBA_Stream_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CORBA_types.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CORBA_types_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosEventChannelAdmin.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosEventChannelAdmin_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosEventComm.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosEventComm_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosLwLogAdministrator.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosLwLogAdministrator_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosLwLogConsumer.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosLwLogConsumer_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosLwLogProducer.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosLwLogProducer_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosLwLogService.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosLwLogService_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosLwLogStatus.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosLwLogStatus_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosNaming.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosNaming_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosTime.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosTime_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosTimerEvent.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosTimerEvent_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosTypedEventChannelAdmin.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosTypedEventChannelAdmin_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosTypedEventComm.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\CosTypedEventComm_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Current.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Current_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\DomainManager.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\DomainManager_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Dynamic.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Dynamic_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\DynamicServant.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\DynamicServant_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\FT.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\FT_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\InterfaceRepository.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\InterfaceRepository_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\IORequest.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\IORequest_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Messaging.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Messaging_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\NirvanaDGC.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\NirvanaDGC_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\NVList.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\NVList_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ObjectFactory.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ObjectFactory_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ORB.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ORB_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Policy.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Policy_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Pollable.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Pollable_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\PortableServer.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\PortableServer_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\RefCnt.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\RefCnt_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Request.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Request_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\SFloat.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\SFloat_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\TCKind.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\TCKind_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\TimeBase.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\TimeBase_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\TypeCode.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\TypeCode_s.h">
+      <Filter>ORB\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Base.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Base_s.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Cookie.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Cookie_s.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Events.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Events_s.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Exceptions.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Exceptions_s.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Home.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Home_s.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Navigation.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Navigation_s.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Object.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Object_s.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Receptacle.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\ccm\CCM_Receptacle_s.h">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Proxy\IOReference.h">
+      <Filter>ORB\Generated\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Proxy\IOReference_s.h">
+      <Filter>ORB\Generated\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Proxy\ProxyFactory.h">
+      <Filter>ORB\Generated\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDL\CORBA\Proxy\ProxyFactory_s.h">
+      <Filter>ORB\Generated\Proxy</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -948,6 +1362,207 @@
     </ClCompile>
     <ClCompile Include="..\SRC\Source\Base64.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\BindError.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\Debugger.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\DecCalc.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\Domains.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\File.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\FileStat.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\JSON.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\Main.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\Memory.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\Module.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\ModuleInit.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\NDBC.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\NDBC_ex.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\nls.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\Packages.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\POSIX.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\Security.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\Shell.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\Nirvana\System.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\AMI.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\Components.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\Context.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CORBA_Stream.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CORBA_types.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosEventChannelAdmin.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosEventComm.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosLwLogAdministrator.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosLwLogConsumer.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosLwLogProducer.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosLwLogService.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosLwLogStatus.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosNaming.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosTime.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosTimerEvent.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosTypedEventChannelAdmin.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\CosTypedEventComm.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\Current.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\DomainManager.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\Dynamic.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\DynamicServant.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\FT.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\InterfaceRepository.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\IORequest.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\Messaging.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\NirvanaDGC.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\NVList.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\ObjectFactory.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\ORB.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\Policy.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\Pollable.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\PortableServer.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\RefCnt.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\Request.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\SFloat.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\TCKind.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\TimeBase.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\TypeCode.cpp">
+      <Filter>ORB\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Base.cpp">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Cookie.cpp">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Events.cpp">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Exceptions.cpp">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Home.cpp">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Navigation.cpp">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Object.cpp">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\ccm\CCM_Receptacle.cpp">
+      <Filter>ORB\Generated\CCM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\Proxy\IOReference.cpp">
+      <Filter>ORB\Generated\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IDL\CORBA\Proxy\ProxyFactory.cpp">
+      <Filter>ORB\Generated\Proxy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
