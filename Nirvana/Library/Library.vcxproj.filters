@@ -39,12 +39,6 @@
     <Filter Include="Header Files\Windows">
       <UniqueIdentifier>{938dd308-4de6-4e64-8d0f-29167536f0ef}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\CRTL">
-      <UniqueIdentifier>{1700bf2c-ef28-482d-ab1a-119293ae6351}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\CRTL\Windows">
-      <UniqueIdentifier>{69565b2b-0b12-49c2-a162-e82580f9e0e1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Generated">
       <UniqueIdentifier>{4780f934-b635-4ead-ad64-35443b662443}</UniqueIdentifier>
     </Filter>
@@ -374,7 +368,7 @@
     <ClInclude Include="..\SRC\Source\ModuleInitImpl.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h">
+    <ClInclude Include="..\SRC\Include\Nirvana\nirvana_module.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\OLF_Iterator.h">
@@ -727,15 +721,6 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\force_include.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\initterm.h">
-      <Filter>Header Files\CRTL</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\crtdefs.h">
-      <Filter>Header Files\CRTL\Windows</Filter>
-    </ClInclude>
-    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\custom_init.h">
-      <Filter>Header Files\CRTL\Windows</Filter>
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\crt_startup.h">
       <Filter>Header Files</Filter>
@@ -1157,6 +1142,12 @@
     <ClInclude Include="..\IDL\CORBA\Proxy\ProxyFactory_s.h">
       <Filter>ORB\Generated\Proxy</Filter>
     </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\nirvana_process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Include\Nirvana\SemVer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SRC\Source\bitutils.cpp">
@@ -1563,6 +1554,9 @@
     </ClCompile>
     <ClCompile Include="..\IDL\CORBA\Proxy\ProxyFactory.cpp">
       <Filter>ORB\Generated\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\Source\SemVer.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

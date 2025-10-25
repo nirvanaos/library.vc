@@ -345,15 +345,12 @@
     <ClInclude Include="..\SRC\Include\Nirvana\ByteOut.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Converter.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\core_objects.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\initterm.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\crtdefs.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\CRTL\Windows\custom_init.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\crt_startup.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\c_heap.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\c_heap_dbg.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Decimal.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\DirectoryIterator.h" />
-    <ClInclude Include="..\SRC\Include\Nirvana\entry_point.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\nirvana_module.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\errors.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\filesystem.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Fixed.h" />
@@ -366,6 +363,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\ImportInterface.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\IntTypes.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\locale_defs.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\nirvana_process.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\mbstate.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\MemoryHelper.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\Memory_forward.h" />
@@ -386,6 +384,7 @@
     <ClInclude Include="..\SRC\Include\Nirvana\OLF.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\OLF_Iterator.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\real_copy.h" />
+    <ClInclude Include="..\SRC\Include\Nirvana\SemVer.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\signal_defs.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\SimpleList.h" />
     <ClInclude Include="..\SRC\Include\Nirvana\stl_utils.h" />
@@ -624,6 +623,7 @@
     <ClCompile Include="..\SRC\Source\rescale.cpp" />
     <ClCompile Include="..\SRC\Source\nirvana_process.cpp" />
     <ClCompile Include="..\SRC\Source\real_copy.cpp" />
+    <ClCompile Include="..\SRC\Source\SemVer.cpp" />
     <ClCompile Include="..\SRC\Source\stl_utils.cpp" />
     <ClCompile Include="..\SRC\Source\throw_exception.cpp" />
     <ClCompile Include="..\SRC\Source\debug.cpp" />
