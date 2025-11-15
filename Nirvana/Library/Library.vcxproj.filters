@@ -734,9 +734,6 @@
     <ClInclude Include="..\ORB\Include\CORBA\system_exceptions_end.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\SRC\Port\Windows\Include\CmdLineParser.h">
-      <Filter>Header Files\Windows</Filter>
-    </ClInclude>
     <ClInclude Include="..\ORB\Include\CORBA\RepIdOf.h">
       <Filter>ORB\Header Files</Filter>
     </ClInclude>
@@ -1147,6 +1144,9 @@
     </ClInclude>
     <ClInclude Include="..\SRC\Include\Nirvana\SemVer.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SRC\Port\Include\Windows\CmdLineParser.h">
+      <Filter>Header Files\Windows</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
